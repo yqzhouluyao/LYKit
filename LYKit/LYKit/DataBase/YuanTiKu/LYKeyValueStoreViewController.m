@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     //猿题库数据存储方案 https://github.com/yuantiku/YTKKeyValueStore
+    // Do any additional setup after loading the view.
+    //猿题库架构设计 https://www.cnblogs.com/yulang314/p/5091342.html
 }
 
 

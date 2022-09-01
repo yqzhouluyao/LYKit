@@ -1,26 +1,25 @@
 //
-//  ArchitectureViewController.m
+//  LYAnimationViewController.m
 //  LYKit
 //
 //  Created by zhouluyao on 2022/9/1.
+//  Copyright © 2022 zhouluyao. All rights reserved.
 //
 
-#import "LYArchitectureViewController.h"
-#import "LYYuanTikuViewController.h"
-#import "LYMVVMViewController.h"
+#import "LYAnimationViewController.h"
 
-@interface LYArchitectureViewController ()
+@interface LYAnimationViewController ()
 
 @end
 
-@implementation LYArchitectureViewController
+@implementation LYAnimationViewController
 
 - (instancetype)init
 {
     self = [super init];
     if (self) {
-        self.cellIdentifier = @"ArchitectureCell";
-        self.vcTitle = @"App架构列表";
+        self.cellIdentifier = @"AnimationCell";
+        self.vcTitle = @"动画列表";
     }
     return self;
 }
@@ -33,9 +32,6 @@
 
 - (void)setupItems {
     [super setupItems];
-    
-    [self.items addObject:[self itemWithTitle:@"猿题库架构实现demo" viewController:[[LYYuanTikuViewController alloc] init]]];
-    [self.items addObject:[self itemWithTitle:@"MVVM架构" viewController:[[LYMVVMViewController alloc] init]]];
     
 }
 
@@ -53,5 +49,6 @@
     LYKitCellItem *item = [LYKitCellItem itemWithTitle:title block:block];
     return item;
 }
+
 
 @end

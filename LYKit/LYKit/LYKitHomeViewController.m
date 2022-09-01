@@ -13,6 +13,10 @@
 #import "LYArchitectureViewController.h"
 #import "LYComponentManagerViewController.h"
 #import "LYDataBaseViewController.h"
+#import "LYPerformanceOptimizationViewController.h"
+#import "LYMediaViewController.h"
+#import "LYAnimationViewController.h"
+
 
 @interface LYKitHomeViewController ()
 
@@ -40,10 +44,13 @@
     
     [self.items addObject:[self itemWithTitle:@"功能模块" viewController:[[LYFunctionViewController alloc] init]]];
     [self.items addObject:[self itemWithTitle:@"组件化方案" viewController:[[LYComponentManagerViewController alloc] init]]];
-    [self.items addObject:[self itemWithTitle:@"面试题代码实现" viewController:[[LYInterviewViewController alloc] init]]];
-    [self.items addObject:[self itemWithTitle:@"投资原则" viewController:[[InvestmentPrinciplesViewController alloc] init]]];
+    [self.items addObject:[self itemWithTitle:@"性能优化" viewController:[[LYPerformanceOptimizationViewController alloc] init]]];
     [self.items addObject:[self itemWithTitle:@"架构设计" viewController:[[LYArchitectureViewController alloc] init]]];
     [self.items addObject:[self itemWithTitle:@"数据库" viewController:[[LYDataBaseViewController alloc] init]]];
+    [self.items addObject:[self itemWithTitle:@"音视频及图像" viewController:[[LYMediaViewController alloc] init]]];
+    [self.items addObject:[self itemWithTitle:@"动画" viewController:[[LYAnimationViewController alloc] init]]];
+    [self.items addObject:[self itemWithTitle:@"面试题代码实现" viewController:[[LYInterviewViewController alloc] init]]];
+    [self.items addObject:[self itemWithTitle:@"投资原则" viewController:[[InvestmentPrinciplesViewController alloc] init]]];
 }
 
 - (LYKitCellItem *)itemWithTitle:(NSString *)title viewController:(UIViewController *)viewController {

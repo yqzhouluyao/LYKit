@@ -6,13 +6,13 @@
 //
 
 //本demo的实现基于https://www.cnblogs.com/yulang314/p/5091342.html
-#import "YuanTikuViewController.h"
+#import "LYYuanTikuViewController.h"
 
-@interface YuanTikuViewController ()
+@interface LYYuanTikuViewController ()
 
 @end
 
-@implementation YuanTikuViewController
+@implementation LYYuanTikuViewController
 
 - (instancetype)init
 {

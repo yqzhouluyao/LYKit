@@ -14,12 +14,20 @@
 @end
 
 @implementation LYDataBaseViewController
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.cellIdentifier = @"DataBaseCell";
+        self.vcTitle = @"数据库存储方案列表";
+    }
+    return self;
+}
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-    //猿题库架构设计 https://www.cnblogs.com/yulang314/p/5091342.html
+  
 }
 
 - (void)setupItems {

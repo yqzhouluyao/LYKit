@@ -19,12 +19,26 @@
 		5B00CDD028BCF3E90069F2CC /* LYKitHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDC828BCF3E80069F2CC /* LYKitHomeViewController.m */; };
 		5B00CDD128BCF3E90069F2CC /* LYFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDCA28BCF3E80069F2CC /* LYFunctionViewController.m */; };
 		5B8DFE9528C05180004F983D /* LYArchitectureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFE9428C05180004F983D /* LYArchitectureViewController.m */; };
-		5B8DFE9928C0535C004F983D /* YuanTikuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFE9828C0535C004F983D /* YuanTikuViewController.m */; };
+		5B8DFE9928C0535C004F983D /* LYYuanTikuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFE9828C0535C004F983D /* LYYuanTikuViewController.m */; };
 		5B8DFE9D28C05F5C004F983D /* LYDataBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFE9C28C05F5C004F983D /* LYDataBaseViewController.m */; };
 		5B8DFEA128C0613C004F983D /* LYKeyValueStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEA028C0613C004F983D /* LYKeyValueStoreViewController.m */; };
 		5B8DFEA928C08675004F983D /* LYLinkHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEA828C08675004F983D /* LYLinkHomeViewController.m */; };
 		5B8DFEAF28C0878B004F983D /* LYComponentManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEAE28C0878B004F983D /* LYComponentManagerViewController.m */; };
 		5B8DFEB328C089D8004F983D /* LYMediatorPracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEB228C089D8004F983D /* LYMediatorPracticeViewController.m */; };
+		5B8DFEB828C09394004F983D /* LYThemeManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEB728C09394004F983D /* LYThemeManagerViewController.m */; };
+		5B8DFEC528C096C7004F983D /* LYPerformanceOptimizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEC428C096C7004F983D /* LYPerformanceOptimizationViewController.m */; };
+		5B8DFEC928C0991B004F983D /* LYThreadManagementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEC828C0991B004F983D /* LYThreadManagementViewController.m */; };
+		5B8DFECD28C09965004F983D /* LYCheckANRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFECC28C09965004F983D /* LYCheckANRViewController.m */; };
+		5B8DFED128C099BA004F983D /* LYCrashProtectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFED028C099BA004F983D /* LYCrashProtectorViewController.m */; };
+		5B8DFED528C09A11004F983D /* LYMemoryLeakViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFED428C09A11004F983D /* LYMemoryLeakViewController.m */; };
+		5B8DFED928C09CF1004F983D /* LYMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFED828C09CF1004F983D /* LYMediaViewController.m */; };
+		5B8DFEDF28C09DD2004F983D /* LYAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEDE28C09DD2004F983D /* LYAudioViewController.m */; };
+		5B8DFEE228C09DDB004F983D /* LYVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEE128C09DDB004F983D /* LYVideoViewController.m */; };
+		5B8DFEE528C09DE4004F983D /* LYOpenGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEE428C09DE4004F983D /* LYOpenGLViewController.m */; };
+		5B8DFEE928C09ED8004F983D /* LYAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEE828C09ED8004F983D /* LYAnimationViewController.m */; };
+		5B8DFEED28C09F79004F983D /* LYSocketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEEC28C09F79004F983D /* LYSocketViewController.m */; };
+		5B8DFEF128C09FD2004F983D /* LYMVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEF028C09FD2004F983D /* LYMVVMViewController.m */; };
+		5B8DFEF528C0A08E004F983D /* LYHitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEF428C0A08E004F983D /* LYHitTestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,8 +65,8 @@
 		5B00CDCB28BCF3E80069F2CC /* LYFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFunctionViewController.h; sourceTree = "<group>"; };
 		5B8DFE9328C05180004F983D /* LYArchitectureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYArchitectureViewController.h; sourceTree = "<group>"; };
 		5B8DFE9428C05180004F983D /* LYArchitectureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYArchitectureViewController.m; sourceTree = "<group>"; };
-		5B8DFE9728C0535C004F983D /* YuanTikuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YuanTikuViewController.h; sourceTree = "<group>"; };
-		5B8DFE9828C0535C004F983D /* YuanTikuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuanTikuViewController.m; sourceTree = "<group>"; };
+		5B8DFE9728C0535C004F983D /* LYYuanTikuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYYuanTikuViewController.h; sourceTree = "<group>"; };
+		5B8DFE9828C0535C004F983D /* LYYuanTikuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYYuanTikuViewController.m; sourceTree = "<group>"; };
 		5B8DFE9B28C05F5C004F983D /* LYDataBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDataBaseViewController.h; sourceTree = "<group>"; };
 		5B8DFE9C28C05F5C004F983D /* LYDataBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDataBaseViewController.m; sourceTree = "<group>"; };
 		5B8DFE9F28C0613C004F983D /* LYKeyValueStoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYKeyValueStoreViewController.h; sourceTree = "<group>"; };
@@ -63,6 +77,34 @@
 		5B8DFEAE28C0878B004F983D /* LYComponentManagerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYComponentManagerViewController.m; sourceTree = "<group>"; };
 		5B8DFEB128C089D8004F983D /* LYMediatorPracticeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYMediatorPracticeViewController.h; sourceTree = "<group>"; };
 		5B8DFEB228C089D8004F983D /* LYMediatorPracticeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMediatorPracticeViewController.m; sourceTree = "<group>"; };
+		5B8DFEB628C09394004F983D /* LYThemeManagerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYThemeManagerViewController.h; sourceTree = "<group>"; };
+		5B8DFEB728C09394004F983D /* LYThemeManagerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYThemeManagerViewController.m; sourceTree = "<group>"; };
+		5B8DFEC328C096C7004F983D /* LYPerformanceOptimizationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPerformanceOptimizationViewController.h; sourceTree = "<group>"; };
+		5B8DFEC428C096C7004F983D /* LYPerformanceOptimizationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPerformanceOptimizationViewController.m; sourceTree = "<group>"; };
+		5B8DFEC728C0991B004F983D /* LYThreadManagementViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYThreadManagementViewController.h; sourceTree = "<group>"; };
+		5B8DFEC828C0991B004F983D /* LYThreadManagementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYThreadManagementViewController.m; sourceTree = "<group>"; };
+		5B8DFECB28C09965004F983D /* LYCheckANRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCheckANRViewController.h; sourceTree = "<group>"; };
+		5B8DFECC28C09965004F983D /* LYCheckANRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCheckANRViewController.m; sourceTree = "<group>"; };
+		5B8DFECF28C099BA004F983D /* LYCrashProtectorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCrashProtectorViewController.h; sourceTree = "<group>"; };
+		5B8DFED028C099BA004F983D /* LYCrashProtectorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCrashProtectorViewController.m; sourceTree = "<group>"; };
+		5B8DFED328C09A11004F983D /* LYMemoryLeakViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYMemoryLeakViewController.h; sourceTree = "<group>"; };
+		5B8DFED428C09A11004F983D /* LYMemoryLeakViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMemoryLeakViewController.m; sourceTree = "<group>"; };
+		5B8DFED728C09CF1004F983D /* LYMediaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYMediaViewController.h; sourceTree = "<group>"; };
+		5B8DFED828C09CF1004F983D /* LYMediaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMediaViewController.m; sourceTree = "<group>"; };
+		5B8DFEDD28C09DD2004F983D /* LYAudioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAudioViewController.h; sourceTree = "<group>"; };
+		5B8DFEDE28C09DD2004F983D /* LYAudioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAudioViewController.m; sourceTree = "<group>"; };
+		5B8DFEE028C09DDB004F983D /* LYVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYVideoViewController.h; sourceTree = "<group>"; };
+		5B8DFEE128C09DDB004F983D /* LYVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYVideoViewController.m; sourceTree = "<group>"; };
+		5B8DFEE328C09DE4004F983D /* LYOpenGLViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYOpenGLViewController.h; sourceTree = "<group>"; };
+		5B8DFEE428C09DE4004F983D /* LYOpenGLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYOpenGLViewController.m; sourceTree = "<group>"; };
+		5B8DFEE728C09ED8004F983D /* LYAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAnimationViewController.h; sourceTree = "<group>"; };
+		5B8DFEE828C09ED8004F983D /* LYAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYAnimationViewController.m; sourceTree = "<group>"; };
+		5B8DFEEB28C09F79004F983D /* LYSocketViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYSocketViewController.h; sourceTree = "<group>"; };
+		5B8DFEEC28C09F79004F983D /* LYSocketViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYSocketViewController.m; sourceTree = "<group>"; };
+		5B8DFEEF28C09FD2004F983D /* LYMVVMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYMVVMViewController.h; sourceTree = "<group>"; };
+		5B8DFEF028C09FD2004F983D /* LYMVVMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMVVMViewController.m; sourceTree = "<group>"; };
+		5B8DFEF328C0A08E004F983D /* LYHitTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHitTestViewController.h; sourceTree = "<group>"; };
+		5B8DFEF428C0A08E004F983D /* LYHitTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYHitTestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +137,9 @@
 		5B00CDA328BCF1A60069F2CC /* LYKit */ = {
 			isa = PBXGroup;
 			children = (
+				5B8DFEE628C09EC4004F983D /* CoreAnimation */,
+				5B8DFED628C09B75004F983D /* Media */,
+				5B8DFEC228C0967F004F983D /* PerformanceOptimization */,
 				5B8DFEA228C08558004F983D /* ComponentManager  */,
 				5B8DFE9A28C05F43004F983D /* DataBase */,
 				5B8DFE9228C0515E004F983D /* Architecture */,
@@ -140,6 +185,10 @@
 		5B00CDC928BCF3E80069F2CC /* Functional */ = {
 			isa = PBXGroup;
 			children = (
+				5B8DFEF228C0A037004F983D /* HitTest */,
+				5B8DFEEA28C09F59004F983D /* Socket */,
+				5B8DFEB528C09342004F983D /* ThemeManager */,
+				5B8DFEB428C09337004F983D /* RichText */,
 				5B00CDCA28BCF3E80069F2CC /* LYFunctionViewController.m */,
 				5B00CDCB28BCF3E80069F2CC /* LYFunctionViewController.h */,
 			);
@@ -149,6 +198,7 @@
 		5B8DFE9228C0515E004F983D /* Architecture */ = {
 			isa = PBXGroup;
 			children = (
+				5B8DFEEE28C09F9C004F983D /* MVVM */,
 				5B8DFE9628C05324004F983D /* YuanTiKu */,
 				5B8DFE9328C05180004F983D /* LYArchitectureViewController.h */,
 				5B8DFE9428C05180004F983D /* LYArchitectureViewController.m */,
@@ -159,8 +209,8 @@
 		5B8DFE9628C05324004F983D /* YuanTiKu */ = {
 			isa = PBXGroup;
 			children = (
-				5B8DFE9728C0535C004F983D /* YuanTikuViewController.h */,
-				5B8DFE9828C0535C004F983D /* YuanTikuViewController.m */,
+				5B8DFE9728C0535C004F983D /* LYYuanTikuViewController.h */,
+				5B8DFE9828C0535C004F983D /* LYYuanTikuViewController.m */,
 			);
 			path = YuanTiKu;
 			sourceTree = "<group>";
@@ -211,6 +261,146 @@
 				5B8DFEB228C089D8004F983D /* LYMediatorPracticeViewController.m */,
 			);
 			path = CTMediatorPractice;
+			sourceTree = "<group>";
+		};
+		5B8DFEB428C09337004F983D /* RichText */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RichText;
+			sourceTree = "<group>";
+		};
+		5B8DFEB528C09342004F983D /* ThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFEB628C09394004F983D /* LYThemeManagerViewController.h */,
+				5B8DFEB728C09394004F983D /* LYThemeManagerViewController.m */,
+			);
+			path = ThemeManager;
+			sourceTree = "<group>";
+		};
+		5B8DFEC228C0967F004F983D /* PerformanceOptimization */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFED228C099FF004F983D /* MemoryLeak */,
+				5B8DFECE28C099AB004F983D /* CrashProtector */,
+				5B8DFECA28C09947004F983D /* CheckANR */,
+				5B8DFEC628C098C9004F983D /* ThreadManagement */,
+				5B8DFEC328C096C7004F983D /* LYPerformanceOptimizationViewController.h */,
+				5B8DFEC428C096C7004F983D /* LYPerformanceOptimizationViewController.m */,
+			);
+			path = PerformanceOptimization;
+			sourceTree = "<group>";
+		};
+		5B8DFEC628C098C9004F983D /* ThreadManagement */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFEC728C0991B004F983D /* LYThreadManagementViewController.h */,
+				5B8DFEC828C0991B004F983D /* LYThreadManagementViewController.m */,
+			);
+			path = ThreadManagement;
+			sourceTree = "<group>";
+		};
+		5B8DFECA28C09947004F983D /* CheckANR */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFECB28C09965004F983D /* LYCheckANRViewController.h */,
+				5B8DFECC28C09965004F983D /* LYCheckANRViewController.m */,
+			);
+			path = CheckANR;
+			sourceTree = "<group>";
+		};
+		5B8DFECE28C099AB004F983D /* CrashProtector */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFECF28C099BA004F983D /* LYCrashProtectorViewController.h */,
+				5B8DFED028C099BA004F983D /* LYCrashProtectorViewController.m */,
+			);
+			path = CrashProtector;
+			sourceTree = "<group>";
+		};
+		5B8DFED228C099FF004F983D /* MemoryLeak */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFED328C09A11004F983D /* LYMemoryLeakViewController.h */,
+				5B8DFED428C09A11004F983D /* LYMemoryLeakViewController.m */,
+			);
+			path = MemoryLeak;
+			sourceTree = "<group>";
+		};
+		5B8DFED628C09B75004F983D /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFEDC28C09D29004F983D /* Audio */,
+				5B8DFEDB28C09D1F004F983D /* Video */,
+				5B8DFEDA28C09CFE004F983D /* OpenGL */,
+				5B8DFED728C09CF1004F983D /* LYMediaViewController.h */,
+				5B8DFED828C09CF1004F983D /* LYMediaViewController.m */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
+		5B8DFEDA28C09CFE004F983D /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFEE328C09DE4004F983D /* LYOpenGLViewController.h */,
+				5B8DFEE428C09DE4004F983D /* LYOpenGLViewController.m */,
+			);
+			path = OpenGL;
+			sourceTree = "<group>";
+		};
+		5B8DFEDB28C09D1F004F983D /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFEE028C09DDB004F983D /* LYVideoViewController.h */,
+				5B8DFEE128C09DDB004F983D /* LYVideoViewController.m */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		5B8DFEDC28C09D29004F983D /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFEDD28C09DD2004F983D /* LYAudioViewController.h */,
+				5B8DFEDE28C09DD2004F983D /* LYAudioViewController.m */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		5B8DFEE628C09EC4004F983D /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFEE728C09ED8004F983D /* LYAnimationViewController.h */,
+				5B8DFEE828C09ED8004F983D /* LYAnimationViewController.m */,
+			);
+			path = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		5B8DFEEA28C09F59004F983D /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFEEB28C09F79004F983D /* LYSocketViewController.h */,
+				5B8DFEEC28C09F79004F983D /* LYSocketViewController.m */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
+		5B8DFEEE28C09F9C004F983D /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFEEF28C09FD2004F983D /* LYMVVMViewController.h */,
+				5B8DFEF028C09FD2004F983D /* LYMVVMViewController.m */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		5B8DFEF228C0A037004F983D /* HitTest */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFEF328C0A08E004F983D /* LYHitTestViewController.h */,
+				5B8DFEF428C0A08E004F983D /* LYHitTestViewController.m */,
+			);
+			path = HitTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,20 +474,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B8DFEDF28C09DD2004F983D /* LYAudioViewController.m in Sources */,
 				5B00CDCF28BCF3E90069F2CC /* LYInterviewViewController.m in Sources */,
 				5B8DFE9528C05180004F983D /* LYArchitectureViewController.m in Sources */,
+				5B8DFEE228C09DDB004F983D /* LYVideoViewController.m in Sources */,
 				5B8DFEA128C0613C004F983D /* LYKeyValueStoreViewController.m in Sources */,
+				5B8DFEE928C09ED8004F983D /* LYAnimationViewController.m in Sources */,
+				5B8DFEC928C0991B004F983D /* LYThreadManagementViewController.m in Sources */,
+				5B8DFECD28C09965004F983D /* LYCheckANRViewController.m in Sources */,
+				5B8DFEC528C096C7004F983D /* LYPerformanceOptimizationViewController.m in Sources */,
 				5B00CDA628BCF1A60069F2CC /* AppDelegate.m in Sources */,
+				5B8DFEF128C09FD2004F983D /* LYMVVMViewController.m in Sources */,
 				5B00CDCD28BCF3E90069F2CC /* LYKitCellItem.m in Sources */,
 				5B8DFEB328C089D8004F983D /* LYMediatorPracticeViewController.m in Sources */,
 				5B8DFEA928C08675004F983D /* LYLinkHomeViewController.m in Sources */,
+				5B8DFED128C099BA004F983D /* LYCrashProtectorViewController.m in Sources */,
 				5B00CDCC28BCF3E90069F2CC /* LYKitBaseViewController.m in Sources */,
 				5B00CDCE28BCF3E90069F2CC /* InvestmentPrinciplesViewController.m in Sources */,
 				5B8DFE9D28C05F5C004F983D /* LYDataBaseViewController.m in Sources */,
 				5B00CDB728BCF1AA0069F2CC /* main.m in Sources */,
 				5B8DFEAF28C0878B004F983D /* LYComponentManagerViewController.m in Sources */,
+				5B8DFEE528C09DE4004F983D /* LYOpenGLViewController.m in Sources */,
+				5B8DFEED28C09F79004F983D /* LYSocketViewController.m in Sources */,
 				5B00CDD028BCF3E90069F2CC /* LYKitHomeViewController.m in Sources */,
-				5B8DFE9928C0535C004F983D /* YuanTikuViewController.m in Sources */,
+				5B8DFEF528C0A08E004F983D /* LYHitTestViewController.m in Sources */,
+				5B8DFED928C09CF1004F983D /* LYMediaViewController.m in Sources */,
+				5B8DFE9928C0535C004F983D /* LYYuanTikuViewController.m in Sources */,
+				5B8DFEB828C09394004F983D /* LYThemeManagerViewController.m in Sources */,
+				5B8DFED528C09A11004F983D /* LYMemoryLeakViewController.m in Sources */,
 				5B00CDD128BCF3E90069F2CC /* LYFunctionViewController.m in Sources */,
 				5B00CDA928BCF1A60069F2CC /* SceneDelegate.m in Sources */,
 			);
