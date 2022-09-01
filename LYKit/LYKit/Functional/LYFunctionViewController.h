@@ -1,5 +1,5 @@
 //
-//  InterviewViewController.h
+//  FunctionViewController.h
 //  LYKit-iOS
 //
 //  Created by zhouluyao on 2022/8/29.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface InterviewViewController : LYKitBaseViewController
+@interface LYFunctionViewController : LYKitBaseViewController
 
 @end
 

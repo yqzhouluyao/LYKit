@@ -15,9 +15,16 @@
 		5B00CDCC28BCF3E90069F2CC /* LYKitBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDBD28BCF3E80069F2CC /* LYKitBaseViewController.m */; };
 		5B00CDCD28BCF3E90069F2CC /* LYKitCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDBF28BCF3E80069F2CC /* LYKitCellItem.m */; };
 		5B00CDCE28BCF3E90069F2CC /* InvestmentPrinciplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDC128BCF3E80069F2CC /* InvestmentPrinciplesViewController.m */; };
-		5B00CDCF28BCF3E90069F2CC /* InterviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDC528BCF3E80069F2CC /* InterviewViewController.m */; };
+		5B00CDCF28BCF3E90069F2CC /* LYInterviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDC528BCF3E80069F2CC /* LYInterviewViewController.m */; };
 		5B00CDD028BCF3E90069F2CC /* LYKitHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDC828BCF3E80069F2CC /* LYKitHomeViewController.m */; };
-		5B00CDD128BCF3E90069F2CC /* FunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDCA28BCF3E80069F2CC /* FunctionViewController.m */; };
+		5B00CDD128BCF3E90069F2CC /* LYFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDCA28BCF3E80069F2CC /* LYFunctionViewController.m */; };
+		5B8DFE9528C05180004F983D /* LYArchitectureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFE9428C05180004F983D /* LYArchitectureViewController.m */; };
+		5B8DFE9928C0535C004F983D /* YuanTikuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFE9828C0535C004F983D /* YuanTikuViewController.m */; };
+		5B8DFE9D28C05F5C004F983D /* LYDataBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFE9C28C05F5C004F983D /* LYDataBaseViewController.m */; };
+		5B8DFEA128C0613C004F983D /* LYKeyValueStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEA028C0613C004F983D /* LYKeyValueStoreViewController.m */; };
+		5B8DFEA928C08675004F983D /* LYLinkHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEA828C08675004F983D /* LYLinkHomeViewController.m */; };
+		5B8DFEAF28C0878B004F983D /* LYComponentManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEAE28C0878B004F983D /* LYComponentManagerViewController.m */; };
+		5B8DFEB328C089D8004F983D /* LYMediatorPracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEB228C089D8004F983D /* LYMediatorPracticeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,13 +42,27 @@
 		5B00CDBF28BCF3E80069F2CC /* LYKitCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYKitCellItem.m; sourceTree = "<group>"; };
 		5B00CDC128BCF3E80069F2CC /* InvestmentPrinciplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvestmentPrinciplesViewController.m; sourceTree = "<group>"; };
 		5B00CDC228BCF3E80069F2CC /* InvestmentPrinciplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvestmentPrinciplesViewController.h; sourceTree = "<group>"; };
-		5B00CDC428BCF3E80069F2CC /* InterviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InterviewViewController.h; sourceTree = "<group>"; };
-		5B00CDC528BCF3E80069F2CC /* InterviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InterviewViewController.m; sourceTree = "<group>"; };
+		5B00CDC428BCF3E80069F2CC /* LYInterviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYInterviewViewController.h; sourceTree = "<group>"; };
+		5B00CDC528BCF3E80069F2CC /* LYInterviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYInterviewViewController.m; sourceTree = "<group>"; };
 		5B00CDC628BCF3E80069F2CC /* LYKitCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYKitCellItem.h; sourceTree = "<group>"; };
 		5B00CDC728BCF3E80069F2CC /* LYKitHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYKitHomeViewController.h; sourceTree = "<group>"; };
 		5B00CDC828BCF3E80069F2CC /* LYKitHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYKitHomeViewController.m; sourceTree = "<group>"; };
-		5B00CDCA28BCF3E80069F2CC /* FunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FunctionViewController.m; sourceTree = "<group>"; };
-		5B00CDCB28BCF3E80069F2CC /* FunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FunctionViewController.h; sourceTree = "<group>"; };
+		5B00CDCA28BCF3E80069F2CC /* LYFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFunctionViewController.m; sourceTree = "<group>"; };
+		5B00CDCB28BCF3E80069F2CC /* LYFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFunctionViewController.h; sourceTree = "<group>"; };
+		5B8DFE9328C05180004F983D /* LYArchitectureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYArchitectureViewController.h; sourceTree = "<group>"; };
+		5B8DFE9428C05180004F983D /* LYArchitectureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYArchitectureViewController.m; sourceTree = "<group>"; };
+		5B8DFE9728C0535C004F983D /* YuanTikuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YuanTikuViewController.h; sourceTree = "<group>"; };
+		5B8DFE9828C0535C004F983D /* YuanTikuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YuanTikuViewController.m; sourceTree = "<group>"; };
+		5B8DFE9B28C05F5C004F983D /* LYDataBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDataBaseViewController.h; sourceTree = "<group>"; };
+		5B8DFE9C28C05F5C004F983D /* LYDataBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDataBaseViewController.m; sourceTree = "<group>"; };
+		5B8DFE9F28C0613C004F983D /* LYKeyValueStoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYKeyValueStoreViewController.h; sourceTree = "<group>"; };
+		5B8DFEA028C0613C004F983D /* LYKeyValueStoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYKeyValueStoreViewController.m; sourceTree = "<group>"; };
+		5B8DFEA728C08675004F983D /* LYLinkHomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYLinkHomeViewController.h; sourceTree = "<group>"; };
+		5B8DFEA828C08675004F983D /* LYLinkHomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYLinkHomeViewController.m; sourceTree = "<group>"; };
+		5B8DFEAD28C0878B004F983D /* LYComponentManagerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYComponentManagerViewController.h; sourceTree = "<group>"; };
+		5B8DFEAE28C0878B004F983D /* LYComponentManagerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYComponentManagerViewController.m; sourceTree = "<group>"; };
+		5B8DFEB128C089D8004F983D /* LYMediatorPracticeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYMediatorPracticeViewController.h; sourceTree = "<group>"; };
+		5B8DFEB228C089D8004F983D /* LYMediatorPracticeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMediatorPracticeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +95,10 @@
 		5B00CDA328BCF1A60069F2CC /* LYKit */ = {
 			isa = PBXGroup;
 			children = (
-				5B00CDC928BCF3E80069F2CC /* FunctionalModule */,
+				5B8DFEA228C08558004F983D /* ComponentManager  */,
+				5B8DFE9A28C05F43004F983D /* DataBase */,
+				5B8DFE9228C0515E004F983D /* Architecture */,
+				5B00CDC928BCF3E80069F2CC /* Functional */,
 				5B00CDC328BCF3E80069F2CC /* Interview */,
 				5B00CDC028BCF3E80069F2CC /* InvestmentPrinciples */,
 				5B00CDBE28BCF3E80069F2CC /* LYKitBaseViewController.h */,
@@ -107,19 +131,86 @@
 		5B00CDC328BCF3E80069F2CC /* Interview */ = {
 			isa = PBXGroup;
 			children = (
-				5B00CDC428BCF3E80069F2CC /* InterviewViewController.h */,
-				5B00CDC528BCF3E80069F2CC /* InterviewViewController.m */,
+				5B00CDC428BCF3E80069F2CC /* LYInterviewViewController.h */,
+				5B00CDC528BCF3E80069F2CC /* LYInterviewViewController.m */,
 			);
 			path = Interview;
 			sourceTree = "<group>";
 		};
-		5B00CDC928BCF3E80069F2CC /* FunctionalModule */ = {
+		5B00CDC928BCF3E80069F2CC /* Functional */ = {
 			isa = PBXGroup;
 			children = (
-				5B00CDCA28BCF3E80069F2CC /* FunctionViewController.m */,
-				5B00CDCB28BCF3E80069F2CC /* FunctionViewController.h */,
+				5B00CDCA28BCF3E80069F2CC /* LYFunctionViewController.m */,
+				5B00CDCB28BCF3E80069F2CC /* LYFunctionViewController.h */,
 			);
-			path = FunctionalModule;
+			path = Functional;
+			sourceTree = "<group>";
+		};
+		5B8DFE9228C0515E004F983D /* Architecture */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFE9628C05324004F983D /* YuanTiKu */,
+				5B8DFE9328C05180004F983D /* LYArchitectureViewController.h */,
+				5B8DFE9428C05180004F983D /* LYArchitectureViewController.m */,
+			);
+			path = Architecture;
+			sourceTree = "<group>";
+		};
+		5B8DFE9628C05324004F983D /* YuanTiKu */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFE9728C0535C004F983D /* YuanTikuViewController.h */,
+				5B8DFE9828C0535C004F983D /* YuanTikuViewController.m */,
+			);
+			path = YuanTiKu;
+			sourceTree = "<group>";
+		};
+		5B8DFE9A28C05F43004F983D /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFE9E28C0610D004F983D /* YuanTiKu */,
+				5B8DFE9B28C05F5C004F983D /* LYDataBaseViewController.h */,
+				5B8DFE9C28C05F5C004F983D /* LYDataBaseViewController.m */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		5B8DFE9E28C0610D004F983D /* YuanTiKu */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFE9F28C0613C004F983D /* LYKeyValueStoreViewController.h */,
+				5B8DFEA028C0613C004F983D /* LYKeyValueStoreViewController.m */,
+			);
+			path = YuanTiKu;
+			sourceTree = "<group>";
+		};
+		5B8DFEA228C08558004F983D /* ComponentManager  */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFEB028C088B3004F983D /* CTMediatorPractice */,
+				5B8DFEA628C08610004F983D /* LianJia */,
+				5B8DFEAD28C0878B004F983D /* LYComponentManagerViewController.h */,
+				5B8DFEAE28C0878B004F983D /* LYComponentManagerViewController.m */,
+			);
+			path = "ComponentManager ";
+			sourceTree = "<group>";
+		};
+		5B8DFEA628C08610004F983D /* LianJia */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFEA728C08675004F983D /* LYLinkHomeViewController.h */,
+				5B8DFEA828C08675004F983D /* LYLinkHomeViewController.m */,
+			);
+			path = LianJia;
+			sourceTree = "<group>";
+		};
+		5B8DFEB028C088B3004F983D /* CTMediatorPractice */ = {
+			isa = PBXGroup;
+			children = (
+				5B8DFEB128C089D8004F983D /* LYMediatorPracticeViewController.h */,
+				5B8DFEB228C089D8004F983D /* LYMediatorPracticeViewController.m */,
+			);
+			path = CTMediatorPractice;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,7 +240,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = LY;
 				LastUpgradeCheck = 1320;
+				ORGANIZATIONNAME = zhouluyao;
 				TargetAttributes = {
 					5B00CDA028BCF1A60069F2CC = {
 						CreatedOnToolsVersion = 13.2.1;
@@ -191,14 +284,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B00CDCF28BCF3E90069F2CC /* InterviewViewController.m in Sources */,
+				5B00CDCF28BCF3E90069F2CC /* LYInterviewViewController.m in Sources */,
+				5B8DFE9528C05180004F983D /* LYArchitectureViewController.m in Sources */,
+				5B8DFEA128C0613C004F983D /* LYKeyValueStoreViewController.m in Sources */,
 				5B00CDA628BCF1A60069F2CC /* AppDelegate.m in Sources */,
 				5B00CDCD28BCF3E90069F2CC /* LYKitCellItem.m in Sources */,
+				5B8DFEB328C089D8004F983D /* LYMediatorPracticeViewController.m in Sources */,
+				5B8DFEA928C08675004F983D /* LYLinkHomeViewController.m in Sources */,
 				5B00CDCC28BCF3E90069F2CC /* LYKitBaseViewController.m in Sources */,
 				5B00CDCE28BCF3E90069F2CC /* InvestmentPrinciplesViewController.m in Sources */,
+				5B8DFE9D28C05F5C004F983D /* LYDataBaseViewController.m in Sources */,
 				5B00CDB728BCF1AA0069F2CC /* main.m in Sources */,
+				5B8DFEAF28C0878B004F983D /* LYComponentManagerViewController.m in Sources */,
 				5B00CDD028BCF3E90069F2CC /* LYKitHomeViewController.m in Sources */,
-				5B00CDD128BCF3E90069F2CC /* FunctionViewController.m in Sources */,
+				5B8DFE9928C0535C004F983D /* YuanTikuViewController.m in Sources */,
+				5B00CDD128BCF3E90069F2CC /* LYFunctionViewController.m in Sources */,
 				5B00CDA928BCF1A60069F2CC /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

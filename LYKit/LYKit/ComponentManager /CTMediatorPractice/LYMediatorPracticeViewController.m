@@ -1,27 +1,18 @@
 //
-//  FunctionViewController.m
-//  LYKit-iOS
+//  LYMediatorPracticeViewController.m
+//  LYKit
 //
-//  Created by zhouluyao on 2022/8/29.
+//  Created by zhouluyao on 2022/9/1.
+//  Copyright © 2022 zhouluyao. All rights reserved.
 //
 
-#import "FunctionViewController.h"
+#import "LYMediatorPracticeViewController.h"
 
-@interface FunctionViewController ()
+@interface LYMediatorPracticeViewController ()
 
 @end
 
-@implementation FunctionViewController
-
-- (instancetype)init
-{
-    self = [super init];
-    if (self) {
-        self.cellIdentifier = @"FunctionCell";
-        self.vcTitle = @"功能模块";
-    }
-    return self;
-}
+@implementation LYMediatorPracticeViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

@@ -7,9 +7,12 @@
 
 #import "LYKitHomeViewController.h"
 #import "LYKitCellItem.h"
-#import "FunctionViewController.h"
-#import "InterviewViewController.h"
+#import "LYFunctionViewController.h"
+#import "LYInterviewViewController.h"
 #import "InvestmentPrinciplesViewController.h"
+#import "LYArchitectureViewController.h"
+#import "LYComponentManagerViewController.h"
+#import "LYDataBaseViewController.h"
 
 @interface LYKitHomeViewController ()
 
@@ -35,9 +38,12 @@
 - (void)setupItems {
     [super setupItems];
     
-    [self.items addObject:[self itemWithTitle:@"功能模块" viewController:[[FunctionViewController alloc] init]]];
-    [self.items addObject:[self itemWithTitle:@"面试题代码实现" viewController:[[InterviewViewController alloc] init]]];
+    [self.items addObject:[self itemWithTitle:@"功能模块" viewController:[[LYFunctionViewController alloc] init]]];
+    [self.items addObject:[self itemWithTitle:@"组件化方案" viewController:[[LYComponentManagerViewController alloc] init]]];
+    [self.items addObject:[self itemWithTitle:@"面试题代码实现" viewController:[[LYInterviewViewController alloc] init]]];
     [self.items addObject:[self itemWithTitle:@"投资原则" viewController:[[InvestmentPrinciplesViewController alloc] init]]];
+    [self.items addObject:[self itemWithTitle:@"架构设计" viewController:[[LYArchitectureViewController alloc] init]]];
+    [self.items addObject:[self itemWithTitle:@"数据库" viewController:[[LYDataBaseViewController alloc] init]]];
 }
 
 - (LYKitCellItem *)itemWithTitle:(NSString *)title viewController:(UIViewController *)viewController {

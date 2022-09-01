@@ -5,13 +5,13 @@
 //  Created by zhouluyao on 2022/8/29.
 //
 
-#import "InterviewViewController.h"
+#import "LYInterviewViewController.h"
 
-@interface InterviewViewController ()
+@interface LYInterviewViewController ()
 
 @end
 
-@implementation InterviewViewController
+@implementation LYInterviewViewController
 
 - (instancetype)init
 {
