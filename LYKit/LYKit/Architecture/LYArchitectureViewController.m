@@ -6,7 +6,7 @@
 //
 
 #import "LYArchitectureViewController.h"
-#import "LYYuanTikuViewController.h"
+#import "APEHomePracticeViewController.h"
 #import "LYMVVMViewController.h"
 
 @interface LYArchitectureViewController ()
@@ -34,7 +34,7 @@
 - (void)setupItems {
     [super setupItems];
     
-    [self.items addObject:[self itemWithTitle:@"猿题库架构实现demo" viewController:[[LYYuanTikuViewController alloc] init]]];
+    [self.items addObject:[self itemWithTitle:@"猿题库架构实现demo" viewController:[[APEHomePracticeViewController alloc] init]]];
     [self.items addObject:[self itemWithTitle:@"MVVM架构" viewController:[[LYMVVMViewController alloc] init]]];
     
 }

@@ -18,8 +18,20 @@
 		5B00CDCF28BCF3E90069F2CC /* LYInterviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDC528BCF3E80069F2CC /* LYInterviewViewController.m */; };
 		5B00CDD028BCF3E90069F2CC /* LYKitHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDC828BCF3E80069F2CC /* LYKitHomeViewController.m */; };
 		5B00CDD128BCF3E90069F2CC /* LYFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDCA28BCF3E80069F2CC /* LYFunctionViewController.m */; };
+		5B7C5DBF28DB041D00C17687 /* LYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C5DBE28DB041D00C17687 /* LYWebViewController.m */; };
+		5B7C5DC128DB4B7F00C17687 /* NativeInvokeJS.html in Resources */ = {isa = PBXBuildFile; fileRef = 5B7C5DC028DB4B7F00C17687 /* NativeInvokeJS.html */; };
+		5B8205B628C7262F002680DF /* APEHomePracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8205B528C7262F002680DF /* APEHomePracticeViewController.m */; };
+		5B8205B928C726E2002680DF /* APEHomePracticeBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8205B828C726E2002680DF /* APEHomePracticeBannerView.m */; };
+		5B8205BC28C726EF002680DF /* APEHomePracticeActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8205BB28C726EF002680DF /* APEHomePracticeActivityView.m */; };
+		5B8205BF28C726F9002680DF /* APEHomePracticeSubjectsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8205BE28C726F9002680DF /* APEHomePracticeSubjectsView.m */; };
+		5B8205C228C72B78002680DF /* APESubject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8205C128C72B78002680DF /* APESubject.m */; };
+		5B8205C528C72D8E002680DF /* APEBaseDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8205C428C72D8E002680DF /* APEBaseDataController.m */; };
+		5B8205C828C72DA1002680DF /* APEHomePracticeDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8205C728C72DA1002680DF /* APEHomePracticeDataController.m */; };
+		5B8205CB28C73008002680DF /* APESubjectDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8205CA28C73008002680DF /* APESubjectDataController.m */; };
+		5B8205CE28C73ADD002680DF /* APEHomePracticeSubjectsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8205CD28C73ADD002680DF /* APEHomePracticeSubjectsViewModel.m */; };
+		5B8205D128C74205002680DF /* APEHomePracticeSubjectsCollectionCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8205D028C74205002680DF /* APEHomePracticeSubjectsCollectionCellViewModel.m */; };
+		5B8205D428C744FC002680DF /* APEHomePracticeSubjectsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8205D328C744FC002680DF /* APEHomePracticeSubjectsCollectionViewCell.m */; };
 		5B8DFE9528C05180004F983D /* LYArchitectureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFE9428C05180004F983D /* LYArchitectureViewController.m */; };
-		5B8DFE9928C0535C004F983D /* LYYuanTikuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFE9828C0535C004F983D /* LYYuanTikuViewController.m */; };
 		5B8DFE9D28C05F5C004F983D /* LYDataBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFE9C28C05F5C004F983D /* LYDataBaseViewController.m */; };
 		5B8DFEA128C0613C004F983D /* LYKeyValueStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEA028C0613C004F983D /* LYKeyValueStoreViewController.m */; };
 		5B8DFEA928C08675004F983D /* LYLinkHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEA828C08675004F983D /* LYLinkHomeViewController.m */; };
@@ -63,10 +75,33 @@
 		5B00CDC828BCF3E80069F2CC /* LYKitHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYKitHomeViewController.m; sourceTree = "<group>"; };
 		5B00CDCA28BCF3E80069F2CC /* LYFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFunctionViewController.m; sourceTree = "<group>"; };
 		5B00CDCB28BCF3E80069F2CC /* LYFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFunctionViewController.h; sourceTree = "<group>"; };
+		5B7C5DBD28DB041D00C17687 /* LYWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYWebViewController.h; sourceTree = "<group>"; };
+		5B7C5DBE28DB041D00C17687 /* LYWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYWebViewController.m; sourceTree = "<group>"; };
+		5B7C5DC028DB4B7F00C17687 /* NativeInvokeJS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NativeInvokeJS.html; sourceTree = "<group>"; };
+		5B8205B428C7262F002680DF /* APEHomePracticeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APEHomePracticeViewController.h; sourceTree = "<group>"; };
+		5B8205B528C7262F002680DF /* APEHomePracticeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APEHomePracticeViewController.m; sourceTree = "<group>"; };
+		5B8205B728C726E2002680DF /* APEHomePracticeBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APEHomePracticeBannerView.h; sourceTree = "<group>"; };
+		5B8205B828C726E2002680DF /* APEHomePracticeBannerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APEHomePracticeBannerView.m; sourceTree = "<group>"; };
+		5B8205BA28C726EF002680DF /* APEHomePracticeActivityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APEHomePracticeActivityView.h; sourceTree = "<group>"; };
+		5B8205BB28C726EF002680DF /* APEHomePracticeActivityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APEHomePracticeActivityView.m; sourceTree = "<group>"; };
+		5B8205BD28C726F9002680DF /* APEHomePracticeSubjectsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APEHomePracticeSubjectsView.h; sourceTree = "<group>"; };
+		5B8205BE28C726F9002680DF /* APEHomePracticeSubjectsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APEHomePracticeSubjectsView.m; sourceTree = "<group>"; };
+		5B8205C028C72B78002680DF /* APESubject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APESubject.h; sourceTree = "<group>"; };
+		5B8205C128C72B78002680DF /* APESubject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APESubject.m; sourceTree = "<group>"; };
+		5B8205C328C72D8E002680DF /* APEBaseDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APEBaseDataController.h; sourceTree = "<group>"; };
+		5B8205C428C72D8E002680DF /* APEBaseDataController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APEBaseDataController.m; sourceTree = "<group>"; };
+		5B8205C628C72DA1002680DF /* APEHomePracticeDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APEHomePracticeDataController.h; sourceTree = "<group>"; };
+		5B8205C728C72DA1002680DF /* APEHomePracticeDataController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APEHomePracticeDataController.m; sourceTree = "<group>"; };
+		5B8205C928C73008002680DF /* APESubjectDataController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APESubjectDataController.h; sourceTree = "<group>"; };
+		5B8205CA28C73008002680DF /* APESubjectDataController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APESubjectDataController.m; sourceTree = "<group>"; };
+		5B8205CC28C73ADD002680DF /* APEHomePracticeSubjectsViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APEHomePracticeSubjectsViewModel.h; sourceTree = "<group>"; };
+		5B8205CD28C73ADD002680DF /* APEHomePracticeSubjectsViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APEHomePracticeSubjectsViewModel.m; sourceTree = "<group>"; };
+		5B8205CF28C74205002680DF /* APEHomePracticeSubjectsCollectionCellViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APEHomePracticeSubjectsCollectionCellViewModel.h; sourceTree = "<group>"; };
+		5B8205D028C74205002680DF /* APEHomePracticeSubjectsCollectionCellViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APEHomePracticeSubjectsCollectionCellViewModel.m; sourceTree = "<group>"; };
+		5B8205D228C744FC002680DF /* APEHomePracticeSubjectsCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APEHomePracticeSubjectsCollectionViewCell.h; sourceTree = "<group>"; };
+		5B8205D328C744FC002680DF /* APEHomePracticeSubjectsCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APEHomePracticeSubjectsCollectionViewCell.m; sourceTree = "<group>"; };
 		5B8DFE9328C05180004F983D /* LYArchitectureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYArchitectureViewController.h; sourceTree = "<group>"; };
 		5B8DFE9428C05180004F983D /* LYArchitectureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYArchitectureViewController.m; sourceTree = "<group>"; };
-		5B8DFE9728C0535C004F983D /* LYYuanTikuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYYuanTikuViewController.h; sourceTree = "<group>"; };
-		5B8DFE9828C0535C004F983D /* LYYuanTikuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYYuanTikuViewController.m; sourceTree = "<group>"; };
 		5B8DFE9B28C05F5C004F983D /* LYDataBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDataBaseViewController.h; sourceTree = "<group>"; };
 		5B8DFE9C28C05F5C004F983D /* LYDataBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDataBaseViewController.m; sourceTree = "<group>"; };
 		5B8DFE9F28C0613C004F983D /* LYKeyValueStoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYKeyValueStoreViewController.h; sourceTree = "<group>"; };
@@ -185,6 +220,7 @@
 		5B00CDC928BCF3E80069F2CC /* Functional */ = {
 			isa = PBXGroup;
 			children = (
+				5B7C5DBC28DB029900C17687 /* NativeInvokeJS */,
 				5B8DFEF228C0A037004F983D /* HitTest */,
 				5B8DFEEA28C09F59004F983D /* Socket */,
 				5B8DFEB528C09342004F983D /* ThemeManager */,
@@ -193,6 +229,16 @@
 				5B00CDCB28BCF3E80069F2CC /* LYFunctionViewController.h */,
 			);
 			path = Functional;
+			sourceTree = "<group>";
+		};
+		5B7C5DBC28DB029900C17687 /* NativeInvokeJS */ = {
+			isa = PBXGroup;
+			children = (
+				5B7C5DC028DB4B7F00C17687 /* NativeInvokeJS.html */,
+				5B7C5DBD28DB041D00C17687 /* LYWebViewController.h */,
+				5B7C5DBE28DB041D00C17687 /* LYWebViewController.m */,
+			);
+			path = NativeInvokeJS;
 			sourceTree = "<group>";
 		};
 		5B8DFE9228C0515E004F983D /* Architecture */ = {
@@ -209,8 +255,28 @@
 		5B8DFE9628C05324004F983D /* YuanTiKu */ = {
 			isa = PBXGroup;
 			children = (
-				5B8DFE9728C0535C004F983D /* LYYuanTikuViewController.h */,
-				5B8DFE9828C0535C004F983D /* LYYuanTikuViewController.m */,
+				5B8205B428C7262F002680DF /* APEHomePracticeViewController.h */,
+				5B8205B528C7262F002680DF /* APEHomePracticeViewController.m */,
+				5B8205B728C726E2002680DF /* APEHomePracticeBannerView.h */,
+				5B8205B828C726E2002680DF /* APEHomePracticeBannerView.m */,
+				5B8205BA28C726EF002680DF /* APEHomePracticeActivityView.h */,
+				5B8205BB28C726EF002680DF /* APEHomePracticeActivityView.m */,
+				5B8205BD28C726F9002680DF /* APEHomePracticeSubjectsView.h */,
+				5B8205BE28C726F9002680DF /* APEHomePracticeSubjectsView.m */,
+				5B8205C028C72B78002680DF /* APESubject.h */,
+				5B8205C128C72B78002680DF /* APESubject.m */,
+				5B8205C328C72D8E002680DF /* APEBaseDataController.h */,
+				5B8205C428C72D8E002680DF /* APEBaseDataController.m */,
+				5B8205C628C72DA1002680DF /* APEHomePracticeDataController.h */,
+				5B8205C728C72DA1002680DF /* APEHomePracticeDataController.m */,
+				5B8205C928C73008002680DF /* APESubjectDataController.h */,
+				5B8205CA28C73008002680DF /* APESubjectDataController.m */,
+				5B8205CC28C73ADD002680DF /* APEHomePracticeSubjectsViewModel.h */,
+				5B8205CD28C73ADD002680DF /* APEHomePracticeSubjectsViewModel.m */,
+				5B8205CF28C74205002680DF /* APEHomePracticeSubjectsCollectionCellViewModel.h */,
+				5B8205D028C74205002680DF /* APEHomePracticeSubjectsCollectionCellViewModel.m */,
+				5B8205D228C744FC002680DF /* APEHomePracticeSubjectsCollectionViewCell.h */,
+				5B8205D328C744FC002680DF /* APEHomePracticeSubjectsCollectionViewCell.m */,
 			);
 			path = YuanTiKu;
 			sourceTree = "<group>";
@@ -464,6 +530,7 @@
 			files = (
 				5B00CDB428BCF1AA0069F2CC /* LaunchScreen.storyboard in Resources */,
 				5B00CDB128BCF1AA0069F2CC /* Assets.xcassets in Resources */,
+				5B7C5DC128DB4B7F00C17687 /* NativeInvokeJS.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,20 +543,29 @@
 			files = (
 				5B8DFEDF28C09DD2004F983D /* LYAudioViewController.m in Sources */,
 				5B00CDCF28BCF3E90069F2CC /* LYInterviewViewController.m in Sources */,
+				5B8205D428C744FC002680DF /* APEHomePracticeSubjectsCollectionViewCell.m in Sources */,
 				5B8DFE9528C05180004F983D /* LYArchitectureViewController.m in Sources */,
 				5B8DFEE228C09DDB004F983D /* LYVideoViewController.m in Sources */,
 				5B8DFEA128C0613C004F983D /* LYKeyValueStoreViewController.m in Sources */,
 				5B8DFEE928C09ED8004F983D /* LYAnimationViewController.m in Sources */,
 				5B8DFEC928C0991B004F983D /* LYThreadManagementViewController.m in Sources */,
+				5B8205C228C72B78002680DF /* APESubject.m in Sources */,
 				5B8DFECD28C09965004F983D /* LYCheckANRViewController.m in Sources */,
 				5B8DFEC528C096C7004F983D /* LYPerformanceOptimizationViewController.m in Sources */,
 				5B00CDA628BCF1A60069F2CC /* AppDelegate.m in Sources */,
+				5B8205CB28C73008002680DF /* APESubjectDataController.m in Sources */,
+				5B8205BC28C726EF002680DF /* APEHomePracticeActivityView.m in Sources */,
 				5B8DFEF128C09FD2004F983D /* LYMVVMViewController.m in Sources */,
+				5B8205C528C72D8E002680DF /* APEBaseDataController.m in Sources */,
+				5B8205D128C74205002680DF /* APEHomePracticeSubjectsCollectionCellViewModel.m in Sources */,
+				5B8205C828C72DA1002680DF /* APEHomePracticeDataController.m in Sources */,
 				5B00CDCD28BCF3E90069F2CC /* LYKitCellItem.m in Sources */,
 				5B8DFEB328C089D8004F983D /* LYMediatorPracticeViewController.m in Sources */,
 				5B8DFEA928C08675004F983D /* LYLinkHomeViewController.m in Sources */,
 				5B8DFED128C099BA004F983D /* LYCrashProtectorViewController.m in Sources */,
 				5B00CDCC28BCF3E90069F2CC /* LYKitBaseViewController.m in Sources */,
+				5B8205B928C726E2002680DF /* APEHomePracticeBannerView.m in Sources */,
+				5B8205B628C7262F002680DF /* APEHomePracticeViewController.m in Sources */,
 				5B00CDCE28BCF3E90069F2CC /* InvestmentPrinciplesViewController.m in Sources */,
 				5B8DFE9D28C05F5C004F983D /* LYDataBaseViewController.m in Sources */,
 				5B00CDB728BCF1AA0069F2CC /* main.m in Sources */,
@@ -497,11 +573,13 @@
 				5B8DFEE528C09DE4004F983D /* LYOpenGLViewController.m in Sources */,
 				5B8DFEED28C09F79004F983D /* LYSocketViewController.m in Sources */,
 				5B00CDD028BCF3E90069F2CC /* LYKitHomeViewController.m in Sources */,
+				5B8205BF28C726F9002680DF /* APEHomePracticeSubjectsView.m in Sources */,
 				5B8DFEF528C0A08E004F983D /* LYHitTestViewController.m in Sources */,
 				5B8DFED928C09CF1004F983D /* LYMediaViewController.m in Sources */,
-				5B8DFE9928C0535C004F983D /* LYYuanTikuViewController.m in Sources */,
 				5B8DFEB828C09394004F983D /* LYThemeManagerViewController.m in Sources */,
+				5B8205CE28C73ADD002680DF /* APEHomePracticeSubjectsViewModel.m in Sources */,
 				5B8DFED528C09A11004F983D /* LYMemoryLeakViewController.m in Sources */,
+				5B7C5DBF28DB041D00C17687 /* LYWebViewController.m in Sources */,
 				5B00CDD128BCF3E90069F2CC /* LYFunctionViewController.m in Sources */,
 				5B00CDA928BCF1A60069F2CC /* SceneDelegate.m in Sources */,
 			);
