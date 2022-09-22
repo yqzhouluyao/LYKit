@@ -20,6 +20,10 @@
 		5B00CDD128BCF3E90069F2CC /* LYFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDCA28BCF3E80069F2CC /* LYFunctionViewController.m */; };
 		5B7C5DBF28DB041D00C17687 /* LYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C5DBE28DB041D00C17687 /* LYWebViewController.m */; };
 		5B7C5DC128DB4B7F00C17687 /* NativeInvokeJS.html in Resources */ = {isa = PBXBuildFile; fileRef = 5B7C5DC028DB4B7F00C17687 /* NativeInvokeJS.html */; };
+		5B7C5DC528DC50C700C17687 /* LYUnitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C5DC428DC50C700C17687 /* LYUnitTestViewController.m */; };
+		5B7C5DCD28DC52EB00C17687 /* LYKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C5DCC28DC52EB00C17687 /* LYKitTests.m */; };
+		5B7C5DD528DC79B200C17687 /* LYCalculatorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C5DD428DC79B200C17687 /* LYCalculatorTool.m */; };
+		5B7C5DD828DC85A700C17687 /* LYNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C5DD728DC85A700C17687 /* LYNetworkRequest.m */; };
 		5B8205B628C7262F002680DF /* APEHomePracticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8205B528C7262F002680DF /* APEHomePracticeViewController.m */; };
 		5B8205B928C726E2002680DF /* APEHomePracticeBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8205B828C726E2002680DF /* APEHomePracticeBannerView.m */; };
 		5B8205BC28C726EF002680DF /* APEHomePracticeActivityView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8205BB28C726EF002680DF /* APEHomePracticeActivityView.m */; };
@@ -53,6 +57,16 @@
 		5B8DFEF528C0A08E004F983D /* LYHitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEF428C0A08E004F983D /* LYHitTestViewController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		5B7C5DCE28DC52EB00C17687 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B00CD9928BCF1A60069F2CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B00CDA028BCF1A60069F2CC;
+			remoteInfo = LYKit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		5B00CDA128BCF1A60069F2CC /* LYKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LYKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B00CDA428BCF1A60069F2CC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -78,6 +92,14 @@
 		5B7C5DBD28DB041D00C17687 /* LYWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYWebViewController.h; sourceTree = "<group>"; };
 		5B7C5DBE28DB041D00C17687 /* LYWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYWebViewController.m; sourceTree = "<group>"; };
 		5B7C5DC028DB4B7F00C17687 /* NativeInvokeJS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NativeInvokeJS.html; sourceTree = "<group>"; };
+		5B7C5DC328DC50C700C17687 /* LYUnitTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYUnitTestViewController.h; sourceTree = "<group>"; };
+		5B7C5DC428DC50C700C17687 /* LYUnitTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYUnitTestViewController.m; sourceTree = "<group>"; };
+		5B7C5DCA28DC52EB00C17687 /* LYKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LYKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B7C5DCC28DC52EB00C17687 /* LYKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYKitTests.m; sourceTree = "<group>"; };
+		5B7C5DD328DC79B200C17687 /* LYCalculatorTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCalculatorTool.h; sourceTree = "<group>"; };
+		5B7C5DD428DC79B200C17687 /* LYCalculatorTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCalculatorTool.m; sourceTree = "<group>"; };
+		5B7C5DD628DC85A700C17687 /* LYNetworkRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYNetworkRequest.h; sourceTree = "<group>"; };
+		5B7C5DD728DC85A700C17687 /* LYNetworkRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYNetworkRequest.m; sourceTree = "<group>"; };
 		5B8205B428C7262F002680DF /* APEHomePracticeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APEHomePracticeViewController.h; sourceTree = "<group>"; };
 		5B8205B528C7262F002680DF /* APEHomePracticeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APEHomePracticeViewController.m; sourceTree = "<group>"; };
 		5B8205B728C726E2002680DF /* APEHomePracticeBannerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APEHomePracticeBannerView.h; sourceTree = "<group>"; };
@@ -150,6 +172,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5B7C5DC728DC52EB00C17687 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -157,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				5B00CDA328BCF1A60069F2CC /* LYKit */,
+				5B7C5DCB28DC52EB00C17687 /* LYKitTests */,
 				5B00CDA228BCF1A60069F2CC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -165,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				5B00CDA128BCF1A60069F2CC /* LYKit.app */,
+				5B7C5DCA28DC52EB00C17687 /* LYKitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -220,6 +251,7 @@
 		5B00CDC928BCF3E80069F2CC /* Functional */ = {
 			isa = PBXGroup;
 			children = (
+				5B7C5DC228DC508C00C17687 /* UnitTest */,
 				5B7C5DBC28DB029900C17687 /* NativeInvokeJS */,
 				5B8DFEF228C0A037004F983D /* HitTest */,
 				5B8DFEEA28C09F59004F983D /* Socket */,
@@ -239,6 +271,27 @@
 				5B7C5DBE28DB041D00C17687 /* LYWebViewController.m */,
 			);
 			path = NativeInvokeJS;
+			sourceTree = "<group>";
+		};
+		5B7C5DC228DC508C00C17687 /* UnitTest */ = {
+			isa = PBXGroup;
+			children = (
+				5B7C5DC328DC50C700C17687 /* LYUnitTestViewController.h */,
+				5B7C5DC428DC50C700C17687 /* LYUnitTestViewController.m */,
+				5B7C5DD328DC79B200C17687 /* LYCalculatorTool.h */,
+				5B7C5DD428DC79B200C17687 /* LYCalculatorTool.m */,
+				5B7C5DD628DC85A700C17687 /* LYNetworkRequest.h */,
+				5B7C5DD728DC85A700C17687 /* LYNetworkRequest.m */,
+			);
+			path = UnitTest;
+			sourceTree = "<group>";
+		};
+		5B7C5DCB28DC52EB00C17687 /* LYKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B7C5DCC28DC52EB00C17687 /* LYKitTests.m */,
+			);
+			path = LYKitTests;
 			sourceTree = "<group>";
 		};
 		5B8DFE9228C0515E004F983D /* Architecture */ = {
@@ -489,6 +542,24 @@
 			productReference = 5B00CDA128BCF1A60069F2CC /* LYKit.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5B7C5DC928DC52EB00C17687 /* LYKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B7C5DD028DC52EB00C17687 /* Build configuration list for PBXNativeTarget "LYKitTests" */;
+			buildPhases = (
+				5B7C5DC628DC52EB00C17687 /* Sources */,
+				5B7C5DC728DC52EB00C17687 /* Frameworks */,
+				5B7C5DC828DC52EB00C17687 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B7C5DCF28DC52EB00C17687 /* PBXTargetDependency */,
+			);
+			name = LYKitTests;
+			productName = LYKitTests;
+			productReference = 5B7C5DCA28DC52EB00C17687 /* LYKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -502,6 +573,10 @@
 				TargetAttributes = {
 					5B00CDA028BCF1A60069F2CC = {
 						CreatedOnToolsVersion = 13.2.1;
+					};
+					5B7C5DC928DC52EB00C17687 = {
+						CreatedOnToolsVersion = 14.0;
+						TestTargetID = 5B00CDA028BCF1A60069F2CC;
 					};
 				};
 			};
@@ -519,6 +594,7 @@
 			projectRoot = "";
 			targets = (
 				5B00CDA028BCF1A60069F2CC /* LYKit */,
+				5B7C5DC928DC52EB00C17687 /* LYKitTests */,
 			);
 		};
 /* End PBXProject section */
@@ -531,6 +607,13 @@
 				5B00CDB428BCF1AA0069F2CC /* LaunchScreen.storyboard in Resources */,
 				5B00CDB128BCF1AA0069F2CC /* Assets.xcassets in Resources */,
 				5B7C5DC128DB4B7F00C17687 /* NativeInvokeJS.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B7C5DC828DC52EB00C17687 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -550,6 +633,7 @@
 				5B8DFEE928C09ED8004F983D /* LYAnimationViewController.m in Sources */,
 				5B8DFEC928C0991B004F983D /* LYThreadManagementViewController.m in Sources */,
 				5B8205C228C72B78002680DF /* APESubject.m in Sources */,
+				5B7C5DD828DC85A700C17687 /* LYNetworkRequest.m in Sources */,
 				5B8DFECD28C09965004F983D /* LYCheckANRViewController.m in Sources */,
 				5B8DFEC528C096C7004F983D /* LYPerformanceOptimizationViewController.m in Sources */,
 				5B00CDA628BCF1A60069F2CC /* AppDelegate.m in Sources */,
@@ -565,6 +649,7 @@
 				5B8DFED128C099BA004F983D /* LYCrashProtectorViewController.m in Sources */,
 				5B00CDCC28BCF3E90069F2CC /* LYKitBaseViewController.m in Sources */,
 				5B8205B928C726E2002680DF /* APEHomePracticeBannerView.m in Sources */,
+				5B7C5DD528DC79B200C17687 /* LYCalculatorTool.m in Sources */,
 				5B8205B628C7262F002680DF /* APEHomePracticeViewController.m in Sources */,
 				5B00CDCE28BCF3E90069F2CC /* InvestmentPrinciplesViewController.m in Sources */,
 				5B8DFE9D28C05F5C004F983D /* LYDataBaseViewController.m in Sources */,
@@ -580,12 +665,29 @@
 				5B8205CE28C73ADD002680DF /* APEHomePracticeSubjectsViewModel.m in Sources */,
 				5B8DFED528C09A11004F983D /* LYMemoryLeakViewController.m in Sources */,
 				5B7C5DBF28DB041D00C17687 /* LYWebViewController.m in Sources */,
+				5B7C5DC528DC50C700C17687 /* LYUnitTestViewController.m in Sources */,
 				5B00CDD128BCF3E90069F2CC /* LYFunctionViewController.m in Sources */,
 				5B00CDA928BCF1A60069F2CC /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5B7C5DC628DC52EB00C17687 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B7C5DCD28DC52EB00C17687 /* LYKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B7C5DCF28DC52EB00C17687 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B00CDA028BCF1A60069F2CC /* LYKit */;
+			targetProxy = 5B7C5DCE28DC52EB00C17687 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		5B00CDB228BCF1AA0069F2CC /* LaunchScreen.storyboard */ = {
@@ -763,6 +865,48 @@
 			};
 			name = Release;
 		};
+		5B7C5DD128DC52EB00C17687 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouluyao.lykit.LYKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LYKit";
+			};
+			name = Debug;
+		};
+		5B7C5DD228DC52EB00C17687 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouluyao.lykit.LYKitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LYKit.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LYKit";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -780,6 +924,15 @@
 			buildConfigurations = (
 				5B00CDBB28BCF1AA0069F2CC /* Debug */,
 				5B00CDBC28BCF1AA0069F2CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B7C5DD028DC52EB00C17687 /* Build configuration list for PBXNativeTarget "LYKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B7C5DD128DC52EB00C17687 /* Debug */,
+				5B7C5DD228DC52EB00C17687 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

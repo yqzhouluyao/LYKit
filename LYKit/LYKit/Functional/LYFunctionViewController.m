@@ -9,6 +9,7 @@
 #import "LYThemeManagerViewController.h"
 #import "LYHitTestViewController.h"
 #import "LYWebViewController.h"
+#import "LYUnitTestViewController.h"
 
 @interface LYFunctionViewController ()
 
@@ -40,7 +41,7 @@
     [self.items addObject:[self itemWithTitle:@"Socket通信" viewController:[LYThemeManagerViewController new]]];
     [self.items addObject:[self itemWithTitle:@"响应链扩大响应区域" viewController:[LYHitTestViewController new]]];
     [self.items addObject:[self itemWithTitle:@"JS与OC的交互" viewController:[LYWebViewController new]]];
-    
+    [self.items addObject:[self itemWithTitle:@"单元测试" viewController:[LYUnitTestViewController new]]];
 }
 
 - (LYKitCellItem *)itemWithTitle:(NSString *)title viewController:(UIViewController *)viewController {
