@@ -5,20 +5,20 @@
 //  Created by zhouluyao on 2022/8/29.
 //
 
-#import "InvestmentPrinciplesViewController.h"
+#import "LYAVFoundationViewController.h"
 
-@interface InvestmentPrinciplesViewController ()
+@interface LYAVFoundationViewController ()
 
 @end
 
-@implementation InvestmentPrinciplesViewController
+@implementation LYAVFoundationViewController
 
 - (instancetype)init
 {
     self = [super init];
     if (self) {
-        self.cellIdentifier = @"InvestmentPrinciplesCell";
-        self.vcTitle = @"投资原则";
+        self.cellIdentifier = @"AVFoundationCell";
+        self.vcTitle = @"AVFoundation的示例列表";
     }
     return self;
 }

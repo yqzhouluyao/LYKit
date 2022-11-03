@@ -20,11 +20,13 @@
     //在LYKitTests.m 文件中对LYCalculatorTool这个类实现的基本运算功能，进行了单元测试
     //在LYKitTests.m 文件中对LYNetworkRequest这个类实现的网络请求功能，进行了单元测试
     
-    UIAlertController *alertController1 = [UIAlertController alertControllerWithTitle:@"单元测试" message:@"在LYKitTests.m 文件中对LYCalculatorTool这个类实现的基本运算功能，进行了单元测试" preferredStyle:UIAlertControllerStyleAlert];
-    [alertController1 addAction:([UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+    //基本运算功能，进行单元测试
+    UIAlertController *alertController = [UIAlertController alertControllerWithTitle:@"单元测试" message:@"在LYKitTests.m 文件中对LYCalculatorTool这个类实现的基本运算功能，进行了单元测试" preferredStyle:UIAlertControllerStyleAlert];
+    [alertController addAction:([UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        //网络请求功能，进行单元测试
         [self networkRequestUnitTest];
     }])];
-    [self presentViewController:alertController1 animated:YES completion:nil];
+    [self presentViewController:alertController animated:YES completion:nil];
 }
 
 - (void)networkRequestUnitTest {

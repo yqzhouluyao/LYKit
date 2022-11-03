@@ -9,7 +9,7 @@
 #import "LYKitCellItem.h"
 #import "LYFunctionViewController.h"
 #import "LYInterviewViewController.h"
-#import "InvestmentPrinciplesViewController.h"
+#import "LYAVFoundationViewController.h"
 #import "LYArchitectureViewController.h"
 #import "LYComponentManagerViewController.h"
 #import "LYDataBaseViewController.h"
@@ -50,7 +50,7 @@
     [self.items addObject:[self itemWithTitle:@"音视频及图像" viewController:[[LYMediaViewController alloc] init]]];
     [self.items addObject:[self itemWithTitle:@"动画" viewController:[[LYAnimationViewController alloc] init]]];
     [self.items addObject:[self itemWithTitle:@"面试题代码实现" viewController:[[LYInterviewViewController alloc] init]]];
-    [self.items addObject:[self itemWithTitle:@"投资原则" viewController:[[InvestmentPrinciplesViewController alloc] init]]];
+    [self.items addObject:[self itemWithTitle:@"AVFoundation的示例列表" viewController:[[LYAVFoundationViewController alloc] init]]];
 }
 
 - (LYKitCellItem *)itemWithTitle:(NSString *)title viewController:(UIViewController *)viewController {
