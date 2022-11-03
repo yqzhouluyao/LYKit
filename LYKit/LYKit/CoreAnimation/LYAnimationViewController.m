@@ -33,6 +33,7 @@
 - (void)setupItems {
     [super setupItems];
     
+    [self.items addObject:[self itemWithTitle:@"弹幕动画" viewController:[[UIViewController alloc] init]]];
 }
 
 - (LYKitCellItem *)itemWithTitle:(NSString *)title viewController:(UIViewController *)viewController {

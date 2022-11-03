@@ -56,6 +56,8 @@
 		5B8DFEED28C09F79004F983D /* LYSocketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEEC28C09F79004F983D /* LYSocketViewController.m */; };
 		5B8DFEF128C09FD2004F983D /* LYMVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEF028C09FD2004F983D /* LYMVVMViewController.m */; };
 		5B8DFEF528C0A08E004F983D /* LYHitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEF428C0A08E004F983D /* LYHitTestViewController.m */; };
+		5BC2574F29135DA1000DDC73 /* LYXiMaFMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC2574E29135DA1000DDC73 /* LYXiMaFMViewController.m */; };
+		AB7D12BD0BB7F0A8361560CD /* Pods_LYKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85493C0662744878AB1D7D5 /* Pods_LYKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,6 +166,11 @@
 		5B8DFEF028C09FD2004F983D /* LYMVVMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMVVMViewController.m; sourceTree = "<group>"; };
 		5B8DFEF328C0A08E004F983D /* LYHitTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHitTestViewController.h; sourceTree = "<group>"; };
 		5B8DFEF428C0A08E004F983D /* LYHitTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYHitTestViewController.m; sourceTree = "<group>"; };
+		5BC2574D29135DA1000DDC73 /* LYXiMaFMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYXiMaFMViewController.h; sourceTree = "<group>"; };
+		5BC2574E29135DA1000DDC73 /* LYXiMaFMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYXiMaFMViewController.m; sourceTree = "<group>"; };
+		65189FFA866C16411584C3BE /* Pods-LYKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYKit.debug.xcconfig"; path = "Target Support Files/Pods-LYKit/Pods-LYKit.debug.xcconfig"; sourceTree = "<group>"; };
+		CA413B200B3967AC86F4AE92 /* Pods-LYKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYKit.release.xcconfig"; path = "Target Support Files/Pods-LYKit/Pods-LYKit.release.xcconfig"; sourceTree = "<group>"; };
+		F85493C0662744878AB1D7D5 /* Pods_LYKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,6 +178,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB7D12BD0BB7F0A8361560CD /* Pods_LYKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,12 +192,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		141B1028EB29BFE146621798 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F85493C0662744878AB1D7D5 /* Pods_LYKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		5B00CD9828BCF1A60069F2CC = {
 			isa = PBXGroup;
 			children = (
 				5B00CDA328BCF1A60069F2CC /* LYKit */,
 				5B7C5DCB28DC52EB00C17687 /* LYKitTests */,
 				5B00CDA228BCF1A60069F2CC /* Products */,
+				9CF819025EF412C29E0135E5 /* Pods */,
+				141B1028EB29BFE146621798 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -340,6 +358,7 @@
 		5B8DFE9A28C05F43004F983D /* DataBase */ = {
 			isa = PBXGroup;
 			children = (
+				5BC2574C29135D55000DDC73 /* XiMaFM */,
 				5B8DFE9E28C0610D004F983D /* YuanTiKu */,
 				5B8DFE9B28C05F5C004F983D /* LYDataBaseViewController.h */,
 				5B8DFE9C28C05F5C004F983D /* LYDataBaseViewController.m */,
@@ -541,6 +560,25 @@
 			path = DataBase;
 			sourceTree = "<group>";
 		};
+		5BC2574C29135D55000DDC73 /* XiMaFM */ = {
+			isa = PBXGroup;
+			children = (
+				5BC2574D29135DA1000DDC73 /* LYXiMaFMViewController.h */,
+				5BC2574E29135DA1000DDC73 /* LYXiMaFMViewController.m */,
+			);
+			path = XiMaFM;
+			sourceTree = "<group>";
+		};
+		9CF819025EF412C29E0135E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				65189FFA866C16411584C3BE /* Pods-LYKit.debug.xcconfig */,
+				CA413B200B3967AC86F4AE92 /* Pods-LYKit.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -548,9 +586,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5B00CDBA28BCF1AA0069F2CC /* Build configuration list for PBXNativeTarget "LYKit" */;
 			buildPhases = (
+				1BC467EDFAE9D53258AFBD72 /* [CP] Check Pods Manifest.lock */,
 				5B00CD9D28BCF1A60069F2CC /* Sources */,
 				5B00CD9E28BCF1A60069F2CC /* Frameworks */,
 				5B00CD9F28BCF1A60069F2CC /* Resources */,
+				F71B39C750B000BFB3E6139D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -639,6 +679,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BC467EDFAE9D53258AFBD72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LYKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F71B39C750B000BFB3E6139D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LYKit/Pods-LYKit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LYKit/Pods-LYKit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LYKit/Pods-LYKit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5B00CD9D28BCF1A60069F2CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -646,6 +728,7 @@
 			files = (
 				5B8DFEDF28C09DD2004F983D /* LYAudioViewController.m in Sources */,
 				5B00CDCF28BCF3E90069F2CC /* LYInterviewViewController.m in Sources */,
+				5BC2574F29135DA1000DDC73 /* LYXiMaFMViewController.m in Sources */,
 				5B8205D428C744FC002680DF /* APEHomePracticeSubjectsCollectionViewCell.m in Sources */,
 				5B8DFE9528C05180004F983D /* LYArchitectureViewController.m in Sources */,
 				5B8DFEE228C09DDB004F983D /* LYVideoViewController.m in Sources */,
@@ -835,6 +918,7 @@
 		};
 		5B00CDBB28BCF1AA0069F2CC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65189FFA866C16411584C3BE /* Pods-LYKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -864,6 +948,7 @@
 		};
 		5B00CDBC28BCF1AA0069F2CC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA413B200B3967AC86F4AE92 /* Pods-LYKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -26,16 +26,29 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    //猿题库架构设计 https://www.cnblogs.com/yulang314/p/5091342.html
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)setupItems {
+    [super setupItems];
+    
+    [self.items addObject:[self itemWithTitle:@"录音及编辑" viewController:[UIViewController new]]];
 }
-*/
+
+- (LYKitCellItem *)itemWithTitle:(NSString *)title viewController:(UIViewController *)viewController {
+    __weak typeof(self) weakSelf = self;
+    
+    void(^block)(void) = ^{
+        dispatch_async(dispatch_get_main_queue(), ^{
+            __strong typeof(self) strongSelf = weakSelf;
+            if (strongSelf) {
+                [strongSelf.navigationController pushViewController:viewController animated:YES];
+            }
+        });
+    };
+    LYKitCellItem *item = [LYKitCellItem itemWithTitle:title block:block];
+    return item;
+}
+
 
 @end

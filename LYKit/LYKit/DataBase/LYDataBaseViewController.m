@@ -33,8 +33,9 @@
 - (void)setupItems {
     [super setupItems];
     
-    
+    [self.items addObject:[self itemWithTitle:@"喜马拉雅下载状态管理" viewController:[[LYKeyValueStoreViewController alloc] init]]];
     [self.items addObject:[self itemWithTitle:@"猿题库数据存储方案" viewController:[[LYKeyValueStoreViewController alloc] init]]];
+    [self.items addObject:[self itemWithTitle:@"数据库迁移、更改字段" viewController:[UIViewController new]]];
 }
 
 - (LYKitCellItem *)itemWithTitle:(NSString *)title viewController:(UIViewController *)viewController {
