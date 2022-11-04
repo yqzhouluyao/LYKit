@@ -1,8 +1,8 @@
 //
-//  LYXiMaFMViewController.h
+//  LYFMDBViewController.h
 //  LYKit
 //
-//  Created by zhouluyao on 2022/11/3.
+//  Created by zhouluyao on 2022/11/4.
 //  Copyright © 2022 zhouluyao. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LYXiMaFMViewController : UIViewController
+@interface LYFMDBViewController : UIViewController
 
 @end
 

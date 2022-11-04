@@ -14,21 +14,31 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - LYSegmentBar (0.1.1)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
   - AFNetworking
+  - FMDB
+  - LYSegmentBar
   - Masonry (~> 1.1.0)
 
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - FMDB
+    - LYSegmentBar
     - Masonry
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  LYSegmentBar: 54906d7b82f3a2b41058b6f98e7ba6aafdc9c64d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 6da8935d359138dad05302d49e2cc174a7377e01
+PODFILE CHECKSUM: 675abaa026d0bccc04d4a9491af37fee850df591
 
 COCOAPODS: 1.11.3

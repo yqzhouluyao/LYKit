@@ -56,7 +56,9 @@
 		5B8DFEED28C09F79004F983D /* LYSocketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEEC28C09F79004F983D /* LYSocketViewController.m */; };
 		5B8DFEF128C09FD2004F983D /* LYMVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEF028C09FD2004F983D /* LYMVVMViewController.m */; };
 		5B8DFEF528C0A08E004F983D /* LYHitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEF428C0A08E004F983D /* LYHitTestViewController.m */; };
-		5BC2574F29135DA1000DDC73 /* LYXiMaFMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC2574E29135DA1000DDC73 /* LYXiMaFMViewController.m */; };
+		5BC258042915062E000DDC73 /* LYFMDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC258032915062E000DDC73 /* LYFMDBViewController.m */; };
+		5BC258082915076C000DDC73 /* LYDownloadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC258072915076C000DDC73 /* LYDownloadTool.m */; };
+		5BC2580B291507DC000DDC73 /* LYMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC2580A291507DC000DDC73 /* LYMusicModel.m */; };
 		AB7D12BD0BB7F0A8361560CD /* Pods_LYKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85493C0662744878AB1D7D5 /* Pods_LYKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -166,8 +168,12 @@
 		5B8DFEF028C09FD2004F983D /* LYMVVMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMVVMViewController.m; sourceTree = "<group>"; };
 		5B8DFEF328C0A08E004F983D /* LYHitTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYHitTestViewController.h; sourceTree = "<group>"; };
 		5B8DFEF428C0A08E004F983D /* LYHitTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYHitTestViewController.m; sourceTree = "<group>"; };
-		5BC2574D29135DA1000DDC73 /* LYXiMaFMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYXiMaFMViewController.h; sourceTree = "<group>"; };
-		5BC2574E29135DA1000DDC73 /* LYXiMaFMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYXiMaFMViewController.m; sourceTree = "<group>"; };
+		5BC258022915062E000DDC73 /* LYFMDBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFMDBViewController.h; sourceTree = "<group>"; };
+		5BC258032915062E000DDC73 /* LYFMDBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFMDBViewController.m; sourceTree = "<group>"; };
+		5BC258062915076C000DDC73 /* LYDownloadTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDownloadTool.h; sourceTree = "<group>"; };
+		5BC258072915076C000DDC73 /* LYDownloadTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDownloadTool.m; sourceTree = "<group>"; };
+		5BC25809291507DC000DDC73 /* LYMusicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYMusicModel.h; sourceTree = "<group>"; };
+		5BC2580A291507DC000DDC73 /* LYMusicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMusicModel.m; sourceTree = "<group>"; };
 		65189FFA866C16411584C3BE /* Pods-LYKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYKit.debug.xcconfig"; path = "Target Support Files/Pods-LYKit/Pods-LYKit.debug.xcconfig"; sourceTree = "<group>"; };
 		CA413B200B3967AC86F4AE92 /* Pods-LYKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYKit.release.xcconfig"; path = "Target Support Files/Pods-LYKit/Pods-LYKit.release.xcconfig"; sourceTree = "<group>"; };
 		F85493C0662744878AB1D7D5 /* Pods_LYKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -358,7 +364,7 @@
 		5B8DFE9A28C05F43004F983D /* DataBase */ = {
 			isa = PBXGroup;
 			children = (
-				5BC2574C29135D55000DDC73 /* XiMaFM */,
+				5BC2580529150668000DDC73 /* FMDB */,
 				5B8DFE9E28C0610D004F983D /* YuanTiKu */,
 				5B8DFE9B28C05F5C004F983D /* LYDataBaseViewController.h */,
 				5B8DFE9C28C05F5C004F983D /* LYDataBaseViewController.m */,
@@ -560,13 +566,17 @@
 			path = DataBase;
 			sourceTree = "<group>";
 		};
-		5BC2574C29135D55000DDC73 /* XiMaFM */ = {
+		5BC2580529150668000DDC73 /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
-				5BC2574D29135DA1000DDC73 /* LYXiMaFMViewController.h */,
-				5BC2574E29135DA1000DDC73 /* LYXiMaFMViewController.m */,
+				5BC258022915062E000DDC73 /* LYFMDBViewController.h */,
+				5BC258032915062E000DDC73 /* LYFMDBViewController.m */,
+				5BC258062915076C000DDC73 /* LYDownloadTool.h */,
+				5BC258072915076C000DDC73 /* LYDownloadTool.m */,
+				5BC25809291507DC000DDC73 /* LYMusicModel.h */,
+				5BC2580A291507DC000DDC73 /* LYMusicModel.m */,
 			);
-			path = XiMaFM;
+			path = FMDB;
 			sourceTree = "<group>";
 		};
 		9CF819025EF412C29E0135E5 /* Pods */ = {
@@ -575,7 +585,6 @@
 				65189FFA866C16411584C3BE /* Pods-LYKit.debug.xcconfig */,
 				CA413B200B3967AC86F4AE92 /* Pods-LYKit.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -728,7 +737,6 @@
 			files = (
 				5B8DFEDF28C09DD2004F983D /* LYAudioViewController.m in Sources */,
 				5B00CDCF28BCF3E90069F2CC /* LYInterviewViewController.m in Sources */,
-				5BC2574F29135DA1000DDC73 /* LYXiMaFMViewController.m in Sources */,
 				5B8205D428C744FC002680DF /* APEHomePracticeSubjectsCollectionViewCell.m in Sources */,
 				5B8DFE9528C05180004F983D /* LYArchitectureViewController.m in Sources */,
 				5B8DFEE228C09DDB004F983D /* LYVideoViewController.m in Sources */,
@@ -739,6 +747,7 @@
 				5B7C5DD828DC85A700C17687 /* LYNetworkRequest.m in Sources */,
 				5B8DFECD28C09965004F983D /* LYCheckANRViewController.m in Sources */,
 				5B8DFEC528C096C7004F983D /* LYPerformanceOptimizationViewController.m in Sources */,
+				5BC2580B291507DC000DDC73 /* LYMusicModel.m in Sources */,
 				5B00CDA628BCF1A60069F2CC /* AppDelegate.m in Sources */,
 				5B8205CB28C73008002680DF /* APESubjectDataController.m in Sources */,
 				5B8205BC28C726EF002680DF /* APEHomePracticeActivityView.m in Sources */,
@@ -748,6 +757,7 @@
 				5B8205C828C72DA1002680DF /* APEHomePracticeDataController.m in Sources */,
 				5B00CDCD28BCF3E90069F2CC /* LYKitCellItem.m in Sources */,
 				5B8DFEB328C089D8004F983D /* LYMediatorPracticeViewController.m in Sources */,
+				5BC258042915062E000DDC73 /* LYFMDBViewController.m in Sources */,
 				5B8DFEA928C08675004F983D /* LYLinkHomeViewController.m in Sources */,
 				5B8DFED128C099BA004F983D /* LYCrashProtectorViewController.m in Sources */,
 				5B00CDCC28BCF3E90069F2CC /* LYKitBaseViewController.m in Sources */,
@@ -760,6 +770,7 @@
 				5B8DFEAF28C0878B004F983D /* LYComponentManagerViewController.m in Sources */,
 				5B8DFEE528C09DE4004F983D /* LYOpenGLViewController.m in Sources */,
 				5B8DFEED28C09F79004F983D /* LYSocketViewController.m in Sources */,
+				5BC258082915076C000DDC73 /* LYDownloadTool.m in Sources */,
 				5B00CDD028BCF3E90069F2CC /* LYKitHomeViewController.m in Sources */,
 				5B8205BF28C726F9002680DF /* APEHomePracticeSubjectsView.m in Sources */,
 				5B8DFEF528C0A08E004F983D /* LYHitTestViewController.m in Sources */,

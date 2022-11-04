@@ -7,4 +7,6 @@ target 'LYKit' do
  
  pod 'AFNetworking'
  pod 'Masonry', '~> 1.1.0'
+ pod 'LYSegmentBar'
+ pod 'FMDB'
 end
