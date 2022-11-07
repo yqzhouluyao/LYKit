@@ -10,6 +10,7 @@
 #import "LYHitTestViewController.h"
 #import "LYWebViewController.h"
 #import "LYUnitTestViewController.h"
+#import "LYDanMuViewController.h"
 
 @interface LYFunctionViewController ()
 
@@ -43,7 +44,7 @@
     [self.items addObject:[self itemWithTitle:@"响应链扩大响应区域" viewController:[LYHitTestViewController new]]];
     [self.items addObject:[self itemWithTitle:@"JS与OC的交互" viewController:[LYWebViewController new]]];
     [self.items addObject:[self itemWithTitle:@"单元测试" viewController:[LYUnitTestViewController new]]];
-    [self.items addObject:[self itemWithTitle:@"断点续传" viewController:[UIViewController new]]];
+    [self.items addObject:[self itemWithTitle:@"弹幕" viewController:[LYDanMuViewController new]]];
 
 }
 

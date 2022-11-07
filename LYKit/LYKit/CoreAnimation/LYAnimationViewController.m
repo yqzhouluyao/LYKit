@@ -7,6 +7,7 @@
 //
 
 #import "LYAnimationViewController.h"
+#import "LYFlyHeartViewController.h"
 
 @interface LYAnimationViewController ()
 
@@ -33,7 +34,7 @@
 - (void)setupItems {
     [super setupItems];
     
-    [self.items addObject:[self itemWithTitle:@"弹幕动画" viewController:[[UIViewController alloc] init]]];
+    [self.items addObject:[self itemWithTitle:@"点赞小心心" viewController:[[LYFlyHeartViewController alloc] init]]];
 }
 
 - (LYKitCellItem *)itemWithTitle:(NSString *)title viewController:(UIViewController *)viewController {
