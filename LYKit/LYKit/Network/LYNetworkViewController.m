@@ -8,6 +8,7 @@
 
 #import "LYNetworkViewController.h"
 #import "LYDownloadViewController.h"
+#import "LYWebUploadViewController.h"
 
 @interface LYNetworkViewController ()
 
@@ -36,7 +37,7 @@
     [super setupItems];
     
 
-    [self.items addObject:[self itemWithTitle:@"电脑局域网传输文件到手机" viewController:[UIViewController new]]];
+    [self.items addObject:[self itemWithTitle:@"电脑局域网传输文件到手机" viewController:[LYWebUploadViewController new]]];
     [self.items addObject:[self itemWithTitle:@"网络下载断点续传" viewController:[LYDownloadViewController new]]];
 
 }

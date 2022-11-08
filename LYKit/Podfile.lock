@@ -17,12 +17,16 @@ PODS:
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
+  - GCDWebServer/Core (3.5.4)
+  - GCDWebServer/WebUploader (3.5.4):
+    - GCDWebServer/Core
   - LYSegmentBar (0.1.1)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
   - AFNetworking
   - FMDB
+  - GCDWebServer/WebUploader (~> 3.0)
   - LYSegmentBar
   - Masonry (~> 1.1.0)
 
@@ -30,15 +34,17 @@ SPEC REPOS:
   trunk:
     - AFNetworking
     - FMDB
+    - GCDWebServer
     - LYSegmentBar
     - Masonry
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
   LYSegmentBar: 54906d7b82f3a2b41058b6f98e7ba6aafdc9c64d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 675abaa026d0bccc04d4a9491af37fee850df591
+PODFILE CHECKSUM: 85d26e703b4ef0d993d04eae9f95e91a96728c9c
 
 COCOAPODS: 1.11.3

@@ -9,4 +9,5 @@ target 'LYKit' do
  pod 'Masonry', '~> 1.1.0'
  pod 'LYSegmentBar'
  pod 'FMDB'
+ pod "GCDWebServer/WebUploader", "~> 3.0"
 end
