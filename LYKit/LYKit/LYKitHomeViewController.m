@@ -16,6 +16,7 @@
 #import "LYPerformanceOptimizationViewController.h"
 #import "LYMediaViewController.h"
 #import "LYAnimationViewController.h"
+#import "LYNetworkViewController.h"
 
 
 @interface LYKitHomeViewController ()
@@ -43,6 +44,7 @@
     [super setupItems];
     
     [self.items addObject:[self itemWithTitle:@"功能模块" viewController:[[LYFunctionViewController alloc] init]]];
+    [self.items addObject:[self itemWithTitle:@"网络" viewController:[[LYNetworkViewController alloc] init]]];
     [self.items addObject:[self itemWithTitle:@"组件化方案" viewController:[[LYComponentManagerViewController alloc] init]]];
     [self.items addObject:[self itemWithTitle:@"性能优化" viewController:[[LYPerformanceOptimizationViewController alloc] init]]];
     [self.items addObject:[self itemWithTitle:@"架构设计" viewController:[[LYArchitectureViewController alloc] init]]];

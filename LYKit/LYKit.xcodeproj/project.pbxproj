@@ -65,6 +65,11 @@
 		5BEC763C2919067000847F19 /* LYDanMuBackGroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC763B2919067000847F19 /* LYDanMuBackGroundView.m */; };
 		5BEC763F29190CED00847F19 /* LYDanMuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC763E29190CED00847F19 /* LYDanMuModel.m */; };
 		5BEC764329191D3800847F19 /* CALayer+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC764229191D3800847F19 /* CALayer+Animation.m */; };
+		5BEC76472919F90200847F19 /* LYNetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC76462919F90200847F19 /* LYNetworkViewController.m */; };
+		5BEC764B2919FA3600847F19 /* LYDownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC764A2919FA3600847F19 /* LYDownloadViewController.m */; };
+		5BEC764E291A01D400847F19 /* LYDownloadTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC764D291A01D400847F19 /* LYDownloadTask.m */; };
+		5BEC7651291A02BF00847F19 /* LYFileManagerTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC7650291A02BF00847F19 /* LYFileManagerTool.m */; };
+		5BEC7654291A077600847F19 /* LYDownloadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC7653291A077600847F19 /* LYDownloadManager.m */; };
 		AB7D12BD0BB7F0A8361560CD /* Pods_LYKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F85493C0662744878AB1D7D5 /* Pods_LYKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -193,6 +198,16 @@
 		5BEC76402919132D00847F19 /* LYDanMuBackGroundViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDanMuBackGroundViewDelegate.h; sourceTree = "<group>"; };
 		5BEC764129191D3800847F19 /* CALayer+Animation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CALayer+Animation.h"; sourceTree = "<group>"; };
 		5BEC764229191D3800847F19 /* CALayer+Animation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CALayer+Animation.m"; sourceTree = "<group>"; };
+		5BEC76452919F90200847F19 /* LYNetworkViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYNetworkViewController.h; sourceTree = "<group>"; };
+		5BEC76462919F90200847F19 /* LYNetworkViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYNetworkViewController.m; sourceTree = "<group>"; };
+		5BEC76492919FA3600847F19 /* LYDownloadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDownloadViewController.h; sourceTree = "<group>"; };
+		5BEC764A2919FA3600847F19 /* LYDownloadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDownloadViewController.m; sourceTree = "<group>"; };
+		5BEC764C291A01D400847F19 /* LYDownloadTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDownloadTask.h; sourceTree = "<group>"; };
+		5BEC764D291A01D400847F19 /* LYDownloadTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDownloadTask.m; sourceTree = "<group>"; };
+		5BEC764F291A02BF00847F19 /* LYFileManagerTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFileManagerTool.h; sourceTree = "<group>"; };
+		5BEC7650291A02BF00847F19 /* LYFileManagerTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFileManagerTool.m; sourceTree = "<group>"; };
+		5BEC7652291A077600847F19 /* LYDownloadManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDownloadManager.h; sourceTree = "<group>"; };
+		5BEC7653291A077600847F19 /* LYDownloadManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDownloadManager.m; sourceTree = "<group>"; };
 		65189FFA866C16411584C3BE /* Pods-LYKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYKit.debug.xcconfig"; path = "Target Support Files/Pods-LYKit/Pods-LYKit.debug.xcconfig"; sourceTree = "<group>"; };
 		CA413B200B3967AC86F4AE92 /* Pods-LYKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LYKit.release.xcconfig"; path = "Target Support Files/Pods-LYKit/Pods-LYKit.release.xcconfig"; sourceTree = "<group>"; };
 		F85493C0662744878AB1D7D5 /* Pods_LYKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -248,6 +263,7 @@
 		5B00CDA328BCF1A60069F2CC /* LYKit */ = {
 			isa = PBXGroup;
 			children = (
+				5BEC76442919F8D800847F19 /* Network */,
 				5BAA1F6B2910B7EB0002A44C /* AVFoundation */,
 				5B8DFEE628C09EC4004F983D /* CoreAnimation */,
 				5B8DFED628C09B75004F983D /* Media */,
@@ -627,6 +643,31 @@
 			path = DanMu;
 			sourceTree = "<group>";
 		};
+		5BEC76442919F8D800847F19 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				5BEC76482919FA0600847F19 /* Download */,
+				5BEC76452919F90200847F19 /* LYNetworkViewController.h */,
+				5BEC76462919F90200847F19 /* LYNetworkViewController.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		5BEC76482919FA0600847F19 /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				5BEC76492919FA3600847F19 /* LYDownloadViewController.h */,
+				5BEC764A2919FA3600847F19 /* LYDownloadViewController.m */,
+				5BEC764C291A01D400847F19 /* LYDownloadTask.h */,
+				5BEC764D291A01D400847F19 /* LYDownloadTask.m */,
+				5BEC764F291A02BF00847F19 /* LYFileManagerTool.h */,
+				5BEC7650291A02BF00847F19 /* LYFileManagerTool.m */,
+				5BEC7652291A077600847F19 /* LYDownloadManager.h */,
+				5BEC7653291A077600847F19 /* LYDownloadManager.m */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
 		9CF819025EF412C29E0135E5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -797,6 +838,7 @@
 				5BEC76362919050400847F19 /* LYDanMuViewController.m in Sources */,
 				5B8DFEC528C096C7004F983D /* LYPerformanceOptimizationViewController.m in Sources */,
 				5BC2580B291507DC000DDC73 /* LYMusicModel.m in Sources */,
+				5BEC76472919F90200847F19 /* LYNetworkViewController.m in Sources */,
 				5B00CDA628BCF1A60069F2CC /* AppDelegate.m in Sources */,
 				5BEC763C2919067000847F19 /* LYDanMuBackGroundView.m in Sources */,
 				5B8205CB28C73008002680DF /* APESubjectDataController.m in Sources */,
@@ -806,6 +848,7 @@
 				5B8205D128C74205002680DF /* APEHomePracticeSubjectsCollectionCellViewModel.m in Sources */,
 				5BEC76322918B5E900847F19 /* DMHeartFlyView.m in Sources */,
 				5B8205C828C72DA1002680DF /* APEHomePracticeDataController.m in Sources */,
+				5BEC7651291A02BF00847F19 /* LYFileManagerTool.m in Sources */,
 				5B00CDCD28BCF3E90069F2CC /* LYKitCellItem.m in Sources */,
 				5B8DFEB328C089D8004F983D /* LYMediatorPracticeViewController.m in Sources */,
 				5BC258042915062E000DDC73 /* LYFMDBViewController.m in Sources */,
@@ -821,9 +864,11 @@
 				5B8DFE9D28C05F5C004F983D /* LYDataBaseViewController.m in Sources */,
 				5B00CDB728BCF1AA0069F2CC /* main.m in Sources */,
 				5B8DFEAF28C0878B004F983D /* LYComponentManagerViewController.m in Sources */,
+				5BEC764B2919FA3600847F19 /* LYDownloadViewController.m in Sources */,
 				5B8DFEE528C09DE4004F983D /* LYOpenGLViewController.m in Sources */,
 				5B8DFEED28C09F79004F983D /* LYSocketViewController.m in Sources */,
 				5BC258082915076C000DDC73 /* LYDownloadTool.m in Sources */,
+				5BEC764E291A01D400847F19 /* LYDownloadTask.m in Sources */,
 				5B00CDD028BCF3E90069F2CC /* LYKitHomeViewController.m in Sources */,
 				5B8205BF28C726F9002680DF /* APEHomePracticeSubjectsView.m in Sources */,
 				5B8DFEF528C0A08E004F983D /* LYHitTestViewController.m in Sources */,
@@ -831,6 +876,7 @@
 				5B8DFEB828C09394004F983D /* LYThemeManagerViewController.m in Sources */,
 				5B8205CE28C73ADD002680DF /* APEHomePracticeSubjectsViewModel.m in Sources */,
 				5B8DFED528C09A11004F983D /* LYMemoryLeakViewController.m in Sources */,
+				5BEC7654291A077600847F19 /* LYDownloadManager.m in Sources */,
 				5B7C5DBF28DB041D00C17687 /* LYWebViewController.m in Sources */,
 				5BEC763F29190CED00847F19 /* LYDanMuModel.m in Sources */,
 				5B7C5DC528DC50C700C17687 /* LYUnitTestViewController.m in Sources */,
