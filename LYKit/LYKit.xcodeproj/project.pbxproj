@@ -18,6 +18,7 @@
 		5B00CDCF28BCF3E90069F2CC /* LYInterviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDC528BCF3E80069F2CC /* LYInterviewViewController.m */; };
 		5B00CDD028BCF3E90069F2CC /* LYKitHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDC828BCF3E80069F2CC /* LYKitHomeViewController.m */; };
 		5B00CDD128BCF3E90069F2CC /* LYFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDCA28BCF3E80069F2CC /* LYFunctionViewController.m */; };
+		5B710A1D294B195F00BC67E7 /* LYBlockTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B710A1C294B195F00BC67E7 /* LYBlockTimerViewController.m */; };
 		5B7C5DBF28DB041D00C17687 /* LYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C5DBE28DB041D00C17687 /* LYWebViewController.m */; };
 		5B7C5DC128DB4B7F00C17687 /* NativeInvokeJS.html in Resources */ = {isa = PBXBuildFile; fileRef = 5B7C5DC028DB4B7F00C17687 /* NativeInvokeJS.html */; };
 		5B7C5DC528DC50C700C17687 /* LYUnitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C5DC428DC50C700C17687 /* LYUnitTestViewController.m */; };
@@ -36,6 +37,9 @@
 		5B8205CE28C73ADD002680DF /* APEHomePracticeSubjectsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8205CD28C73ADD002680DF /* APEHomePracticeSubjectsViewModel.m */; };
 		5B8205D128C74205002680DF /* APEHomePracticeSubjectsCollectionCellViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8205D028C74205002680DF /* APEHomePracticeSubjectsCollectionCellViewModel.m */; };
 		5B8205D428C744FC002680DF /* APEHomePracticeSubjectsCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8205D328C744FC002680DF /* APEHomePracticeSubjectsCollectionViewCell.m */; };
+		5B845ED429497ABD00F959C4 /* LYTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B845ED329497ABD00F959C4 /* LYTimerViewController.m */; };
+		5B845ED729497CEA00F959C4 /* LYWeakTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B845ED629497CEA00F959C4 /* LYWeakTimerViewController.m */; };
+		5B845EDA29497EA100F959C4 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B845ED929497EA100F959C4 /* YYWeakProxy.m */; };
 		5B8DFE9528C05180004F983D /* LYArchitectureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFE9428C05180004F983D /* LYArchitectureViewController.m */; };
 		5B8DFE9D28C05F5C004F983D /* LYDataBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFE9C28C05F5C004F983D /* LYDataBaseViewController.m */; };
 		5B8DFEA128C0613C004F983D /* LYKeyValueStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEA028C0613C004F983D /* LYKeyValueStoreViewController.m */; };
@@ -106,6 +110,8 @@
 		5B00CDC828BCF3E80069F2CC /* LYKitHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYKitHomeViewController.m; sourceTree = "<group>"; };
 		5B00CDCA28BCF3E80069F2CC /* LYFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFunctionViewController.m; sourceTree = "<group>"; };
 		5B00CDCB28BCF3E80069F2CC /* LYFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFunctionViewController.h; sourceTree = "<group>"; };
+		5B710A1B294B195F00BC67E7 /* LYBlockTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBlockTimerViewController.h; sourceTree = "<group>"; };
+		5B710A1C294B195F00BC67E7 /* LYBlockTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBlockTimerViewController.m; sourceTree = "<group>"; };
 		5B7C5DBD28DB041D00C17687 /* LYWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYWebViewController.h; sourceTree = "<group>"; };
 		5B7C5DBE28DB041D00C17687 /* LYWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYWebViewController.m; sourceTree = "<group>"; };
 		5B7C5DC028DB4B7F00C17687 /* NativeInvokeJS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NativeInvokeJS.html; sourceTree = "<group>"; };
@@ -140,6 +146,12 @@
 		5B8205D028C74205002680DF /* APEHomePracticeSubjectsCollectionCellViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APEHomePracticeSubjectsCollectionCellViewModel.m; sourceTree = "<group>"; };
 		5B8205D228C744FC002680DF /* APEHomePracticeSubjectsCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APEHomePracticeSubjectsCollectionViewCell.h; sourceTree = "<group>"; };
 		5B8205D328C744FC002680DF /* APEHomePracticeSubjectsCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APEHomePracticeSubjectsCollectionViewCell.m; sourceTree = "<group>"; };
+		5B845ED229497ABD00F959C4 /* LYTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYTimerViewController.h; sourceTree = "<group>"; };
+		5B845ED329497ABD00F959C4 /* LYTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYTimerViewController.m; sourceTree = "<group>"; };
+		5B845ED529497CEA00F959C4 /* LYWeakTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYWeakTimerViewController.h; sourceTree = "<group>"; };
+		5B845ED629497CEA00F959C4 /* LYWeakTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYWeakTimerViewController.m; sourceTree = "<group>"; };
+		5B845ED829497EA100F959C4 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		5B845ED929497EA100F959C4 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 		5B8DFE9328C05180004F983D /* LYArchitectureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYArchitectureViewController.h; sourceTree = "<group>"; };
 		5B8DFE9428C05180004F983D /* LYArchitectureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYArchitectureViewController.m; sourceTree = "<group>"; };
 		5B8DFE9B28C05F5C004F983D /* LYDataBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDataBaseViewController.h; sourceTree = "<group>"; };
@@ -315,6 +327,7 @@
 		5B00CDC928BCF3E80069F2CC /* Functional */ = {
 			isa = PBXGroup;
 			children = (
+				5B845ED129497A9F00F959C4 /* Timer */,
 				5BEC7633291904EA00847F19 /* DanMu */,
 				5BB8949C28DFD057004BA23F /* DataBase */,
 				5B7C5DC228DC508C00C17687 /* UnitTest */,
@@ -358,6 +371,21 @@
 				5B7C5DCC28DC52EB00C17687 /* LYKitTests.m */,
 			);
 			path = LYKitTests;
+			sourceTree = "<group>";
+		};
+		5B845ED129497A9F00F959C4 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				5B845ED829497EA100F959C4 /* YYWeakProxy.h */,
+				5B845ED929497EA100F959C4 /* YYWeakProxy.m */,
+				5B845ED229497ABD00F959C4 /* LYTimerViewController.h */,
+				5B845ED329497ABD00F959C4 /* LYTimerViewController.m */,
+				5B845ED529497CEA00F959C4 /* LYWeakTimerViewController.h */,
+				5B845ED629497CEA00F959C4 /* LYWeakTimerViewController.m */,
+				5B710A1B294B195F00BC67E7 /* LYBlockTimerViewController.h */,
+				5B710A1C294B195F00BC67E7 /* LYBlockTimerViewController.m */,
+			);
+			path = Timer;
 			sourceTree = "<group>";
 		};
 		5B8DFE9228C0515E004F983D /* Architecture */ = {
@@ -848,6 +876,7 @@
 				5B8205C228C72B78002680DF /* APESubject.m in Sources */,
 				5B7C5DD828DC85A700C17687 /* LYNetworkRequest.m in Sources */,
 				5B8DFECD28C09965004F983D /* LYCheckANRViewController.m in Sources */,
+				5B845ED429497ABD00F959C4 /* LYTimerViewController.m in Sources */,
 				5BEC76362919050400847F19 /* LYDanMuViewController.m in Sources */,
 				5B8DFEC528C096C7004F983D /* LYPerformanceOptimizationViewController.m in Sources */,
 				5BC2580B291507DC000DDC73 /* LYMusicModel.m in Sources */,
@@ -864,12 +893,15 @@
 				5BEC7651291A02BF00847F19 /* LYFileManagerTool.m in Sources */,
 				5B00CDCD28BCF3E90069F2CC /* LYKitCellItem.m in Sources */,
 				5B8DFEB328C089D8004F983D /* LYMediatorPracticeViewController.m in Sources */,
+				5B845EDA29497EA100F959C4 /* YYWeakProxy.m in Sources */,
 				5BC258042915062E000DDC73 /* LYFMDBViewController.m in Sources */,
 				5B8DFEA928C08675004F983D /* LYLinkHomeViewController.m in Sources */,
 				5BEC762E2918B4C500847F19 /* LYFlyHeartViewController.m in Sources */,
 				5B8DFED128C099BA004F983D /* LYCrashProtectorViewController.m in Sources */,
 				5B00CDCC28BCF3E90069F2CC /* LYKitBaseViewController.m in Sources */,
+				5B710A1D294B195F00BC67E7 /* LYBlockTimerViewController.m in Sources */,
 				5B8205B928C726E2002680DF /* APEHomePracticeBannerView.m in Sources */,
+				5B845ED729497CEA00F959C4 /* LYWeakTimerViewController.m in Sources */,
 				5B7C5DD528DC79B200C17687 /* LYCalculatorTool.m in Sources */,
 				5B8205B628C7262F002680DF /* APEHomePracticeViewController.m in Sources */,
 				5B00CDCE28BCF3E90069F2CC /* LYAVFoundationViewController.m in Sources */,

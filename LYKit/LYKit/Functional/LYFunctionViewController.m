@@ -45,6 +45,7 @@
     [self.items addObject:[self itemWithTitle:@"JS与OC的交互" viewController:[LYWebViewController new]]];
     [self.items addObject:[self itemWithTitle:@"单元测试" viewController:[LYUnitTestViewController new]]];
     [self.items addObject:[self itemWithTitle:@"弹幕" viewController:[LYDanMuViewController new]]];
+    [self.items addObject:[self itemWithTitle:@"计时器" viewController:[LYDanMuViewController new]]];
 
 }
 
