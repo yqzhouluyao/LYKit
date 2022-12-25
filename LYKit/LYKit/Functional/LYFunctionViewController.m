@@ -11,6 +11,7 @@
 #import "LYWebViewController.h"
 #import "LYUnitTestViewController.h"
 #import "LYDanMuViewController.h"
+#import "RichTextViewController.h"
 
 @interface LYFunctionViewController ()
 
@@ -37,7 +38,7 @@
 - (void)setupItems {
     [super setupItems];
     
-    [self.items addObject:[self itemWithTitle:@"图文混排" viewController:[LYThemeManagerViewController new]]];
+    [self.items addObject:[self itemWithTitle:@"图文混排" viewController:[RichTextViewController new]]];
     [self.items addObject:[self itemWithTitle:@"主题切换" viewController:[LYThemeManagerViewController new]]];
     [self.items addObject:[self itemWithTitle:@"电脑局域网传输文件到手机" viewController:[UIViewController new]]];
     [self.items addObject:[self itemWithTitle:@"Socket通信" viewController:[LYThemeManagerViewController new]]];

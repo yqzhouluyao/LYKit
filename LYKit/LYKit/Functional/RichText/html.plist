@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>id</key>
+	<integer>1257523</integer>
+	<key>category</key>
+	<integer>2</integer>
+	<key>analysis</key>
+	<string>&lt;p&gt;一个项目经理在运作一个软件项目，这个项目准备分阶段交付。他计划将资源划分为两个不同的团队来同时完成这两个阶段的工作，不过他的一位高级开发人员建议应当使用一种敏捷方法，这个建议得到了项目经理的认可。以下哪种关系可以最准确的描述这个项目各个阶段之间的关系？&lt;/p&gt;&lt;p&gt;A.顺序关系。&lt;/p&gt;&lt;p&gt;B.迭代关系。&lt;/p&gt;&lt;p&gt;C.约束关系。&lt;/p&gt;&lt;p&gt;D.重叠关系。&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</string>
+	<key>radio</key>
+	<array/>
+	<key>parent_id</key>
+	<integer>0</integer>
+	<key>question_type</key>
+	<integer>2</integer>
+	<key>video_analysis_vip_status</key>
+	<integer>1</integer>
+	<key>video_analysis_path</key>
+	<string>vip可看</string>
+	<key>charge_status</key>
+	<integer>0</integer>
+	<key>material</key>
+	<array/>
+	<key>video_analysis_length</key>
+	<integer>0</integer>
+	<key>is_material</key>
+	<integer>0</integer>
+	<key>title</key>
+	<string>&lt;p&gt;一个项目经理在运作一个软件项目，这个项目准备分阶段交付。&lt;img width=&quot;710px&quot; height=&quot;400px&quot; src=&quot;http://cdnocc.offcn.com/uploads_19ke/202107/QuanGuo/G7N763023704XMIL.jpg&quot; alt=&quot;&quot;/&gt;他计划将资源划分为两个不同的团队来同时完成这两个阶段的工作，不过他的一位高级开发人员建议应当使用一种敏捷方法，这个建议得到了项目经理的认可。&lt;img src=&quot;http://cdnocc.offcn.com/uploads_19ke/202108/QuanGuo/G8266459401RYP4F.jpg&quot; alt=&quot;&quot; width=&quot;355px&quot; height=&quot;200px&quot;/&gt;以下哪种关系可以最准确的描述这个项目各个阶段之间的关系？&lt;/p&gt;&lt;p&gt;&lt;img class=&quot;kfformula&quot; src=&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAA1CAYAAAD8mJ3rAAAC4UlEQVRoQ+3ZO6gVRxzH8c+FiBjEV8RH1KhFioCiRVCxUghCTEQQFB8kouC7EhIiFqKFldhZiAiCkqSxSWOVBHxERS0USRENUbFIEAuxEXyg/GEuXC5nc3fvvbt7PMw0yznMzM7/u7/5/3d+2ye3jgT6MpfOBDKYAmVkMBlMtaSRFZMVkxVTjUBWTDVeOcdkxbx/ipmA59WWXX/vtrfSEpzGIrytP9zyd2gbzHZ8jwP4pfyy6+/ZJpiFGIMF2Iel9Ydb/g5tgvkWZ/EB7mEnfi2/9Hp7tgXmU3yE6ym8XdiIlel3rCvAzcbvuJb+35EgXqwXC22B+QbnBgQ3Fv9gPa5iAy4jclAo6kjqewt7caMXwXyCebg0KLj9+AJfpSp1JyklkvMVTMRDTMWbXgSzBT92COzDFPgq3MbcBCRARilfgz1YXTeUmL/prTQ9VaHfCoI7iMVpK8U2ipwT2y7acfyHY70IZhN+/p/AYrtErlmOLzEJh9MD/BNbcbPXwESQEdxQ+WEafsLRpJITKeccwpQS40eFW9Nbqcqio1K9xAysQOSebVUmGEnfbgWzDGfwWXo7jpwUOefvkQRbZWy3gpmFr1M+2YzzA14Gq8Q37L7dCiYCGoc5uN/GybsJMPPTO8mwn17BwD/warQn7Z+vCTB1rb3WebsBTHbwOjzi7OAV6D47eB3AZAevQC3ZwesAZigHL4bMTP5MnLFe4F9Eoo7T9w+1lqQWbIf+eIZy8KJaht15Mg14gjiZP8NuhMVZa2ujXJdx8CYny+FB8n3Dyvy4VhKDJm8DTFkHr3+p0T9cu7g21poGU8XB64dwCmGCxzVanJ8e102oaTBlHbzv8AhxHgoDfG36MrAumV1/9RKYKg5eOH1hmL9OVufnuJuq04W6ocT8TSumSkzxmeRpGjA+WZpRthtp3QymEQBFN8lgCshkMBlMtZ2ZFZMVkxVTjUBWTDVeOcdkxWTFVCNQ0Psdywd0NmXLzLAAAAAASUVORK5CYII=&quot; data-latex=&quot;\frac {\Delta y} {\Delta x}&quot;/&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</string>
+</dict>
+</plist>

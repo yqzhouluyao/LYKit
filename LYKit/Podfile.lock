@@ -22,6 +22,11 @@ PODS:
     - GCDWebServer/Core
   - LYSegmentBar (0.1.1)
   - Masonry (1.1.0)
+  - SDWebImage (4.2.0):
+    - SDWebImage/Core (= 4.2.0)
+  - SDWebImage/Core (4.2.0)
+  - YYModel (1.0.4)
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - AFNetworking
@@ -29,6 +34,9 @@ DEPENDENCIES:
   - GCDWebServer/WebUploader (~> 3.0)
   - LYSegmentBar
   - Masonry (~> 1.1.0)
+  - SDWebImage (= 4.2.0)
+  - YYModel (~> 1.0.4)
+  - YYText (~> 1.0.7)
 
 SPEC REPOS:
   trunk:
@@ -37,6 +45,9 @@ SPEC REPOS:
     - GCDWebServer
     - LYSegmentBar
     - Masonry
+    - SDWebImage
+    - YYModel
+    - YYText
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
@@ -44,7 +55,10 @@ SPEC CHECKSUMS:
   GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
   LYSegmentBar: 54906d7b82f3a2b41058b6f98e7ba6aafdc9c64d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SDWebImage: b1189fd85365c18434270a11a5cad13a1e848d53
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 85d26e703b4ef0d993d04eae9f95e91a96728c9c
+PODFILE CHECKSUM: ed97e27c9259b1a503f59e8196e6e8869edbf1fc
 
 COCOAPODS: 1.11.3

@@ -10,4 +10,7 @@ target 'LYKit' do
  pod 'LYSegmentBar'
  pod 'FMDB'
  pod "GCDWebServer/WebUploader", "~> 3.0"
+ pod 'SDWebImage', '4.2.0'
+ pod 'YYModel', '~> 1.0.4'
+ pod 'YYText','~> 1.0.7'
 end
