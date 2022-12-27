@@ -1,8 +1,8 @@
 //
-//  LYChangeOrientationViewController.h
+//  LYPlayerViewController.h
 //  LYKit
 //
-//  Created by zhouluyao on 2022/12/25.
+//  Created by zhouluyao on 2022/12/26.
 //  Copyright © 2022 zhouluyao. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LYChangeOrientationViewController : UIViewController
+@interface LYPlayerViewController : UIViewController
 
 @end
 

@@ -26,7 +26,9 @@
 		5B116DCD295849480060AC38 /* ZGAppInfoUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B116DCB295849480060AC38 /* ZGAppInfoUtil.m */; };
 		5B116DD0295849C60060AC38 /* NSString+OTKRegular.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B116DCE295849C60060AC38 /* NSString+OTKRegular.m */; };
 		5B116DD3295849FD0060AC38 /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B116DD2295849FD0060AC38 /* UIColor+Hex.m */; };
-		5B116DD729588F270060AC38 /* LYChangeOrientationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B116DD629588F270060AC38 /* LYChangeOrientationViewController.m */; };
+		5B116DD729588F270060AC38 /* LYRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B116DD629588F270060AC38 /* LYRotationViewController.m */; };
+		5B116DDA2959485A0060AC38 /* LYPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B116DD92959485A0060AC38 /* LYPlayerViewController.m */; };
+		5B116DDC295AA77D0060AC38 /* iOS16转屏问题.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B116DDB295AA77D0060AC38 /* iOS16转屏问题.md */; };
 		5B710A1D294B195F00BC67E7 /* LYBlockTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B710A1C294B195F00BC67E7 /* LYBlockTimerViewController.m */; };
 		5B7C5DBF28DB041D00C17687 /* LYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C5DBE28DB041D00C17687 /* LYWebViewController.m */; };
 		5B7C5DC128DB4B7F00C17687 /* NativeInvokeJS.html in Resources */ = {isa = PBXBuildFile; fileRef = 5B7C5DC028DB4B7F00C17687 /* NativeInvokeJS.html */; };
@@ -134,8 +136,11 @@
 		5B116DCF295849C60060AC38 /* NSString+OTKRegular.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OTKRegular.h"; sourceTree = "<group>"; };
 		5B116DD1295849FD0060AC38 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
 		5B116DD2295849FD0060AC38 /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
-		5B116DD529588F270060AC38 /* LYChangeOrientationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYChangeOrientationViewController.h; sourceTree = "<group>"; };
-		5B116DD629588F270060AC38 /* LYChangeOrientationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYChangeOrientationViewController.m; sourceTree = "<group>"; };
+		5B116DD529588F270060AC38 /* LYRotationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYRotationViewController.h; sourceTree = "<group>"; };
+		5B116DD629588F270060AC38 /* LYRotationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYRotationViewController.m; sourceTree = "<group>"; };
+		5B116DD82959485A0060AC38 /* LYPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPlayerViewController.h; sourceTree = "<group>"; };
+		5B116DD92959485A0060AC38 /* LYPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPlayerViewController.m; sourceTree = "<group>"; };
+		5B116DDB295AA77D0060AC38 /* iOS16转屏问题.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS16转屏问题.md"; sourceTree = "<group>"; };
 		5B710A1B294B195F00BC67E7 /* LYBlockTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBlockTimerViewController.h; sourceTree = "<group>"; };
 		5B710A1C294B195F00BC67E7 /* LYBlockTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBlockTimerViewController.m; sourceTree = "<group>"; };
 		5B7C5DBD28DB041D00C17687 /* LYWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYWebViewController.h; sourceTree = "<group>"; };
@@ -350,7 +355,7 @@
 		5B00CDC928BCF3E80069F2CC /* Functional */ = {
 			isa = PBXGroup;
 			children = (
-				5B116DD429588E780060AC38 /* ChangeOrientation */,
+				5B116DD429588E780060AC38 /* Rotation */,
 				5B845ED129497A9F00F959C4 /* Timer */,
 				5BEC7633291904EA00847F19 /* DanMu */,
 				5BB8949C28DFD057004BA23F /* DataBase */,
@@ -383,13 +388,16 @@
 			path = Common;
 			sourceTree = "<group>";
 		};
-		5B116DD429588E780060AC38 /* ChangeOrientation */ = {
+		5B116DD429588E780060AC38 /* Rotation */ = {
 			isa = PBXGroup;
 			children = (
-				5B116DD529588F270060AC38 /* LYChangeOrientationViewController.h */,
-				5B116DD629588F270060AC38 /* LYChangeOrientationViewController.m */,
+				5B116DDB295AA77D0060AC38 /* iOS16转屏问题.md */,
+				5B116DD529588F270060AC38 /* LYRotationViewController.h */,
+				5B116DD629588F270060AC38 /* LYRotationViewController.m */,
+				5B116DD82959485A0060AC38 /* LYPlayerViewController.h */,
+				5B116DD92959485A0060AC38 /* LYPlayerViewController.m */,
 			);
-			path = ChangeOrientation;
+			path = Rotation;
 			sourceTree = "<group>";
 		};
 		5B7C5DBC28DB029900C17687 /* NativeInvokeJS */ = {
@@ -861,6 +869,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B116DDC295AA77D0060AC38 /* iOS16转屏问题.md in Resources */,
 				5B00CDB428BCF1AA0069F2CC /* LaunchScreen.storyboard in Resources */,
 				5B116DBD295846700060AC38 /* html.plist in Resources */,
 				5B00CDB128BCF1AA0069F2CC /* Assets.xcassets in Resources */,
@@ -945,7 +954,7 @@
 				5B8DFEC528C096C7004F983D /* LYPerformanceOptimizationViewController.m in Sources */,
 				5BC2580B291507DC000DDC73 /* LYMusicModel.m in Sources */,
 				5BEC76472919F90200847F19 /* LYNetworkViewController.m in Sources */,
-				5B116DD729588F270060AC38 /* LYChangeOrientationViewController.m in Sources */,
+				5B116DD729588F270060AC38 /* LYRotationViewController.m in Sources */,
 				5B00CDA628BCF1A60069F2CC /* AppDelegate.m in Sources */,
 				5BEC763C2919067000847F19 /* LYDanMuBackGroundView.m in Sources */,
 				5B8205CB28C73008002680DF /* APESubjectDataController.m in Sources */,
@@ -985,6 +994,7 @@
 				5B8205BF28C726F9002680DF /* APEHomePracticeSubjectsView.m in Sources */,
 				5B8DFEF528C0A08E004F983D /* LYHitTestViewController.m in Sources */,
 				5B8DFED928C09CF1004F983D /* LYMediaViewController.m in Sources */,
+				5B116DDA2959485A0060AC38 /* LYPlayerViewController.m in Sources */,
 				5B8DFEB828C09394004F983D /* LYThemeManagerViewController.m in Sources */,
 				5B8205CE28C73ADD002680DF /* APEHomePracticeSubjectsViewModel.m in Sources */,
 				5B8DFED528C09A11004F983D /* LYMemoryLeakViewController.m in Sources */,
@@ -1080,7 +1090,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1133,7 +1143,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1149,7 +1159,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9R26SLQA2L;
+				DEVELOPMENT_TEAM = TBZFF2JC5L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LYKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1161,7 +1171,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhouluyao.LYKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eduzhixin.online;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -1179,7 +1189,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9R26SLQA2L;
+				DEVELOPMENT_TEAM = TBZFF2JC5L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LYKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1191,7 +1201,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhouluyao.LYKit;
+				PRODUCT_BUNDLE_IDENTIFIER = com.eduzhixin.online;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;

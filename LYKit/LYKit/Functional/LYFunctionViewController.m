@@ -12,7 +12,7 @@
 #import "LYUnitTestViewController.h"
 #import "LYDanMuViewController.h"
 #import "RichTextViewController.h"
-#import "LYChangeOrientationViewController.h"
+#import "LYRotationViewController.h"
 
 @interface LYFunctionViewController ()
 
@@ -48,7 +48,7 @@
     [self.items addObject:[self itemWithTitle:@"单元测试" viewController:[LYUnitTestViewController new]]];
     [self.items addObject:[self itemWithTitle:@"弹幕" viewController:[LYDanMuViewController new]]];
     [self.items addObject:[self itemWithTitle:@"计时器" viewController:[LYDanMuViewController new]]];
-    [self.items addObject:[self itemWithTitle:@"iOS16屏幕旋转，view的变化" viewController:[LYChangeOrientationViewController new]]];
+    [self.items addObject:[self itemWithTitle:@"iOS16屏幕旋转，view的变化" viewController:[LYRotationViewController new]]];
 
 }
 
