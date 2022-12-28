@@ -13,6 +13,7 @@
 #import "LYDanMuViewController.h"
 #import "RichTextViewController.h"
 #import "LYRotationViewController.h"
+#import "LYWebUploadViewController.h"
 
 @interface LYFunctionViewController ()
 
@@ -41,7 +42,7 @@
     
     [self.items addObject:[self itemWithTitle:@"图文混排" viewController:[RichTextViewController new]]];
     [self.items addObject:[self itemWithTitle:@"主题切换" viewController:[LYThemeManagerViewController new]]];
-    [self.items addObject:[self itemWithTitle:@"电脑局域网传输文件到手机" viewController:[UIViewController new]]];
+    [self.items addObject:[self itemWithTitle:@"电脑局域网传输文件到手机" viewController:[LYWebUploadViewController new]]];
     [self.items addObject:[self itemWithTitle:@"Socket通信" viewController:[LYThemeManagerViewController new]]];
     [self.items addObject:[self itemWithTitle:@"响应链扩大响应区域" viewController:[LYHitTestViewController new]]];
     [self.items addObject:[self itemWithTitle:@"JS与OC的交互" viewController:[LYWebViewController new]]];

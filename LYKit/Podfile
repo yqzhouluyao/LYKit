@@ -14,3 +14,14 @@ target 'LYKit' do
  pod 'YYModel', '~> 1.0.4'
  pod 'YYText','~> 1.0.7'
 end
+
+#使用以下代码避免每次pod install,报错：Signing for "*.bundle" requires a development team.
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if target.respond_to?(:product_type) and target.product_type == "com.apple.product-type.bundle"
+      target.build_configurations.each do |config|
+          config.build_settings['CODE_SIGNING_ALLOWED'] = 'NO'
+      end
+    end
+  end
+end

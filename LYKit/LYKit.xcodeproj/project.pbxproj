@@ -320,7 +320,6 @@
 				5B8DFE9228C0515E004F983D /* Architecture */,
 				5B00CDC928BCF3E80069F2CC /* Functional */,
 				5B00CDC328BCF3E80069F2CC /* Interview */,
-				5B00CDC028BCF3E80069F2CC /* InvestmentPrinciples */,
 				5B00CDC728BCF3E80069F2CC /* LYKitHomeViewController.h */,
 				5B00CDC828BCF3E80069F2CC /* LYKitHomeViewController.m */,
 				5B00CDA428BCF1A60069F2CC /* AppDelegate.h */,
@@ -333,13 +332,6 @@
 				5B00CDB628BCF1AA0069F2CC /* main.m */,
 			);
 			path = LYKit;
-			sourceTree = "<group>";
-		};
-		5B00CDC028BCF3E80069F2CC /* InvestmentPrinciples */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = InvestmentPrinciples;
 			sourceTree = "<group>";
 		};
 		5B00CDC328BCF3E80069F2CC /* Interview */ = {
@@ -355,10 +347,10 @@
 		5B00CDC928BCF3E80069F2CC /* Functional */ = {
 			isa = PBXGroup;
 			children = (
+				5BD9983D291AB9A7003EF034 /* WebUpload */,
 				5B116DD429588E780060AC38 /* Rotation */,
 				5B845ED129497A9F00F959C4 /* Timer */,
 				5BEC7633291904EA00847F19 /* DanMu */,
-				5BB8949C28DFD057004BA23F /* DataBase */,
 				5B7C5DC228DC508C00C17687 /* UnitTest */,
 				5B7C5DBC28DB029900C17687 /* NativeInvokeJS */,
 				5B8DFEF228C0A037004F983D /* HitTest */,
@@ -694,13 +686,6 @@
 			path = AVFoundation;
 			sourceTree = "<group>";
 		};
-		5BB8949C28DFD057004BA23F /* DataBase */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = DataBase;
-			sourceTree = "<group>";
-		};
 		5BC2580529150668000DDC73 /* FMDB */ = {
 			isa = PBXGroup;
 			children = (
@@ -753,7 +738,6 @@
 		5BEC76442919F8D800847F19 /* Network */ = {
 			isa = PBXGroup;
 			children = (
-				5BD9983D291AB9A7003EF034 /* WebUpload */,
 				5BEC76482919FA0600847F19 /* Download */,
 				5BEC76452919F90200847F19 /* LYNetworkViewController.h */,
 				5BEC76462919F90200847F19 /* LYNetworkViewController.m */,
