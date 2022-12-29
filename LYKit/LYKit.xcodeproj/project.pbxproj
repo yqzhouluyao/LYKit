@@ -29,6 +29,8 @@
 		5B116DD729588F270060AC38 /* LYRotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B116DD629588F270060AC38 /* LYRotationViewController.m */; };
 		5B116DDA2959485A0060AC38 /* LYPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B116DD92959485A0060AC38 /* LYPlayerViewController.m */; };
 		5B116DDC295AA77D0060AC38 /* iOS16转屏问题.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B116DDB295AA77D0060AC38 /* iOS16转屏问题.md */; };
+		5B369CAC295DD32800EA70ED /* LYGrayStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B369CAB295DD32800EA70ED /* LYGrayStyle.m */; };
+		5B369CAF295DD7A200EA70ED /* LYGrayStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B369CAE295DD7A200EA70ED /* LYGrayStyleViewController.m */; };
 		5B710A1D294B195F00BC67E7 /* LYBlockTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B710A1C294B195F00BC67E7 /* LYBlockTimerViewController.m */; };
 		5B7C5DBF28DB041D00C17687 /* LYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C5DBE28DB041D00C17687 /* LYWebViewController.m */; };
 		5B7C5DC128DB4B7F00C17687 /* NativeInvokeJS.html in Resources */ = {isa = PBXBuildFile; fileRef = 5B7C5DC028DB4B7F00C17687 /* NativeInvokeJS.html */; };
@@ -141,6 +143,10 @@
 		5B116DD82959485A0060AC38 /* LYPlayerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYPlayerViewController.h; sourceTree = "<group>"; };
 		5B116DD92959485A0060AC38 /* LYPlayerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYPlayerViewController.m; sourceTree = "<group>"; };
 		5B116DDB295AA77D0060AC38 /* iOS16转屏问题.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "iOS16转屏问题.md"; sourceTree = "<group>"; };
+		5B369CAA295DD32800EA70ED /* LYGrayStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYGrayStyle.h; sourceTree = "<group>"; };
+		5B369CAB295DD32800EA70ED /* LYGrayStyle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYGrayStyle.m; sourceTree = "<group>"; };
+		5B369CAD295DD7A200EA70ED /* LYGrayStyleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYGrayStyleViewController.h; sourceTree = "<group>"; };
+		5B369CAE295DD7A200EA70ED /* LYGrayStyleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYGrayStyleViewController.m; sourceTree = "<group>"; };
 		5B710A1B294B195F00BC67E7 /* LYBlockTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBlockTimerViewController.h; sourceTree = "<group>"; };
 		5B710A1C294B195F00BC67E7 /* LYBlockTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBlockTimerViewController.m; sourceTree = "<group>"; };
 		5B7C5DBD28DB041D00C17687 /* LYWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYWebViewController.h; sourceTree = "<group>"; };
@@ -347,6 +353,7 @@
 		5B00CDC928BCF3E80069F2CC /* Functional */ = {
 			isa = PBXGroup;
 			children = (
+				5B369CA9295DD30E00EA70ED /* GrayStyle */,
 				5BD9983D291AB9A7003EF034 /* WebUpload */,
 				5B116DD429588E780060AC38 /* Rotation */,
 				5B845ED129497A9F00F959C4 /* Timer */,
@@ -390,6 +397,17 @@
 				5B116DD92959485A0060AC38 /* LYPlayerViewController.m */,
 			);
 			path = Rotation;
+			sourceTree = "<group>";
+		};
+		5B369CA9295DD30E00EA70ED /* GrayStyle */ = {
+			isa = PBXGroup;
+			children = (
+				5B369CAA295DD32800EA70ED /* LYGrayStyle.h */,
+				5B369CAB295DD32800EA70ED /* LYGrayStyle.m */,
+				5B369CAD295DD7A200EA70ED /* LYGrayStyleViewController.h */,
+				5B369CAE295DD7A200EA70ED /* LYGrayStyleViewController.m */,
+			);
+			path = GrayStyle;
 			sourceTree = "<group>";
 		};
 		5B7C5DBC28DB029900C17687 /* NativeInvokeJS */ = {
@@ -940,6 +958,7 @@
 				5BEC76472919F90200847F19 /* LYNetworkViewController.m in Sources */,
 				5B116DD729588F270060AC38 /* LYRotationViewController.m in Sources */,
 				5B00CDA628BCF1A60069F2CC /* AppDelegate.m in Sources */,
+				5B369CAC295DD32800EA70ED /* LYGrayStyle.m in Sources */,
 				5BEC763C2919067000847F19 /* LYDanMuBackGroundView.m in Sources */,
 				5B8205CB28C73008002680DF /* APESubjectDataController.m in Sources */,
 				5B116DD0295849C60060AC38 /* NSString+OTKRegular.m in Sources */,
@@ -951,6 +970,7 @@
 				5B8205C828C72DA1002680DF /* APEHomePracticeDataController.m in Sources */,
 				5BEC7651291A02BF00847F19 /* LYFileManagerTool.m in Sources */,
 				5B00CDCD28BCF3E90069F2CC /* LYKitCellItem.m in Sources */,
+				5B369CAF295DD7A200EA70ED /* LYGrayStyleViewController.m in Sources */,
 				5B8DFEB328C089D8004F983D /* LYMediatorPracticeViewController.m in Sources */,
 				5B845EDA29497EA100F959C4 /* YYWeakProxy.m in Sources */,
 				5BC258042915062E000DDC73 /* LYFMDBViewController.m in Sources */,
