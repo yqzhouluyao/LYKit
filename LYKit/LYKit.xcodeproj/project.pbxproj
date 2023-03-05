@@ -189,6 +189,7 @@
 		5B845ED629497CEA00F959C4 /* LYWeakTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYWeakTimerViewController.m; sourceTree = "<group>"; };
 		5B845ED829497EA100F959C4 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
 		5B845ED929497EA100F959C4 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
+		5B8489E229B34011005B33DC /* 启动优化.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "启动优化.md"; sourceTree = "<group>"; };
 		5B8DFE9328C05180004F983D /* LYArchitectureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYArchitectureViewController.h; sourceTree = "<group>"; };
 		5B8DFE9428C05180004F983D /* LYArchitectureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYArchitectureViewController.m; sourceTree = "<group>"; };
 		5B8DFE9B28C05F5C004F983D /* LYDataBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDataBaseViewController.h; sourceTree = "<group>"; };
@@ -456,6 +457,14 @@
 			path = Timer;
 			sourceTree = "<group>";
 		};
+		5B8489E129B33F1C005B33DC /* OptimizingLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				5B8489E229B34011005B33DC /* 启动优化.md */,
+			);
+			path = OptimizingLaunch;
+			sourceTree = "<group>";
+		};
 		5B8DFE9228C0515E004F983D /* Architecture */ = {
 			isa = PBXGroup;
 			children = (
@@ -573,6 +582,7 @@
 		5B8DFEC228C0967F004F983D /* PerformanceOptimization */ = {
 			isa = PBXGroup;
 			children = (
+				5B8489E129B33F1C005B33DC /* OptimizingLaunch */,
 				5B8DFED228C099FF004F983D /* MemoryLeak */,
 				5B8DFECE28C099AB004F983D /* CrashProtector */,
 				5B8DFECA28C09947004F983D /* CheckANR */,
@@ -1163,7 +1173,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TBZFF2JC5L;
+				DEVELOPMENT_TEAM = 9R26SLQA2L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LYKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1175,7 +1185,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.eduzhixin.online;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouluyao.lykit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
@@ -1193,7 +1203,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = TBZFF2JC5L;
+				DEVELOPMENT_TEAM = 9R26SLQA2L;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LYKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -1205,7 +1215,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.eduzhixin.online;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouluyao.lykit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
