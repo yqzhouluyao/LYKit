@@ -18,6 +18,9 @@
 		5B00CDCF28BCF3E90069F2CC /* LYInterviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDC528BCF3E80069F2CC /* LYInterviewViewController.m */; };
 		5B00CDD028BCF3E90069F2CC /* LYKitHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDC828BCF3E80069F2CC /* LYKitHomeViewController.m */; };
 		5B00CDD128BCF3E90069F2CC /* LYFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDCA28BCF3E80069F2CC /* LYFunctionViewController.m */; };
+		5B0E0B2229B87E0D0008D49F /* LYQuestionKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E0B2129B87E0D0008D49F /* LYQuestionKitViewController.m */; };
+		5B0E0B2529B87E2F0008D49F /* CTMediator+QuestionKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E0B2429B87E2F0008D49F /* CTMediator+QuestionKit.m */; };
+		5B0E0B2829B87FCF0008D49F /* Target_QuestionKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E0B2729B87FCF0008D49F /* Target_QuestionKit.m */; };
 		5B116DBD295846700060AC38 /* html.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B116DBC295846700060AC38 /* html.plist */; };
 		5B116DC4295846D90060AC38 /* BrowserImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B116DBE295846D90060AC38 /* BrowserImageViewController.m */; };
 		5B116DC5295846D90060AC38 /* OTKMarkUpParseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B116DC0295846D90060AC38 /* OTKMarkUpParseManager.m */; };
@@ -53,6 +56,8 @@
 		5B845ED429497ABD00F959C4 /* LYTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B845ED329497ABD00F959C4 /* LYTimerViewController.m */; };
 		5B845ED729497CEA00F959C4 /* LYWeakTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B845ED629497CEA00F959C4 /* LYWeakTimerViewController.m */; };
 		5B845EDA29497EA100F959C4 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B845ED929497EA100F959C4 /* YYWeakProxy.m */; };
+		5B8489E629B4AC84005B33DC /* MonitorHttpTraffic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8489E529B4AC84005B33DC /* MonitorHttpTraffic.swift */; };
+		5B8489E829B59E9E005B33DC /* Instrument监控Http.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B8489E729B59E9E005B33DC /* Instrument监控Http.md */; };
 		5B8DFE9528C05180004F983D /* LYArchitectureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFE9428C05180004F983D /* LYArchitectureViewController.m */; };
 		5B8DFE9D28C05F5C004F983D /* LYDataBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFE9C28C05F5C004F983D /* LYDataBaseViewController.m */; };
 		5B8DFEA128C0613C004F983D /* LYKeyValueStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEA028C0613C004F983D /* LYKeyValueStoreViewController.m */; };
@@ -123,6 +128,13 @@
 		5B00CDC828BCF3E80069F2CC /* LYKitHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYKitHomeViewController.m; sourceTree = "<group>"; };
 		5B00CDCA28BCF3E80069F2CC /* LYFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFunctionViewController.m; sourceTree = "<group>"; };
 		5B00CDCB28BCF3E80069F2CC /* LYFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFunctionViewController.h; sourceTree = "<group>"; };
+		5B0E0B1F29B82ECB0008D49F /* CTMediator的核心思想及用法.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "CTMediator的核心思想及用法.md"; sourceTree = "<group>"; };
+		5B0E0B2029B87E0D0008D49F /* LYQuestionKitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYQuestionKitViewController.h; sourceTree = "<group>"; };
+		5B0E0B2129B87E0D0008D49F /* LYQuestionKitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYQuestionKitViewController.m; sourceTree = "<group>"; };
+		5B0E0B2329B87E2F0008D49F /* CTMediator+QuestionKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CTMediator+QuestionKit.h"; sourceTree = "<group>"; };
+		5B0E0B2429B87E2F0008D49F /* CTMediator+QuestionKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+QuestionKit.m"; sourceTree = "<group>"; };
+		5B0E0B2629B87FCF0008D49F /* Target_QuestionKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_QuestionKit.h; sourceTree = "<group>"; };
+		5B0E0B2729B87FCF0008D49F /* Target_QuestionKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_QuestionKit.m; sourceTree = "<group>"; };
 		5B116DBC295846700060AC38 /* html.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = html.plist; sourceTree = "<group>"; };
 		5B116DBE295846D90060AC38 /* BrowserImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserImageViewController.m; sourceTree = "<group>"; };
 		5B116DBF295846D90060AC38 /* BrowserImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserImageViewController.h; sourceTree = "<group>"; };
@@ -190,6 +202,9 @@
 		5B845ED829497EA100F959C4 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
 		5B845ED929497EA100F959C4 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 		5B8489E229B34011005B33DC /* 启动优化.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "启动优化.md"; sourceTree = "<group>"; };
+		5B8489E429B4AC84005B33DC /* LYKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LYKit-Bridging-Header.h"; sourceTree = "<group>"; };
+		5B8489E529B4AC84005B33DC /* MonitorHttpTraffic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorHttpTraffic.swift; sourceTree = "<group>"; };
+		5B8489E729B59E9E005B33DC /* Instrument监控Http.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Instrument监控Http.md"; sourceTree = "<group>"; };
 		5B8DFE9328C05180004F983D /* LYArchitectureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYArchitectureViewController.h; sourceTree = "<group>"; };
 		5B8DFE9428C05180004F983D /* LYArchitectureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYArchitectureViewController.m; sourceTree = "<group>"; };
 		5B8DFE9B28C05F5C004F983D /* LYDataBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDataBaseViewController.h; sourceTree = "<group>"; };
@@ -371,6 +386,19 @@
 			path = Functional;
 			sourceTree = "<group>";
 		};
+		5B0E0B2929B887570008D49F /* QuestionKit */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E0B2029B87E0D0008D49F /* LYQuestionKitViewController.h */,
+				5B0E0B2129B87E0D0008D49F /* LYQuestionKitViewController.m */,
+				5B0E0B2329B87E2F0008D49F /* CTMediator+QuestionKit.h */,
+				5B0E0B2429B87E2F0008D49F /* CTMediator+QuestionKit.m */,
+				5B0E0B2629B87FCF0008D49F /* Target_QuestionKit.h */,
+				5B0E0B2729B87FCF0008D49F /* Target_QuestionKit.m */,
+			);
+			path = QuestionKit;
+			sourceTree = "<group>";
+		};
 		5B116DC72958489C0060AC38 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -465,6 +493,16 @@
 			path = OptimizingLaunch;
 			sourceTree = "<group>";
 		};
+		5B8489E329B4AC22005B33DC /* MonitoringHttpTraffic */ = {
+			isa = PBXGroup;
+			children = (
+				5B8489E729B59E9E005B33DC /* Instrument监控Http.md */,
+				5B8489E529B4AC84005B33DC /* MonitorHttpTraffic.swift */,
+				5B8489E429B4AC84005B33DC /* LYKit-Bridging-Header.h */,
+			);
+			path = MonitoringHttpTraffic;
+			sourceTree = "<group>";
+		};
 		5B8DFE9228C0515E004F983D /* Architecture */ = {
 			isa = PBXGroup;
 			children = (
@@ -548,8 +586,10 @@
 		5B8DFEB028C088B3004F983D /* CTMediatorPractice */ = {
 			isa = PBXGroup;
 			children = (
+				5B0E0B2929B887570008D49F /* QuestionKit */,
 				5B8DFEB128C089D8004F983D /* LYMediatorPracticeViewController.h */,
 				5B8DFEB228C089D8004F983D /* LYMediatorPracticeViewController.m */,
+				5B0E0B1F29B82ECB0008D49F /* CTMediator的核心思想及用法.md */,
 			);
 			path = CTMediatorPractice;
 			sourceTree = "<group>";
@@ -582,6 +622,7 @@
 		5B8DFEC228C0967F004F983D /* PerformanceOptimization */ = {
 			isa = PBXGroup;
 			children = (
+				5B8489E329B4AC22005B33DC /* MonitoringHttpTraffic */,
 				5B8489E129B33F1C005B33DC /* OptimizingLaunch */,
 				5B8DFED228C099FF004F983D /* MemoryLeak */,
 				5B8DFECE28C099AB004F983D /* CrashProtector */,
@@ -850,6 +891,7 @@
 				TargetAttributes = {
 					5B00CDA028BCF1A60069F2CC = {
 						CreatedOnToolsVersion = 13.2.1;
+						LastSwiftMigration = 1420;
 					};
 					5B7C5DC928DC52EB00C17687 = {
 						CreatedOnToolsVersion = 14.0;
@@ -881,6 +923,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B8489E829B59E9E005B33DC /* Instrument监控Http.md in Resources */,
 				5B116DDC295AA77D0060AC38 /* iOS16转屏问题.md in Resources */,
 				5B00CDB428BCF1AA0069F2CC /* LaunchScreen.storyboard in Resources */,
 				5B116DBD295846700060AC38 /* html.plist in Resources */,
@@ -978,7 +1021,9 @@
 				5B8205D128C74205002680DF /* APEHomePracticeSubjectsCollectionCellViewModel.m in Sources */,
 				5BEC76322918B5E900847F19 /* DMHeartFlyView.m in Sources */,
 				5B8205C828C72DA1002680DF /* APEHomePracticeDataController.m in Sources */,
+				5B0E0B2229B87E0D0008D49F /* LYQuestionKitViewController.m in Sources */,
 				5BEC7651291A02BF00847F19 /* LYFileManagerTool.m in Sources */,
+				5B0E0B2529B87E2F0008D49F /* CTMediator+QuestionKit.m in Sources */,
 				5B00CDCD28BCF3E90069F2CC /* LYKitCellItem.m in Sources */,
 				5B369CAF295DD7A200EA70ED /* LYGrayStyleViewController.m in Sources */,
 				5B8DFEB328C089D8004F983D /* LYMediatorPracticeViewController.m in Sources */,
@@ -995,6 +1040,7 @@
 				5B8205B628C7262F002680DF /* APEHomePracticeViewController.m in Sources */,
 				5B00CDCE28BCF3E90069F2CC /* LYAVFoundationViewController.m in Sources */,
 				5BEC764329191D3800847F19 /* CALayer+Animation.m in Sources */,
+				5B0E0B2829B87FCF0008D49F /* Target_QuestionKit.m in Sources */,
 				5BD99840291AB9D7003EF034 /* LYWebUploadViewController.m in Sources */,
 				5B8DFE9D28C05F5C004F983D /* LYDataBaseViewController.m in Sources */,
 				5B00CDB728BCF1AA0069F2CC /* main.m in Sources */,
@@ -1012,6 +1058,7 @@
 				5B8DFEB828C09394004F983D /* LYThemeManagerViewController.m in Sources */,
 				5B8205CE28C73ADD002680DF /* APEHomePracticeSubjectsViewModel.m in Sources */,
 				5B8DFED528C09A11004F983D /* LYMemoryLeakViewController.m in Sources */,
+				5B8489E629B4AC84005B33DC /* MonitorHttpTraffic.swift in Sources */,
 				5B116DCA295848F00060AC38 /* UIView+Frame.m in Sources */,
 				5BEC7654291A077600847F19 /* LYDownloadManager.m in Sources */,
 				5B7C5DBF28DB041D00C17687 /* LYWebViewController.m in Sources */,
@@ -1171,6 +1218,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9R26SLQA2L;
@@ -1191,6 +1239,9 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LYKit/PerformanceOptimization/MonitoringHttpTraffic/LYKit-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1201,6 +1252,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9R26SLQA2L;
@@ -1221,6 +1273,8 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "LYKit/PerformanceOptimization/MonitoringHttpTraffic/LYKit-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -1228,6 +1282,7 @@
 		5B7C5DD128DC52EB00C17687 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
@@ -1249,6 +1304,7 @@
 		5B7C5DD228DC52EB00C17687 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;

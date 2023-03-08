@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - CTMediator (46)
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
   - FMDB/standard (2.7.5)
@@ -30,6 +31,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - CTMediator
   - FMDB
   - GCDWebServer/WebUploader (~> 3.0)
   - LYSegmentBar
@@ -41,6 +43,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - CTMediator
     - FMDB
     - GCDWebServer
     - LYSegmentBar
@@ -51,6 +54,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CTMediator: f1cf58d509fb3192086c367711f039efd769b907
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
   LYSegmentBar: 54906d7b82f3a2b41058b6f98e7ba6aafdc9c64d
@@ -59,6 +63,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 72fcc3dbe52b673c17abbfc18247847b8b10bfa3
+PODFILE CHECKSUM: e4ab3b3885f904f23c56f6b88acb86860787d89c
 
 COCOAPODS: 1.11.3

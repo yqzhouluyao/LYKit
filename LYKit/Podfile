@@ -13,6 +13,8 @@ target 'LYKit' do
  pod 'SDWebImage', '4.2.0'
  pod 'YYModel', '~> 1.0.4'
  pod 'YYText','~> 1.0.7'
+ pod 'CTMediator'
+ 
 end
 
 #使用以下代码避免每次pod install,报错：Signing for "*.bundle" requires a development team.

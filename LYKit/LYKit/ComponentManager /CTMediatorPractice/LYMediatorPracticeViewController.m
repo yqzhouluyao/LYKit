@@ -7,9 +7,10 @@
 //
 
 #import "LYMediatorPracticeViewController.h"
+#import "CTMediator+QuestionKit.h"
 
 @interface LYMediatorPracticeViewController ()
-
+@property (nonatomic, strong) UIButton *pushAViewControllerButton;
 @end
 
 @implementation LYMediatorPracticeViewController
@@ -17,16 +18,36 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    [self.view addSubview:self.pushAViewControllerButton];
 }
 
-/*
-#pragma mark - Navigation
+- (void)viewWillLayoutSubviews
+{
+    [super viewWillLayoutSubviews];
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    [self.pushAViewControllerButton sizeToFit];
+    
 }
-*/
+
+- (void)didTappedPushAViewControllerButton:(UIButton *)button
+{
+    UIViewController *viewController = [[CTMediator sharedInstance] questionKitViewControllerWithCallback:^(NSString * _Nonnull result) {
+        
+    }];
+    [self.navigationController pushViewController:viewController animated:YES];
+}
+
+#pragma mark - getters and setters
+- (UIButton *)pushAViewControllerButton
+{
+    if (_pushAViewControllerButton == nil) {
+        _pushAViewControllerButton = [UIButton buttonWithType:UIButtonTypeCustom];
+        _pushAViewControllerButton.frame = CGRectMake(100, 200, 300, 50);
+        [_pushAViewControllerButton setTitle:@"push A view controller" forState:UIControlStateNormal];
+        [_pushAViewControllerButton setTitleColor:[UIColor blueColor] forState:UIControlStateNormal];
+        [_pushAViewControllerButton addTarget:self action:@selector(didTappedPushAViewControllerButton:) forControlEvents:UIControlEventTouchUpInside];
+    }
+    return _pushAViewControllerButton;
+}
 
 @end
