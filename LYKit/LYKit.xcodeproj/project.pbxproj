@@ -21,6 +21,10 @@
 		5B0E0B2229B87E0D0008D49F /* LYQuestionKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E0B2129B87E0D0008D49F /* LYQuestionKitViewController.m */; };
 		5B0E0B2529B87E2F0008D49F /* CTMediator+QuestionKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E0B2429B87E2F0008D49F /* CTMediator+QuestionKit.m */; };
 		5B0E0B2829B87FCF0008D49F /* Target_QuestionKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E0B2729B87FCF0008D49F /* Target_QuestionKit.m */; };
+		5B0E0B2E29B8A3770008D49F /* MGJRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E0B2D29B8A3770008D49F /* MGJRouter.m */; };
+		5B0E0B3129B8A59E0008D49F /* MGJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E0B3029B8A59E0008D49F /* MGJViewController.m */; };
+		5B0E0B3429B8A5B20008D49F /* MGJDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E0B3329B8A5B20008D49F /* MGJDetailViewController.m */; };
+		5B0E0B3829B8A8860008D49F /* MGJRouter实现思路.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B0E0B3729B8A8860008D49F /* MGJRouter实现思路.md */; };
 		5B116DBD295846700060AC38 /* html.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5B116DBC295846700060AC38 /* html.plist */; };
 		5B116DC4295846D90060AC38 /* BrowserImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B116DBE295846D90060AC38 /* BrowserImageViewController.m */; };
 		5B116DC5295846D90060AC38 /* OTKMarkUpParseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B116DC0295846D90060AC38 /* OTKMarkUpParseManager.m */; };
@@ -135,6 +139,13 @@
 		5B0E0B2429B87E2F0008D49F /* CTMediator+QuestionKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+QuestionKit.m"; sourceTree = "<group>"; };
 		5B0E0B2629B87FCF0008D49F /* Target_QuestionKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Target_QuestionKit.h; sourceTree = "<group>"; };
 		5B0E0B2729B87FCF0008D49F /* Target_QuestionKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Target_QuestionKit.m; sourceTree = "<group>"; };
+		5B0E0B2C29B8A3770008D49F /* MGJRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGJRouter.h; sourceTree = "<group>"; };
+		5B0E0B2D29B8A3770008D49F /* MGJRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MGJRouter.m; sourceTree = "<group>"; };
+		5B0E0B2F29B8A59E0008D49F /* MGJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGJViewController.h; sourceTree = "<group>"; };
+		5B0E0B3029B8A59E0008D49F /* MGJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGJViewController.m; sourceTree = "<group>"; };
+		5B0E0B3229B8A5B20008D49F /* MGJDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGJDetailViewController.h; sourceTree = "<group>"; };
+		5B0E0B3329B8A5B20008D49F /* MGJDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGJDetailViewController.m; sourceTree = "<group>"; };
+		5B0E0B3729B8A8860008D49F /* MGJRouter实现思路.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "MGJRouter实现思路.md"; sourceTree = "<group>"; };
 		5B116DBC295846700060AC38 /* html.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = html.plist; sourceTree = "<group>"; };
 		5B116DBE295846D90060AC38 /* BrowserImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BrowserImageViewController.m; sourceTree = "<group>"; };
 		5B116DBF295846D90060AC38 /* BrowserImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BrowserImageViewController.h; sourceTree = "<group>"; };
@@ -399,6 +410,28 @@
 			path = QuestionKit;
 			sourceTree = "<group>";
 		};
+		5B0E0B2A29B8A3520008D49F /* MGJ */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E0B3729B8A8860008D49F /* MGJRouter实现思路.md */,
+				5B0E0B2B29B8A35E0008D49F /* MGJRouter */,
+				5B0E0B2F29B8A59E0008D49F /* MGJViewController.h */,
+				5B0E0B3029B8A59E0008D49F /* MGJViewController.m */,
+				5B0E0B3229B8A5B20008D49F /* MGJDetailViewController.h */,
+				5B0E0B3329B8A5B20008D49F /* MGJDetailViewController.m */,
+			);
+			path = MGJ;
+			sourceTree = "<group>";
+		};
+		5B0E0B2B29B8A35E0008D49F /* MGJRouter */ = {
+			isa = PBXGroup;
+			children = (
+				5B0E0B2C29B8A3770008D49F /* MGJRouter.h */,
+				5B0E0B2D29B8A3770008D49F /* MGJRouter.m */,
+			);
+			path = MGJRouter;
+			sourceTree = "<group>";
+		};
 		5B116DC72958489C0060AC38 /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -566,6 +599,7 @@
 		5B8DFEA228C08558004F983D /* ComponentManager  */ = {
 			isa = PBXGroup;
 			children = (
+				5B0E0B2A29B8A3520008D49F /* MGJ */,
 				5B8DFEB028C088B3004F983D /* CTMediatorPractice */,
 				5B8DFEA628C08610004F983D /* LianJia */,
 				5B8DFEAD28C0878B004F983D /* LYComponentManagerViewController.h */,
@@ -923,6 +957,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B0E0B3829B8A8860008D49F /* MGJRouter实现思路.md in Resources */,
 				5B8489E829B59E9E005B33DC /* Instrument监控Http.md in Resources */,
 				5B116DDC295AA77D0060AC38 /* iOS16转屏问题.md in Resources */,
 				5B00CDB428BCF1AA0069F2CC /* LaunchScreen.storyboard in Resources */,
@@ -1016,6 +1051,7 @@
 				5B8205CB28C73008002680DF /* APESubjectDataController.m in Sources */,
 				5B116DD0295849C60060AC38 /* NSString+OTKRegular.m in Sources */,
 				5B8205BC28C726EF002680DF /* APEHomePracticeActivityView.m in Sources */,
+				5B0E0B3129B8A59E0008D49F /* MGJViewController.m in Sources */,
 				5B8DFEF128C09FD2004F983D /* LYMVVMViewController.m in Sources */,
 				5B8205C528C72D8E002680DF /* APEBaseDataController.m in Sources */,
 				5B8205D128C74205002680DF /* APEHomePracticeSubjectsCollectionCellViewModel.m in Sources */,
@@ -1031,6 +1067,7 @@
 				5BC258042915062E000DDC73 /* LYFMDBViewController.m in Sources */,
 				5B8DFEA928C08675004F983D /* LYLinkHomeViewController.m in Sources */,
 				5BEC762E2918B4C500847F19 /* LYFlyHeartViewController.m in Sources */,
+				5B0E0B2E29B8A3770008D49F /* MGJRouter.m in Sources */,
 				5B8DFED128C099BA004F983D /* LYCrashProtectorViewController.m in Sources */,
 				5B00CDCC28BCF3E90069F2CC /* LYKitBaseViewController.m in Sources */,
 				5B710A1D294B195F00BC67E7 /* LYBlockTimerViewController.m in Sources */,
@@ -1038,6 +1075,7 @@
 				5B845ED729497CEA00F959C4 /* LYWeakTimerViewController.m in Sources */,
 				5B7C5DD528DC79B200C17687 /* LYCalculatorTool.m in Sources */,
 				5B8205B628C7262F002680DF /* APEHomePracticeViewController.m in Sources */,
+				5B0E0B3429B8A5B20008D49F /* MGJDetailViewController.m in Sources */,
 				5B00CDCE28BCF3E90069F2CC /* LYAVFoundationViewController.m in Sources */,
 				5BEC764329191D3800847F19 /* CALayer+Animation.m in Sources */,
 				5B0E0B2829B87FCF0008D49F /* Target_QuestionKit.m in Sources */,

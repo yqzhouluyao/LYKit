@@ -38,7 +38,7 @@
     
     [self.items addObject:[self itemWithTitle:@"链家组件化方案" viewController:[[LYLinkHomeViewController alloc] init]]];
     [self.items addObject:[self itemWithTitle:@"CTMediator的实践" viewController:[[LYMediatorPracticeViewController alloc] init]]];
-    [self.items addObject:[self itemWithTitle:@"Target-Action 蘑菇街方案" viewController:[[LYMediatorPracticeViewController alloc] init]]];
+    [self.items addObject:[self itemWithTitle:@"蘑菇街方案" viewController:[[LYMediatorPracticeViewController alloc] init]]];
     
 }
 
