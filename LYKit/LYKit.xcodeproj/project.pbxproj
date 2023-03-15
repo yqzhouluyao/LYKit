@@ -39,6 +39,7 @@
 		5B369CAC295DD32800EA70ED /* LYGrayStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B369CAB295DD32800EA70ED /* LYGrayStyle.m */; };
 		5B369CAF295DD7A200EA70ED /* LYGrayStyleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B369CAE295DD7A200EA70ED /* LYGrayStyleViewController.m */; };
 		5B710A1D294B195F00BC67E7 /* LYBlockTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B710A1C294B195F00BC67E7 /* LYBlockTimerViewController.m */; };
+		5B72D13E29C0C4D00083F13F /* MVVM_Diagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B72D13D29C0C4D00083F13F /* MVVM_Diagram.png */; };
 		5B7C5DBF28DB041D00C17687 /* LYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C5DBE28DB041D00C17687 /* LYWebViewController.m */; };
 		5B7C5DC128DB4B7F00C17687 /* NativeInvokeJS.html in Resources */ = {isa = PBXBuildFile; fileRef = 5B7C5DC028DB4B7F00C17687 /* NativeInvokeJS.html */; };
 		5B7C5DC528DC50C700C17687 /* LYUnitTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C5DC428DC50C700C17687 /* LYUnitTestViewController.m */; };
@@ -85,6 +86,7 @@
 		5BC258042915062E000DDC73 /* LYFMDBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC258032915062E000DDC73 /* LYFMDBViewController.m */; };
 		5BC258082915076C000DDC73 /* LYDownloadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC258072915076C000DDC73 /* LYDownloadTool.m */; };
 		5BC2580B291507DC000DDC73 /* LYMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC2580A291507DC000DDC73 /* LYMusicModel.m */; };
+		5BCCBAA029BF90D500ADAA42 /* 解决过的难题.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BCCBA9F29BF90D500ADAA42 /* 解决过的难题.md */; };
 		5BD99840291AB9D7003EF034 /* LYWebUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9983F291AB9D7003EF034 /* LYWebUploadViewController.m */; };
 		5BEC762E2918B4C500847F19 /* LYFlyHeartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC762D2918B4C500847F19 /* LYFlyHeartViewController.m */; };
 		5BEC76322918B5E900847F19 /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC76312918B5E900847F19 /* DMHeartFlyView.m */; };
@@ -172,6 +174,9 @@
 		5B369CAE295DD7A200EA70ED /* LYGrayStyleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYGrayStyleViewController.m; sourceTree = "<group>"; };
 		5B710A1B294B195F00BC67E7 /* LYBlockTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBlockTimerViewController.h; sourceTree = "<group>"; };
 		5B710A1C294B195F00BC67E7 /* LYBlockTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBlockTimerViewController.m; sourceTree = "<group>"; };
+		5B72D13829C0BB7B0083F13F /* MVVM设计思路.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "MVVM设计思路.md"; sourceTree = "<group>"; };
+		5B72D13D29C0C4D00083F13F /* MVVM_Diagram.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MVVM_Diagram.png; sourceTree = "<group>"; };
+		5B72D13F29C0C7610083F13F /* MVVM.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MVVM.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		5B7C5DBD28DB041D00C17687 /* LYWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYWebViewController.h; sourceTree = "<group>"; };
 		5B7C5DBE28DB041D00C17687 /* LYWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYWebViewController.m; sourceTree = "<group>"; };
 		5B7C5DC028DB4B7F00C17687 /* NativeInvokeJS.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = NativeInvokeJS.html; sourceTree = "<group>"; };
@@ -262,6 +267,8 @@
 		5BC258072915076C000DDC73 /* LYDownloadTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYDownloadTool.m; sourceTree = "<group>"; };
 		5BC25809291507DC000DDC73 /* LYMusicModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYMusicModel.h; sourceTree = "<group>"; };
 		5BC2580A291507DC000DDC73 /* LYMusicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMusicModel.m; sourceTree = "<group>"; };
+		5BCCBA9F29BF90D500ADAA42 /* 解决过的难题.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "解决过的难题.md"; sourceTree = "<group>"; };
+		5BCCBAA229BF911E00ADAA42 /* 源码阅读.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "源码阅读.md"; sourceTree = "<group>"; };
 		5BD9983E291AB9D7003EF034 /* LYWebUploadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYWebUploadViewController.h; sourceTree = "<group>"; };
 		5BD9983F291AB9D7003EF034 /* LYWebUploadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYWebUploadViewController.m; sourceTree = "<group>"; };
 		5BEC762C2918B4C500847F19 /* LYFlyHeartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFlyHeartViewController.h; sourceTree = "<group>"; };
@@ -342,6 +349,7 @@
 		5B00CDA328BCF1A60069F2CC /* LYKit */ = {
 			isa = PBXGroup;
 			children = (
+				5B72D13929C0BBAD0083F13F /* ImageResource */,
 				5B116DC72958489C0060AC38 /* Common */,
 				5BEC76442919F8D800847F19 /* Network */,
 				5BAA1F6B2910B7EB0002A44C /* AVFoundation */,
@@ -350,7 +358,7 @@
 				5B8DFEC228C0967F004F983D /* PerformanceOptimization */,
 				5B8DFEA228C08558004F983D /* ComponentManager  */,
 				5B8DFE9A28C05F43004F983D /* DataBase */,
-				5B8DFE9228C0515E004F983D /* Architecture */,
+				5B8DFE9228C0515E004F983D /* DesignPatterns */,
 				5B00CDC928BCF3E80069F2CC /* Functional */,
 				5B00CDC328BCF3E80069F2CC /* Interview */,
 				5B00CDC728BCF3E80069F2CC /* LYKitHomeViewController.h */,
@@ -370,6 +378,8 @@
 		5B00CDC328BCF3E80069F2CC /* Interview */ = {
 			isa = PBXGroup;
 			children = (
+				5BCCBAA129BF90F800ADAA42 /* 源码阅读 */,
+				5BCCBA9D29BF908400ADAA42 /* 解决过难题 */,
 				5B7CE7B829097D64005925EF /* frog_1024.md */,
 				5B00CDC428BCF3E80069F2CC /* LYInterviewViewController.h */,
 				5B00CDC528BCF3E80069F2CC /* LYInterviewViewController.m */,
@@ -472,6 +482,22 @@
 			path = GrayStyle;
 			sourceTree = "<group>";
 		};
+		5B72D13929C0BBAD0083F13F /* ImageResource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ImageResource;
+			sourceTree = "<group>";
+		};
+		5B72D13C29C0BD8B0083F13F /* Document */ = {
+			isa = PBXGroup;
+			children = (
+				5B72D13D29C0C4D00083F13F /* MVVM_Diagram.png */,
+				5B72D13829C0BB7B0083F13F /* MVVM设计思路.md */,
+			);
+			path = Document;
+			sourceTree = "<group>";
+		};
 		5B7C5DBC28DB029900C17687 /* NativeInvokeJS */ = {
 			isa = PBXGroup;
 			children = (
@@ -536,7 +562,7 @@
 			path = MonitoringHttpTraffic;
 			sourceTree = "<group>";
 		};
-		5B8DFE9228C0515E004F983D /* Architecture */ = {
+		5B8DFE9228C0515E004F983D /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
 				5B8DFEEE28C09F9C004F983D /* MVVM */,
@@ -544,7 +570,7 @@
 				5B8DFE9328C05180004F983D /* LYArchitectureViewController.h */,
 				5B8DFE9428C05180004F983D /* LYArchitectureViewController.m */,
 			);
-			path = Architecture;
+			path = DesignPatterns;
 			sourceTree = "<group>";
 		};
 		5B8DFE9628C05324004F983D /* YuanTiKu */ = {
@@ -765,8 +791,10 @@
 		5B8DFEEE28C09F9C004F983D /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				5B72D13C29C0BD8B0083F13F /* Document */,
 				5B8DFEEF28C09FD2004F983D /* LYMVVMViewController.h */,
 				5B8DFEF028C09FD2004F983D /* LYMVVMViewController.m */,
+				5B72D13F29C0C7610083F13F /* MVVM.playground */,
 			);
 			path = MVVM;
 			sourceTree = "<group>";
@@ -800,6 +828,22 @@
 				5BC2580A291507DC000DDC73 /* LYMusicModel.m */,
 			);
 			path = FMDB;
+			sourceTree = "<group>";
+		};
+		5BCCBA9D29BF908400ADAA42 /* 解决过难题 */ = {
+			isa = PBXGroup;
+			children = (
+				5BCCBA9F29BF90D500ADAA42 /* 解决过的难题.md */,
+			);
+			path = "解决过难题";
+			sourceTree = "<group>";
+		};
+		5BCCBAA129BF90F800ADAA42 /* 源码阅读 */ = {
+			isa = PBXGroup;
+			children = (
+				5BCCBAA229BF911E00ADAA42 /* 源码阅读.md */,
+			);
+			path = "源码阅读";
 			sourceTree = "<group>";
 		};
 		5BD9983D291AB9A7003EF034 /* WebUpload */ = {
@@ -960,7 +1004,9 @@
 				5B0E0B3829B8A8860008D49F /* MGJRouter实现思路.md in Resources */,
 				5B8489E829B59E9E005B33DC /* Instrument监控Http.md in Resources */,
 				5B116DDC295AA77D0060AC38 /* iOS16转屏问题.md in Resources */,
+				5B72D13E29C0C4D00083F13F /* MVVM_Diagram.png in Resources */,
 				5B00CDB428BCF1AA0069F2CC /* LaunchScreen.storyboard in Resources */,
+				5BCCBAA029BF90D500ADAA42 /* 解决过的难题.md in Resources */,
 				5B116DBD295846700060AC38 /* html.plist in Resources */,
 				5B00CDB128BCF1AA0069F2CC /* Assets.xcassets in Resources */,
 				5B7C5DC128DB4B7F00C17687 /* NativeInvokeJS.html in Resources */,
