@@ -7,6 +7,7 @@
 //
 
 #import "LYCheckANRViewController.h"
+#import "LYLagMonitor.h"
 
 @interface LYCheckANRViewController ()
 
@@ -14,19 +15,48 @@
 
 @implementation LYCheckANRViewController
 
+- (instancetype)init
+{
+    self = [super init];
+    if (self) {
+        self.cellIdentifier = @"CheckANRCell";
+        self.vcTitle = @"检测卡顿的方案列表";
+    }
+    return self;
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    //猿题库架构设计 https://www.cnblogs.com/yulang314/p/5091342.html
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (void)setupItems {
+    [super setupItems];
+    
+    [self.items addObject:[self itemWithTitle:@"根据主线程runloop的状态判断是否卡顿" viewController:[[UIViewController alloc] init]]];
+    
 }
-*/
+
+- (void)ANRCheck {
+    [[LYLagMonitor shareInstance] beginMonitor];
+}
+
+
+- (LYKitCellItem *)itemWithTitle:(NSString *)title viewController:(UIViewController *)viewController {
+    __weak typeof(self) weakSelf = self;
+    
+    void(^block)(void) = ^{
+        dispatch_async(dispatch_get_main_queue(), ^{
+            __strong typeof(self) strongSelf = weakSelf;
+            if (strongSelf) {
+                [strongSelf.navigationController pushViewController:viewController animated:YES];
+            }
+        });
+    };
+    LYKitCellItem *item = [LYKitCellItem itemWithTitle:title block:block];
+    return item;
+}
+
 
 @end

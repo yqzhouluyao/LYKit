@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LYKitBaseViewController.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface LYCheckANRViewController : UIViewController
+@interface LYCheckANRViewController : LYKitBaseViewController
 
 @end
 

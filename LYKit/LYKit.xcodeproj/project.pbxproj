@@ -87,6 +87,7 @@
 		5BC258082915076C000DDC73 /* LYDownloadTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC258072915076C000DDC73 /* LYDownloadTool.m */; };
 		5BC2580B291507DC000DDC73 /* LYMusicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BC2580A291507DC000DDC73 /* LYMusicModel.m */; };
 		5BCCBAA029BF90D500ADAA42 /* 解决过的难题.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BCCBA9F29BF90D500ADAA42 /* 解决过的难题.md */; };
+		5BD48DBD29C4A9A4006A47F1 /* LYLagMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD48DBC29C4A9A4006A47F1 /* LYLagMonitor.m */; };
 		5BD99840291AB9D7003EF034 /* LYWebUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9983F291AB9D7003EF034 /* LYWebUploadViewController.m */; };
 		5BEC762E2918B4C500847F19 /* LYFlyHeartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC762D2918B4C500847F19 /* LYFlyHeartViewController.m */; };
 		5BEC76322918B5E900847F19 /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC76312918B5E900847F19 /* DMHeartFlyView.m */; };
@@ -269,6 +270,9 @@
 		5BC2580A291507DC000DDC73 /* LYMusicModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMusicModel.m; sourceTree = "<group>"; };
 		5BCCBA9F29BF90D500ADAA42 /* 解决过的难题.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "解决过的难题.md"; sourceTree = "<group>"; };
 		5BCCBAA229BF911E00ADAA42 /* 源码阅读.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "源码阅读.md"; sourceTree = "<group>"; };
+		5BD48DBB29C4A9A4006A47F1 /* LYLagMonitor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYLagMonitor.h; sourceTree = "<group>"; };
+		5BD48DBC29C4A9A4006A47F1 /* LYLagMonitor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYLagMonitor.m; sourceTree = "<group>"; };
+		5BD48DBE29C608E7006A47F1 /* 主线程卡顿检测.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "主线程卡顿检测.md"; sourceTree = "<group>"; };
 		5BD9983E291AB9D7003EF034 /* LYWebUploadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYWebUploadViewController.h; sourceTree = "<group>"; };
 		5BD9983F291AB9D7003EF034 /* LYWebUploadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYWebUploadViewController.m; sourceTree = "<group>"; };
 		5BEC762C2918B4C500847F19 /* LYFlyHeartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFlyHeartViewController.h; sourceTree = "<group>"; };
@@ -708,6 +712,9 @@
 			children = (
 				5B8DFECB28C09965004F983D /* LYCheckANRViewController.h */,
 				5B8DFECC28C09965004F983D /* LYCheckANRViewController.m */,
+				5BD48DBB29C4A9A4006A47F1 /* LYLagMonitor.h */,
+				5BD48DBC29C4A9A4006A47F1 /* LYLagMonitor.m */,
+				5BD48DBE29C608E7006A47F1 /* 主线程卡顿检测.md */,
 			);
 			path = CheckANR;
 			sourceTree = "<group>";
@@ -1108,6 +1115,7 @@
 				5B0E0B2529B87E2F0008D49F /* CTMediator+QuestionKit.m in Sources */,
 				5B00CDCD28BCF3E90069F2CC /* LYKitCellItem.m in Sources */,
 				5B369CAF295DD7A200EA70ED /* LYGrayStyleViewController.m in Sources */,
+				5BD48DBD29C4A9A4006A47F1 /* LYLagMonitor.m in Sources */,
 				5B8DFEB328C089D8004F983D /* LYMediatorPracticeViewController.m in Sources */,
 				5B845EDA29497EA100F959C4 /* YYWeakProxy.m in Sources */,
 				5BC258042915062E000DDC73 /* LYFMDBViewController.m in Sources */,
