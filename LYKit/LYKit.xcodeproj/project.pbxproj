@@ -569,6 +569,7 @@
 		5B8DFE9228C0515E004F983D /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				5BC40B0A29CA9F5A00B362A8 /* MVP */,
 				5B8DFEEE28C09F9C004F983D /* MVVM */,
 				5B8DFE9628C05324004F983D /* YuanTiKu */,
 				5B8DFE9328C05180004F983D /* LYArchitectureViewController.h */,
@@ -835,6 +836,13 @@
 				5BC2580A291507DC000DDC73 /* LYMusicModel.m */,
 			);
 			path = FMDB;
+			sourceTree = "<group>";
+		};
+		5BC40B0A29CA9F5A00B362A8 /* MVP */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MVP;
 			sourceTree = "<group>";
 		};
 		5BCCBA9D29BF908400ADAA42 /* 解决过难题 */ = {
