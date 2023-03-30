@@ -7,7 +7,8 @@
 
 #import "LYArchitectureViewController.h"
 #import "APEHomePracticeViewController.h"
-#import "LYMVVMViewController.h"
+#import "MVVMViewController.h"
+#import "MVPViewController.h"
 
 @interface LYArchitectureViewController ()
 
@@ -35,7 +36,9 @@
     [super setupItems];
     
     [self.items addObject:[self itemWithTitle:@"猿题库架构实现demo" viewController:[[APEHomePracticeViewController alloc] init]]];
-    [self.items addObject:[self itemWithTitle:@"MVVM架构" viewController:[[LYMVVMViewController alloc] init]]];
+    [self.items addObject:[self itemWithTitle:@"MVVM架构" viewController:[[MVVMViewController alloc] init]]];
+    [self.items addObject:[self itemWithTitle:@"MVP架构" viewController:[[MVPViewController alloc] init]]];
+    
     
 }
 
