@@ -26,6 +26,7 @@ PODS:
   - SDWebImage (4.2.0):
     - SDWebImage/Core (= 4.2.0)
   - SDWebImage/Core (4.2.0)
+  - YYCache (1.0.4)
   - YYModel (1.0.4)
   - YYText (1.0.7)
 
@@ -37,6 +38,7 @@ DEPENDENCIES:
   - LYSegmentBar
   - Masonry (~> 1.1.0)
   - SDWebImage (= 4.2.0)
+  - YYCache
   - YYModel (~> 1.0.4)
   - YYText (~> 1.0.7)
 
@@ -49,6 +51,7 @@ SPEC REPOS:
     - LYSegmentBar
     - Masonry
     - SDWebImage
+    - YYCache
     - YYModel
     - YYText
 
@@ -60,9 +63,10 @@ SPEC CHECKSUMS:
   LYSegmentBar: 54906d7b82f3a2b41058b6f98e7ba6aafdc9c64d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SDWebImage: b1189fd85365c18434270a11a5cad13a1e848d53
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: e4ab3b3885f904f23c56f6b88acb86860787d89c
+PODFILE CHECKSUM: b3dbdf1bb4c0051789dd09296e6f1e90640c8b60
 
 COCOAPODS: 1.11.3
