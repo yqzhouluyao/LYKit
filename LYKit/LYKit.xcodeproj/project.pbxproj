@@ -71,8 +71,6 @@
 		5B845ED429497ABD00F959C4 /* LYTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B845ED329497ABD00F959C4 /* LYTimerViewController.m */; };
 		5B845ED729497CEA00F959C4 /* LYWeakTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B845ED629497CEA00F959C4 /* LYWeakTimerViewController.m */; };
 		5B845EDA29497EA100F959C4 /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B845ED929497EA100F959C4 /* YYWeakProxy.m */; };
-		5B8489E629B4AC84005B33DC /* MonitorHttpTraffic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8489E529B4AC84005B33DC /* MonitorHttpTraffic.swift */; };
-		5B8489E829B59E9E005B33DC /* Instrument监控Http.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B8489E729B59E9E005B33DC /* Instrument监控Http.md */; };
 		5B8DFE9528C05180004F983D /* LYArchitectureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFE9428C05180004F983D /* LYArchitectureViewController.m */; };
 		5B8DFE9D28C05F5C004F983D /* LYDataBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFE9C28C05F5C004F983D /* LYDataBaseViewController.m */; };
 		5B8DFEA128C0613C004F983D /* LYKeyValueStoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEA028C0613C004F983D /* LYKeyValueStoreViewController.m */; };
@@ -282,6 +280,9 @@
 		5BE4638B29D6EB570054548A /* large_image_8_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BE462DB29D6EB570054548A /* large_image_8_0.jpg */; };
 		5BE4638C29D6EB570054548A /* large_image_9_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BE462DC29D6EB570054548A /* large_image_9_6.jpg */; };
 		5BE4638E29D6F4690054548A /* 加载大图操作步骤.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BE4638D29D6F4690054548A /* 加载大图操作步骤.md */; };
+		5BE4639129D73EAC0054548A /* ImageDecodeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE4639029D73EAC0054548A /* ImageDecodeViewController.m */; };
+		5BE4639829D74E650054548A /* ImageProcessor.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5BE4639729D74E650054548A /* ImageProcessor.mm */; };
+		5BE4639D29D758400054548A /* LYImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE4639C29D758400054548A /* LYImageViewController.m */; };
 		5BEC762E2918B4C500847F19 /* LYFlyHeartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC762D2918B4C500847F19 /* LYFlyHeartViewController.m */; };
 		5BEC76322918B5E900847F19 /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC76312918B5E900847F19 /* DMHeartFlyView.m */; };
 		5BEC76362919050400847F19 /* LYDanMuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC76352919050400847F19 /* LYDanMuViewController.m */; };
@@ -430,9 +431,6 @@
 		5B845ED829497EA100F959C4 /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
 		5B845ED929497EA100F959C4 /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 		5B8489E229B34011005B33DC /* 启动优化.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "启动优化.md"; sourceTree = "<group>"; };
-		5B8489E429B4AC84005B33DC /* LYKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LYKit-Bridging-Header.h"; sourceTree = "<group>"; };
-		5B8489E529B4AC84005B33DC /* MonitorHttpTraffic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitorHttpTraffic.swift; sourceTree = "<group>"; };
-		5B8489E729B59E9E005B33DC /* Instrument监控Http.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "Instrument监控Http.md"; sourceTree = "<group>"; };
 		5B8DFE9328C05180004F983D /* LYArchitectureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYArchitectureViewController.h; sourceTree = "<group>"; };
 		5B8DFE9428C05180004F983D /* LYArchitectureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYArchitectureViewController.m; sourceTree = "<group>"; };
 		5B8DFE9B28C05F5C004F983D /* LYDataBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYDataBaseViewController.h; sourceTree = "<group>"; };
@@ -670,6 +668,12 @@
 		5BE462DB29D6EB570054548A /* large_image_8_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = large_image_8_0.jpg; sourceTree = "<group>"; };
 		5BE462DC29D6EB570054548A /* large_image_9_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = large_image_9_6.jpg; sourceTree = "<group>"; };
 		5BE4638D29D6F4690054548A /* 加载大图操作步骤.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "加载大图操作步骤.md"; sourceTree = "<group>"; };
+		5BE4638F29D73EAC0054548A /* ImageDecodeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageDecodeViewController.h; sourceTree = "<group>"; };
+		5BE4639029D73EAC0054548A /* ImageDecodeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageDecodeViewController.m; sourceTree = "<group>"; };
+		5BE4639629D74E650054548A /* ImageProcessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageProcessor.h; sourceTree = "<group>"; };
+		5BE4639729D74E650054548A /* ImageProcessor.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ImageProcessor.mm; sourceTree = "<group>"; };
+		5BE4639B29D758400054548A /* LYImageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYImageViewController.h; sourceTree = "<group>"; };
+		5BE4639C29D758400054548A /* LYImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYImageViewController.m; sourceTree = "<group>"; };
 		5BEC762C2918B4C500847F19 /* LYFlyHeartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFlyHeartViewController.h; sourceTree = "<group>"; };
 		5BEC762D2918B4C500847F19 /* LYFlyHeartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFlyHeartViewController.m; sourceTree = "<group>"; };
 		5BEC76302918B5E900847F19 /* DMHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
@@ -960,14 +964,13 @@
 			path = OptimizingLaunch;
 			sourceTree = "<group>";
 		};
-		5B8489E329B4AC22005B33DC /* MonitoringHttpTraffic */ = {
+		5B8489E329B4AC22005B33DC /* ImageDecodingAndResizing */ = {
 			isa = PBXGroup;
 			children = (
-				5B8489E729B59E9E005B33DC /* Instrument监控Http.md */,
-				5B8489E529B4AC84005B33DC /* MonitorHttpTraffic.swift */,
-				5B8489E429B4AC84005B33DC /* LYKit-Bridging-Header.h */,
+				5BE4638F29D73EAC0054548A /* ImageDecodeViewController.h */,
+				5BE4639029D73EAC0054548A /* ImageDecodeViewController.m */,
 			);
-			path = MonitoringHttpTraffic;
+			path = ImageDecodingAndResizing;
 			sourceTree = "<group>";
 		};
 		5B8DFE9228C0515E004F983D /* DesignPatterns */ = {
@@ -1091,7 +1094,7 @@
 		5B8DFEC228C0967F004F983D /* PerformanceOptimization */ = {
 			isa = PBXGroup;
 			children = (
-				5B8489E329B4AC22005B33DC /* MonitoringHttpTraffic */,
+				5B8489E329B4AC22005B33DC /* ImageDecodingAndResizing */,
 				5B8489E129B33F1C005B33DC /* OptimizingLaunch */,
 				5B8DFED228C099FF004F983D /* LoadLargeImage */,
 				5B8DFECE28C099AB004F983D /* CrashProtector */,
@@ -1151,6 +1154,7 @@
 		5B8DFED628C09B75004F983D /* Media */ = {
 			isa = PBXGroup;
 			children = (
+				5BE4639529D74DFD0054548A /* Image */,
 				5B8DFEDC28C09D29004F983D /* Audio */,
 				5B8DFEDB28C09D1F004F983D /* Video */,
 				5B8DFEDA28C09CFE004F983D /* OpenGL */,
@@ -1476,6 +1480,17 @@
 			path = split_images;
 			sourceTree = "<group>";
 		};
+		5BE4639529D74DFD0054548A /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				5BE4639629D74E650054548A /* ImageProcessor.h */,
+				5BE4639729D74E650054548A /* ImageProcessor.mm */,
+				5BE4639B29D758400054548A /* LYImageViewController.h */,
+				5BE4639C29D758400054548A /* LYImageViewController.m */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
 		5BEC762F2918B4D300847F19 /* FlyHeart */ = {
 			isa = PBXGroup;
 			children = (
@@ -1649,7 +1664,6 @@
 				5BE462FA29D6EB570054548A /* large_image_6_4.jpg in Resources */,
 				5BE4632B29D6EB570054548A /* large_image_6_15.jpg in Resources */,
 				5BE4635A29D6EB570054548A /* large_image_1_7.jpg in Resources */,
-				5B8489E829B59E9E005B33DC /* Instrument监控Http.md in Resources */,
 				5B4DDBB829D57DFE008A6B1C /* MVPViewController.xib in Resources */,
 				5BE4632229D6EB570054548A /* large_image_7_11.jpg in Resources */,
 				5BE4636C29D6EB570054548A /* large_image_3_15.jpg in Resources */,
@@ -1897,6 +1911,7 @@
 				5BEC76362919050400847F19 /* LYDanMuViewController.m in Sources */,
 				5B8DFEC528C096C7004F983D /* LYPerformanceOptimizationViewController.m in Sources */,
 				5BC2580B291507DC000DDC73 /* LYMusicModel.m in Sources */,
+				5BE4639D29D758400054548A /* LYImageViewController.m in Sources */,
 				5BEC76472919F90200847F19 /* LYNetworkViewController.m in Sources */,
 				5B116DD729588F270060AC38 /* LYRotationViewController.m in Sources */,
 				5B00CDA628BCF1A60069F2CC /* AppDelegate.m in Sources */,
@@ -1942,6 +1957,7 @@
 				5B0E0B2829B87FCF0008D49F /* Target_QuestionKit.m in Sources */,
 				5BD99840291AB9D7003EF034 /* LYWebUploadViewController.m in Sources */,
 				5B8DFE9D28C05F5C004F983D /* LYDataBaseViewController.m in Sources */,
+				5BE4639829D74E650054548A /* ImageProcessor.mm in Sources */,
 				5B00CDB728BCF1AA0069F2CC /* main.m in Sources */,
 				5B8DFEAF28C0878B004F983D /* LYComponentManagerViewController.m in Sources */,
 				5BEC764B2919FA3600847F19 /* LYDownloadViewController.m in Sources */,
@@ -1956,12 +1972,12 @@
 				5B116DDA2959485A0060AC38 /* LYPlayerViewController.m in Sources */,
 				5B8DFEB828C09394004F983D /* LYThemeManagerViewController.m in Sources */,
 				5B8205CE28C73ADD002680DF /* APEHomePracticeSubjectsViewModel.m in Sources */,
-				5B8489E629B4AC84005B33DC /* MonitorHttpTraffic.swift in Sources */,
 				5B116DCA295848F00060AC38 /* UIView+Frame.m in Sources */,
 				5BEC7654291A077600847F19 /* LYDownloadManager.m in Sources */,
 				5B7C5DBF28DB041D00C17687 /* LYWebViewController.m in Sources */,
 				5BEC763F29190CED00847F19 /* LYDanMuModel.m in Sources */,
 				5B7C5DC528DC50C700C17687 /* LYUnitTestViewController.m in Sources */,
+				5BE4639129D73EAC0054548A /* ImageDecodeViewController.m in Sources */,
 				5B116DC4295846D90060AC38 /* BrowserImageViewController.m in Sources */,
 				5B00CDD128BCF3E90069F2CC /* LYFunctionViewController.m in Sources */,
 				5B00CDA928BCF1A60069F2CC /* SceneDelegate.m in Sources */,
@@ -2120,6 +2136,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9R26SLQA2L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LYKit/resources",
+					"$(PROJECT_DIR)/LYKit",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LYKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2154,6 +2175,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9R26SLQA2L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LYKit/resources",
+					"$(PROJECT_DIR)/LYKit",
+				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = LYKit/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -2180,7 +2206,6 @@
 		5B7C5DD128DC52EB00C17687 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
@@ -2202,7 +2227,6 @@
 		5B7C5DD228DC52EB00C17687 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;

@@ -23,6 +23,7 @@ PODS:
     - GCDWebServer/Core
   - LYSegmentBar (0.1.1)
   - Masonry (1.1.0)
+  - OpenCV (4.3.0)
   - SDWebImage (4.2.0):
     - SDWebImage/Core (= 4.2.0)
   - SDWebImage/Core (4.2.0)
@@ -37,6 +38,7 @@ DEPENDENCIES:
   - GCDWebServer/WebUploader (~> 3.0)
   - LYSegmentBar
   - Masonry (~> 1.1.0)
+  - OpenCV
   - SDWebImage (= 4.2.0)
   - YYCache
   - YYModel (~> 1.0.4)
@@ -50,6 +52,7 @@ SPEC REPOS:
     - GCDWebServer
     - LYSegmentBar
     - Masonry
+    - OpenCV
     - SDWebImage
     - YYCache
     - YYModel
@@ -62,11 +65,12 @@ SPEC CHECKSUMS:
   GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
   LYSegmentBar: 54906d7b82f3a2b41058b6f98e7ba6aafdc9c64d
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  OpenCV: 681e0451c1e54c5930a8922277f817ed5d5ab459
   SDWebImage: b1189fd85365c18434270a11a5cad13a1e848d53
   YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: b3dbdf1bb4c0051789dd09296e6f1e90640c8b60
+PODFILE CHECKSUM: 3695c4a57c9c6e8f1d9675ea227196562693d084
 
 COCOAPODS: 1.11.3

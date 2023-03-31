@@ -15,6 +15,7 @@ target 'LYKit' do
  pod 'YYText','~> 1.0.7'
  pod 'CTMediator'
  pod 'YYCache'
+ pod 'OpenCV'
 end
 
 #使用以下代码避免每次pod install,报错：Signing for "*.bundle" requires a development team.

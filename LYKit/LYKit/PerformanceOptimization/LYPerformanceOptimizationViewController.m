@@ -11,6 +11,7 @@
 #import "LYCheckANRViewController.h"
 #import "LYThreadManagementViewController.h"
 #import "LoadLargeImageViewController.h"
+#import "ImageDecodeViewController.h"
 
 @interface LYPerformanceOptimizationViewController ()
 
@@ -41,6 +42,9 @@
     [self.items addObject:[self itemWithTitle:@"卡顿检测及优化" viewController:[[LYCheckANRViewController alloc] init]]];
     [self.items addObject:[self itemWithTitle:@"防崩溃处理" viewController:[[LYCrashProtectorViewController alloc] init]]];
     [self.items addObject:[self itemWithTitle:@"加载大图优化" viewController:[[LoadLargeImageViewController alloc] init]]];
+    [self.items addObject:[self itemWithTitle:@"图像解码和调整大小" viewController:[[ImageDecodeViewController alloc] init]]];
+    
+
 }
 
 - (LYKitCellItem *)itemWithTitle:(NSString *)title viewController:(UIViewController *)viewController {

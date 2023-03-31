@@ -10,6 +10,7 @@
 #import "LYAudioViewController.h"
 #import "LYVideoViewController.h"
 #import "LYOpenGLViewController.h"
+#import "LYImageViewController.h"
 
 @interface LYMediaViewController ()
 
@@ -37,9 +38,10 @@
 - (void)setupItems {
     [super setupItems];
     
+    [self.items addObject:[self itemWithTitle:@"音频" viewController:[[LYAudioViewController alloc] init]]];
     [self.items addObject:[self itemWithTitle:@"视频" viewController:[[LYVideoViewController alloc] init]]];
     [self.items addObject:[self itemWithTitle:@"OpenGL" viewController:[[LYOpenGLViewController alloc] init]]];
-    [self.items addObject:[self itemWithTitle:@"音频" viewController:[[LYAudioViewController alloc] init]]];
+    [self.items addObject:[self itemWithTitle:@"opencv 图像" viewController:[[LYImageViewController alloc] init]]];
 }
 
 - (LYKitCellItem *)itemWithTitle:(NSString *)title viewController:(UIViewController *)viewController {
