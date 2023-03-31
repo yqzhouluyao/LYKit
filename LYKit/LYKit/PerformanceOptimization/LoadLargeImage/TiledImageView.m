@@ -41,7 +41,6 @@ static const CGFloat kTileSize = 512;
 }
 
 //您需要将大图像预处理成较小的图块，并将它们保存为单独的图像文件。
-//将您的大图像预处理成较小的图块，并将它们保存为单独的图像文件，
 //命名约定如“large_image_x_y.jpg”，其中 x 和 y 代表图块坐标。
 - (void)drawRect:(CGRect)rect {
     // Determine the visible rect and the corresponding tile coordinates
@@ -54,22 +53,30 @@ static const CGFloat kTileSize = 512;
     // Load and draw the visible image tiles
     for (int x = startX; x < endX; x++) {
         for (int y = startY; y < endY; y++) {
-            NSString *tileName = [NSString stringWithFormat:@"large_image_%d_%d.jpg", x, y];
-            UIImage *tileImage = [UIImage imageNamed:tileName];
+            @autoreleasepool {
+                
+//                NSString *tileName = [NSString stringWithFormat:@"large_image_%d_%d.jpg", x, y];
+//                UIImage *tileImage = [UIImage imageNamed:tileName];
+                NSString *tileName = [NSString stringWithFormat:@"large_image_%d_%d.jpg", x, y];
+                NSString *path = [[NSBundle mainBundle] pathForResource:tileName ofType:nil];
+                UIImage *tileImage = [UIImage imageWithContentsOfFile:path];
 
-            CGFloat tileWidth = kTileSize;
-            CGFloat tileHeight = kTileSize;
-
-            // Adjust the tile size for the last row and last column
-            if (x == endX - 1) {
-                tileWidth = CGRectGetMaxX(self.bounds) - x * kTileSize;
+                
+                CGFloat tileWidth = kTileSize;
+                CGFloat tileHeight = kTileSize;
+                
+                // Adjust the tile size for the last row and last column
+                if (x == endX - 1) {
+                    tileWidth = CGRectGetMaxX(self.bounds) - x * kTileSize;
+                }
+                if (y == endY - 1) {
+                    tileHeight = CGRectGetMaxY(self.bounds) - y * kTileSize;
+                }
+                
+                CGRect tileRect = CGRectMake(x * kTileSize, y * kTileSize, tileWidth, tileHeight);
+                [tileImage drawInRect:tileRect];
+                
             }
-            if (y == endY - 1) {
-                tileHeight = CGRectGetMaxY(self.bounds) - y * kTileSize;
-            }
-
-            CGRect tileRect = CGRectMake(x * kTileSize, y * kTileSize, tileWidth, tileHeight);
-            [tileImage drawInRect:tileRect];
         }
     }
 }

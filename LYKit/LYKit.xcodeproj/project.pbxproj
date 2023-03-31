@@ -281,6 +281,7 @@
 		5BE4638A29D6EB570054548A /* large_image_2_10.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BE462DA29D6EB570054548A /* large_image_2_10.jpg */; };
 		5BE4638B29D6EB570054548A /* large_image_8_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BE462DB29D6EB570054548A /* large_image_8_0.jpg */; };
 		5BE4638C29D6EB570054548A /* large_image_9_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5BE462DC29D6EB570054548A /* large_image_9_6.jpg */; };
+		5BE4638E29D6F4690054548A /* 加载大图操作步骤.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BE4638D29D6F4690054548A /* 加载大图操作步骤.md */; };
 		5BEC762E2918B4C500847F19 /* LYFlyHeartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC762D2918B4C500847F19 /* LYFlyHeartViewController.m */; };
 		5BEC76322918B5E900847F19 /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC76312918B5E900847F19 /* DMHeartFlyView.m */; };
 		5BEC76362919050400847F19 /* LYDanMuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC76352919050400847F19 /* LYDanMuViewController.m */; };
@@ -668,6 +669,7 @@
 		5BE462DA29D6EB570054548A /* large_image_2_10.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = large_image_2_10.jpg; sourceTree = "<group>"; };
 		5BE462DB29D6EB570054548A /* large_image_8_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = large_image_8_0.jpg; sourceTree = "<group>"; };
 		5BE462DC29D6EB570054548A /* large_image_9_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = large_image_9_6.jpg; sourceTree = "<group>"; };
+		5BE4638D29D6F4690054548A /* 加载大图操作步骤.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "加载大图操作步骤.md"; sourceTree = "<group>"; };
 		5BEC762C2918B4C500847F19 /* LYFlyHeartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFlyHeartViewController.h; sourceTree = "<group>"; };
 		5BEC762D2918B4C500847F19 /* LYFlyHeartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFlyHeartViewController.m; sourceTree = "<group>"; };
 		5BEC76302918B5E900847F19 /* DMHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
@@ -1134,6 +1136,7 @@
 		5B8DFED228C099FF004F983D /* LoadLargeImage */ = {
 			isa = PBXGroup;
 			children = (
+				5BE4638D29D6F4690054548A /* 加载大图操作步骤.md */,
 				5BE4622C29D6EB250054548A /* split_images */,
 				5BE4622A29D6E6FF0054548A /* split_image.sh */,
 				5BE4622829D6988A0054548A /* large_image.jpg */,
@@ -1700,6 +1703,7 @@
 				5BE4634829D6EB570054548A /* large_image_5_15.jpg in Resources */,
 				5BE462EA29D6EB570054548A /* large_image_2_1.jpg in Resources */,
 				5BE4636A29D6EB570054548A /* large_image_0_13.jpg in Resources */,
+				5BE4638E29D6F4690054548A /* 加载大图操作步骤.md in Resources */,
 				5BE4630329D6EB570054548A /* large_image_6_11.jpg in Resources */,
 				5BE462E529D6EB570054548A /* large_image_7_2.jpg in Resources */,
 				5BE4635329D6EB570054548A /* large_image_10_12.jpg in Resources */,
