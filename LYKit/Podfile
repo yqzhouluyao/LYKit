@@ -14,7 +14,7 @@ target 'LYKit' do
  pod 'YYModel', '~> 1.0.4'
  pod 'YYText','~> 1.0.7'
  pod 'CTMediator'
- 
+
 end
 
 #使用以下代码避免每次pod install,报错：Signing for "*.bundle" requires a development team.

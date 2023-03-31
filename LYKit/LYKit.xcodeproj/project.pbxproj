@@ -98,6 +98,10 @@
 		5BCCBAA029BF90D500ADAA42 /* 解决过的难题.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BCCBA9F29BF90D500ADAA42 /* 解决过的难题.md */; };
 		5BD48DBD29C4A9A4006A47F1 /* LYLagMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD48DBC29C4A9A4006A47F1 /* LYLagMonitor.m */; };
 		5BD99840291AB9D7003EF034 /* LYWebUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BD9983F291AB9D7003EF034 /* LYWebUploadViewController.m */; };
+		5BE4621C29D5CE7D0054548A /* CADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE4621A29D5CE7D0054548A /* CADViewController.m */; };
+		5BE4621D29D5CE7D0054548A /* CADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BE4621B29D5CE7D0054548A /* CADViewController.xib */; };
+		5BE4621F29D5EB830054548A /* ModelIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BE4621E29D5EB830054548A /* ModelIO.framework */; };
+		5BE4622129D5EEFD0054548A /* windmill.obj in Resources */ = {isa = PBXBuildFile; fileRef = 5BE4622029D5EEFD0054548A /* windmill.obj */; };
 		5BEC762E2918B4C500847F19 /* LYFlyHeartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC762D2918B4C500847F19 /* LYFlyHeartViewController.m */; };
 		5BEC76322918B5E900847F19 /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC76312918B5E900847F19 /* DMHeartFlyView.m */; };
 		5BEC76362919050400847F19 /* LYDanMuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC76352919050400847F19 /* LYDanMuViewController.m */; };
@@ -300,6 +304,11 @@
 		5BD48DBE29C608E7006A47F1 /* 主线程卡顿检测.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "主线程卡顿检测.md"; sourceTree = "<group>"; };
 		5BD9983E291AB9D7003EF034 /* LYWebUploadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYWebUploadViewController.h; sourceTree = "<group>"; };
 		5BD9983F291AB9D7003EF034 /* LYWebUploadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYWebUploadViewController.m; sourceTree = "<group>"; };
+		5BE4621929D5CE7D0054548A /* CADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CADViewController.h; sourceTree = "<group>"; };
+		5BE4621A29D5CE7D0054548A /* CADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADViewController.m; sourceTree = "<group>"; };
+		5BE4621B29D5CE7D0054548A /* CADViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CADViewController.xib; sourceTree = "<group>"; };
+		5BE4621E29D5EB830054548A /* ModelIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ModelIO.framework; path = System/Library/Frameworks/ModelIO.framework; sourceTree = SDKROOT; };
+		5BE4622029D5EEFD0054548A /* windmill.obj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = windmill.obj; sourceTree = "<group>"; };
 		5BEC762C2918B4C500847F19 /* LYFlyHeartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFlyHeartViewController.h; sourceTree = "<group>"; };
 		5BEC762D2918B4C500847F19 /* LYFlyHeartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFlyHeartViewController.m; sourceTree = "<group>"; };
 		5BEC76302918B5E900847F19 /* DMHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
@@ -333,6 +342,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BE4621F29D5EB830054548A /* ModelIO.framework in Frameworks */,
 				AB7D12BD0BB7F0A8361560CD /* Pods_LYKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -350,6 +360,7 @@
 		141B1028EB29BFE146621798 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5BE4621E29D5EB830054548A /* ModelIO.framework */,
 				F85493C0662744878AB1D7D5 /* Pods_LYKit.framework */,
 			);
 			name = Frameworks;
@@ -378,7 +389,6 @@
 		5B00CDA328BCF1A60069F2CC /* LYKit */ = {
 			isa = PBXGroup;
 			children = (
-				5B72D13929C0BBAD0083F13F /* ImageResource */,
 				5B116DC72958489C0060AC38 /* Common */,
 				5BEC76442919F8D800847F19 /* Network */,
 				5BAA1F6B2910B7EB0002A44C /* AVFoundation */,
@@ -421,6 +431,7 @@
 		5B00CDC928BCF3E80069F2CC /* Functional */ = {
 			isa = PBXGroup;
 			children = (
+				5B4DDBC929D5CDD5008A6B1C /* CAD */,
 				5B369CA9295DD30E00EA70ED /* GrayStyle */,
 				5BD9983D291AB9A7003EF034 /* WebUpload */,
 				5B116DD429588E780060AC38 /* Rotation */,
@@ -513,11 +524,15 @@
 			path = GrayStyle;
 			sourceTree = "<group>";
 		};
-		5B72D13929C0BBAD0083F13F /* ImageResource */ = {
+		5B4DDBC929D5CDD5008A6B1C /* CAD */ = {
 			isa = PBXGroup;
 			children = (
+				5BE4622029D5EEFD0054548A /* windmill.obj */,
+				5BE4621929D5CE7D0054548A /* CADViewController.h */,
+				5BE4621A29D5CE7D0054548A /* CADViewController.m */,
+				5BE4621B29D5CE7D0054548A /* CADViewController.xib */,
 			);
-			path = ImageResource;
+			path = CAD;
 			sourceTree = "<group>";
 		};
 		5B72D13C29C0BD8B0083F13F /* Document */ = {
@@ -1061,6 +1076,8 @@
 				5B0E0B3829B8A8860008D49F /* MGJRouter实现思路.md in Resources */,
 				5B8489E829B59E9E005B33DC /* Instrument监控Http.md in Resources */,
 				5B4DDBB829D57DFE008A6B1C /* MVPViewController.xib in Resources */,
+				5BE4621D29D5CE7D0054548A /* CADViewController.xib in Resources */,
+				5BE4622129D5EEFD0054548A /* windmill.obj in Resources */,
 				5B116DDC295AA77D0060AC38 /* iOS16转屏问题.md in Resources */,
 				5B4DDBB029D2EF59008A6B1C /* 常见面试题.md in Resources */,
 				5B72D13E29C0C4D00083F13F /* MVVM_Diagram.png in Resources */,
@@ -1159,6 +1176,7 @@
 				5B4DDBC329D58D15008A6B1C /* UserViewModel.m in Sources */,
 				5BEC763C2919067000847F19 /* LYDanMuBackGroundView.m in Sources */,
 				5B8205CB28C73008002680DF /* APESubjectDataController.m in Sources */,
+				5BE4621C29D5CE7D0054548A /* CADViewController.m in Sources */,
 				5B116DD0295849C60060AC38 /* NSString+OTKRegular.m in Sources */,
 				5B8205BC28C726EF002680DF /* APEHomePracticeActivityView.m in Sources */,
 				5B0E0B3129B8A59E0008D49F /* MGJViewController.m in Sources */,
