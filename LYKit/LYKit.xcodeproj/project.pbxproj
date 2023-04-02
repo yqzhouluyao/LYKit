@@ -288,6 +288,8 @@
 		5BE463A429D8A9060054548A /* 安装包大小优化删除无用资源.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BE463A329D8A9060054548A /* 安装包大小优化删除无用资源.md */; };
 		5BE463A929D925700054548A /* compress_images.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5BE463A729D925700054548A /* compress_images.sh */; };
 		5BE463AA29D925700054548A /* 安装包大小优化压缩图片.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BE463A829D925700054548A /* 安装包大小优化压缩图片.md */; };
+		5BE463AC29D997290054548A /* 题库图文混排的实现思路.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BE463AB29D997290054548A /* 题库图文混排的实现思路.md */; };
+		5BE463B029D9DEF40054548A /* NativeMixWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE463AF29D9DEF40054548A /* NativeMixWebViewController.m */; };
 		5BEC762E2918B4C500847F19 /* LYFlyHeartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC762D2918B4C500847F19 /* LYFlyHeartViewController.m */; };
 		5BEC76322918B5E900847F19 /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC76312918B5E900847F19 /* DMHeartFlyView.m */; };
 		5BEC76362919050400847F19 /* LYDanMuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC76352919050400847F19 /* LYDanMuViewController.m */; };
@@ -684,6 +686,9 @@
 		5BE463A329D8A9060054548A /* 安装包大小优化删除无用资源.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "安装包大小优化删除无用资源.md"; sourceTree = "<group>"; };
 		5BE463A729D925700054548A /* compress_images.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = compress_images.sh; sourceTree = "<group>"; };
 		5BE463A829D925700054548A /* 安装包大小优化压缩图片.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "安装包大小优化压缩图片.md"; sourceTree = "<group>"; };
+		5BE463AB29D997290054548A /* 题库图文混排的实现思路.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "题库图文混排的实现思路.md"; sourceTree = "<group>"; };
+		5BE463AE29D9DEF40054548A /* NativeMixWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeMixWebViewController.h; sourceTree = "<group>"; };
+		5BE463AF29D9DEF40054548A /* NativeMixWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeMixWebViewController.m; sourceTree = "<group>"; };
 		5BEC762C2918B4C500847F19 /* LYFlyHeartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFlyHeartViewController.h; sourceTree = "<group>"; };
 		5BEC762D2918B4C500847F19 /* LYFlyHeartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFlyHeartViewController.m; sourceTree = "<group>"; };
 		5BEC76302918B5E900847F19 /* DMHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
@@ -807,6 +812,7 @@
 		5B00CDC928BCF3E80069F2CC /* Functional */ = {
 			isa = PBXGroup;
 			children = (
+				5BE463AD29D9DEA00054548A /* NativeMixedWebview */,
 				5B4DDBC929D5CDD5008A6B1C /* CAD */,
 				5B369CA9295DD30E00EA70ED /* GrayStyle */,
 				5BD9983D291AB9A7003EF034 /* WebUpload */,
@@ -1080,6 +1086,7 @@
 		5B8DFEB428C09337004F983D /* RichText */ = {
 			isa = PBXGroup;
 			children = (
+				5BE463AB29D997290054548A /* 题库图文混排的实现思路.md */,
 				5B116DCF295849C60060AC38 /* NSString+OTKRegular.h */,
 				5B116DCE295849C60060AC38 /* NSString+OTKRegular.m */,
 				5B116DBF295846D90060AC38 /* BrowserImageViewController.h */,
@@ -1530,6 +1537,15 @@
 			path = "压缩图片";
 			sourceTree = "<group>";
 		};
+		5BE463AD29D9DEA00054548A /* NativeMixedWebview */ = {
+			isa = PBXGroup;
+			children = (
+				5BE463AE29D9DEF40054548A /* NativeMixWebViewController.h */,
+				5BE463AF29D9DEF40054548A /* NativeMixWebViewController.m */,
+			);
+			path = NativeMixedWebview;
+			sourceTree = "<group>";
+		};
 		5BEC762F2918B4D300847F19 /* FlyHeart */ = {
 			isa = PBXGroup;
 			children = (
@@ -1736,6 +1752,7 @@
 				5BE462ED29D6EB570054548A /* large_image_4_7.jpg in Resources */,
 				5BE4638329D6EB570054548A /* large_image_8_3.jpg in Resources */,
 				5BE4637229D6EB570054548A /* large_image_4_11.jpg in Resources */,
+				5BE463AC29D997290054548A /* 题库图文混排的实现思路.md in Resources */,
 				5BE462EE29D6EB570054548A /* large_image_9_7.jpg in Resources */,
 				5B4DDBB029D2EF59008A6B1C /* 常见面试题.md in Resources */,
 				5BE4630029D6EB570054548A /* large_image_0_7.jpg in Resources */,
@@ -2007,6 +2024,7 @@
 				5BEC764B2919FA3600847F19 /* LYDownloadViewController.m in Sources */,
 				5B8DFEE528C09DE4004F983D /* LYOpenGLViewController.m in Sources */,
 				5B8DFEED28C09F79004F983D /* LYSocketViewController.m in Sources */,
+				5BE463B029D9DEF40054548A /* NativeMixWebViewController.m in Sources */,
 				5BC258082915076C000DDC73 /* LYDownloadTool.m in Sources */,
 				5BEC764E291A01D400847F19 /* LYDownloadTask.m in Sources */,
 				5B00CDD028BCF3E90069F2CC /* LYKitHomeViewController.m in Sources */,

@@ -16,6 +16,7 @@
 #import "LYWebUploadViewController.h"
 #import "LYGrayStyleViewController.h"
 #import "CADViewController.h"
+#import "NativeMixWebViewController.h"
 
 @interface LYFunctionViewController ()
 
@@ -48,6 +49,7 @@
     [self.items addObject:[self itemWithTitle:@"Socket通信" viewController:[LYThemeManagerViewController new]]];
     [self.items addObject:[self itemWithTitle:@"响应链扩大响应区域" viewController:[LYHitTestViewController new]]];
     [self.items addObject:[self itemWithTitle:@"JS与OC的交互" viewController:[LYWebViewController new]]];
+    [self.items addObject:[self itemWithTitle:@"WKWebView 与原生页面混合开发" viewController:[NativeMixWebViewController new]]];
     [self.items addObject:[self itemWithTitle:@"单元测试" viewController:[LYUnitTestViewController new]]];
     [self.items addObject:[self itemWithTitle:@"弹幕" viewController:[LYDanMuViewController new]]];
     [self.items addObject:[self itemWithTitle:@"计时器" viewController:[LYDanMuViewController new]]];
