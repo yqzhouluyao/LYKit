@@ -1,7 +1,7 @@
 #!/bin/bash
 
-delete_path="/Users/zhouluyao/Desktop/冷冻库/完整项目/ios_studentServices/"
-filePath="/Users/zhouluyao/Desktop/冷冻库/完整项目/ios_studentServices/unused_images.txt"
+delete_path="$(pwd)"
+filePath="$(pwd)/unused_images.txt"
 
 cat $filePath | while read line
 do

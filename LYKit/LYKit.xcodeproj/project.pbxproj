@@ -285,7 +285,9 @@
 		5BE4639D29D758400054548A /* LYImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE4639C29D758400054548A /* LYImageViewController.m */; };
 		5BE463A029D8A6330054548A /* find_unused_resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5BE4639F29D8A6320054548A /* find_unused_resources.sh */; };
 		5BE463A229D8A78D0054548A /* delete_resources.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5BE463A129D8A78D0054548A /* delete_resources.sh */; };
-		5BE463A429D8A9060054548A /* 安装包大小优化步骤.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BE463A329D8A9060054548A /* 安装包大小优化步骤.md */; };
+		5BE463A429D8A9060054548A /* 安装包大小优化删除无用资源.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BE463A329D8A9060054548A /* 安装包大小优化删除无用资源.md */; };
+		5BE463A929D925700054548A /* compress_images.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5BE463A729D925700054548A /* compress_images.sh */; };
+		5BE463AA29D925700054548A /* 安装包大小优化压缩图片.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BE463A829D925700054548A /* 安装包大小优化压缩图片.md */; };
 		5BEC762E2918B4C500847F19 /* LYFlyHeartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC762D2918B4C500847F19 /* LYFlyHeartViewController.m */; };
 		5BEC76322918B5E900847F19 /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC76312918B5E900847F19 /* DMHeartFlyView.m */; };
 		5BEC76362919050400847F19 /* LYDanMuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC76352919050400847F19 /* LYDanMuViewController.m */; };
@@ -679,7 +681,9 @@
 		5BE4639C29D758400054548A /* LYImageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYImageViewController.m; sourceTree = "<group>"; };
 		5BE4639F29D8A6320054548A /* find_unused_resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = find_unused_resources.sh; sourceTree = "<group>"; };
 		5BE463A129D8A78D0054548A /* delete_resources.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = delete_resources.sh; sourceTree = "<group>"; };
-		5BE463A329D8A9060054548A /* 安装包大小优化步骤.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "安装包大小优化步骤.md"; sourceTree = "<group>"; };
+		5BE463A329D8A9060054548A /* 安装包大小优化删除无用资源.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "安装包大小优化删除无用资源.md"; sourceTree = "<group>"; };
+		5BE463A729D925700054548A /* compress_images.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = compress_images.sh; sourceTree = "<group>"; };
+		5BE463A829D925700054548A /* 安装包大小优化压缩图片.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "安装包大小优化压缩图片.md"; sourceTree = "<group>"; };
 		5BEC762C2918B4C500847F19 /* LYFlyHeartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFlyHeartViewController.h; sourceTree = "<group>"; };
 		5BEC762D2918B4C500847F19 /* LYFlyHeartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFlyHeartViewController.m; sourceTree = "<group>"; };
 		5BEC76302918B5E900847F19 /* DMHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
@@ -1501,11 +1505,29 @@
 		5BE4639E29D89C6C0054548A /* 安装包大小优化 */ = {
 			isa = PBXGroup;
 			children = (
-				5BE463A329D8A9060054548A /* 安装包大小优化步骤.md */,
+				5BE463A629D924A70054548A /* 压缩图片 */,
+				5BE463A529D9248C0054548A /* 删除重复无用资源 */,
+			);
+			path = "安装包大小优化";
+			sourceTree = "<group>";
+		};
+		5BE463A529D9248C0054548A /* 删除重复无用资源 */ = {
+			isa = PBXGroup;
+			children = (
+				5BE463A329D8A9060054548A /* 安装包大小优化删除无用资源.md */,
 				5BE463A129D8A78D0054548A /* delete_resources.sh */,
 				5BE4639F29D8A6320054548A /* find_unused_resources.sh */,
 			);
-			path = "安装包大小优化";
+			path = "删除重复无用资源";
+			sourceTree = "<group>";
+		};
+		5BE463A629D924A70054548A /* 压缩图片 */ = {
+			isa = PBXGroup;
+			children = (
+				5BE463A729D925700054548A /* compress_images.sh */,
+				5BE463A829D925700054548A /* 安装包大小优化压缩图片.md */,
+			);
+			path = "压缩图片";
 			sourceTree = "<group>";
 		};
 		5BEC762F2918B4D300847F19 /* FlyHeart */ = {
@@ -1666,7 +1688,7 @@
 				5BE4632729D6EB570054548A /* large_image_5_10.jpg in Resources */,
 				5BE4636E29D6EB570054548A /* large_image_2_5.jpg in Resources */,
 				5BE4632829D6EB570054548A /* large_image_0_15.jpg in Resources */,
-				5BE463A429D8A9060054548A /* 安装包大小优化步骤.md in Resources */,
+				5BE463A429D8A9060054548A /* 安装包大小优化删除无用资源.md in Resources */,
 				5BE4631629D6EB570054548A /* large_image_2_2.jpg in Resources */,
 				5BE4634F29D6EB570054548A /* large_image_3_8.jpg in Resources */,
 				5BE462F329D6EB570054548A /* large_image_10_4.jpg in Resources */,
@@ -1676,6 +1698,7 @@
 				5BE4636229D6EB570054548A /* large_image_3_14.jpg in Resources */,
 				5B0E0B3829B8A8860008D49F /* MGJRouter实现思路.md in Resources */,
 				5BE4630929D6EB570054548A /* large_image_9_8.jpg in Resources */,
+				5BE463A929D925700054548A /* compress_images.sh in Resources */,
 				5BE4635429D6EB570054548A /* large_image_8_13.jpg in Resources */,
 				5BE4630129D6EB570054548A /* large_image_0_14.jpg in Resources */,
 				5BE462E329D6EB570054548A /* large_image_1_3.jpg in Resources */,
@@ -1772,6 +1795,7 @@
 				5BE4631D29D6EB570054548A /* large_image_7_5.jpg in Resources */,
 				5BE4631E29D6EB570054548A /* large_image_4_10.jpg in Resources */,
 				5BE4637629D6EB570054548A /* large_image_9_4.jpg in Resources */,
+				5BE463AA29D925700054548A /* 安装包大小优化压缩图片.md in Resources */,
 				5BE4637529D6EB570054548A /* large_image_4_3.jpg in Resources */,
 				5BE4632D29D6EB570054548A /* large_image_3_10.jpg in Resources */,
 				5BE4631329D6EB570054548A /* large_image_0_8.jpg in Resources */,
