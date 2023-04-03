@@ -25,7 +25,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 50, 50)];
+    [self.view addSubview:view];
+    view.bounds = CGRectMake(10, 10, 150, 150);
+    NSLog(@"1: %@", NSStringFromCGRect(view.frame));
+    view.layer.anchorPoint = CGPointMake(0, 0);
+    NSLog(@"2: %@", NSStringFromCGRect(view.frame));
+    view.transform = CGAffineTransformScale(CGAffineTransformIdentity, 2, 2);
+    NSLog(@"3: %@", NSStringFromCGRect(view.frame));
 }
 
 
