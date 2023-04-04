@@ -92,9 +92,31 @@ int main(int argc, const char * argv[]) {
 }
 ```
 
+#### 打印结果：
+
+Son
+
+Son
+
+#### 分析原因：
+
+1、使用 [[Son alloc] init] 创建了 Son Class的一个实例。 当调用Son类的init方法时，self指向了Son Class的一个实例。因此，[self class] 返回 Son 类，第一个 NSLog 打印“Son”。
+
+2、第二个 NSLog 打印 [super class]，由于 super 是 Father Class的一个实例，因此可能会期望它打印“Father”。
+
+然而，由于 Objective-C 运行时的工作方式，调用 [super class] 等同于调用 [self class]。
+
+这是因为Father类中没有重写类方法，Objective-C运行时会使用NSObject类中的方法来判断对象的类,Son 类没有覆盖类方法，因此运行时将在其超类 Father 中查找方法实现。
+
+由于 Father 也没有覆盖类方法，运行时将继续在 NSObject 类中查找。 NSObject 中的类方法通过以对象为参数调用object_getClass 函数返回对象的类。
+
+所以，当你调用[super class]时，objc_msgSendSuper函数最终会执行NSObject中的类方法，返回对象的类，而不是父类。在这种情况下，对象是 Son 类的一个实例，因此类方法返回 Son 类，并打印“Son”。
 
 
-### 4、Output the print result of the following code and analyze the reason
+
+
+
+### 四、Output the print result of the following code and analyze the reason
 
 ```objective-c
 #import <UIKit/UIKit.h>
@@ -139,7 +161,7 @@ origin移动到锚点位置0，0)，所以view.layer.anchorPoint = CGPointMake(0
 
 
 
-### 5、Output the print result of the following code and analyze the reason
+### 五、Output the print result of the following code and analyze the reason
 
 ```
 - (void)viewDidLoad {
@@ -194,7 +216,7 @@ dispatch_async(dispatch_get_main_queue(), ^{
 
 
 
-### 6、Output the print result of the following code and analyze the reason
+### 六、Output the print result of the following code and analyze the reason
 
 ```objc
 - (void)viewDidLoad {
@@ -244,7 +266,7 @@ or
 
 
 
-### 7、remove duplicate elements in linked list
+### 七、remove duplicate elements in linked list
 
 ```c++
 #include <iostream>
@@ -320,7 +342,7 @@ int main() {
 
 
 
-### 8、Write a function to recursively delete all files under the specified path
+### 八、Write a function to recursively delete all files under the specified path
 
 ```c++
 #include <iostream>
