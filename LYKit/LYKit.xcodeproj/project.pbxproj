@@ -18,6 +18,8 @@
 		5B00CDCF28BCF3E90069F2CC /* LYInterviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDC528BCF3E80069F2CC /* LYInterviewViewController.m */; };
 		5B00CDD028BCF3E90069F2CC /* LYKitHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDC828BCF3E80069F2CC /* LYKitHomeViewController.m */; };
 		5B00CDD128BCF3E90069F2CC /* LYFunctionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B00CDCA28BCF3E80069F2CC /* LYFunctionViewController.m */; };
+		5B026A9829DF407B000FA918 /* HadesAbortMetricRootFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B026A9729DF407B000FA918 /* HadesAbortMetricRootFrame.m */; };
+		5B026A9B29DF468A000FA918 /* CrashReportManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B026A9A29DF468A000FA918 /* CrashReportManager.m */; };
 		5B0E0B2229B87E0D0008D49F /* LYQuestionKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E0B2129B87E0D0008D49F /* LYQuestionKitViewController.m */; };
 		5B0E0B2529B87E2F0008D49F /* CTMediator+QuestionKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E0B2429B87E2F0008D49F /* CTMediator+QuestionKit.m */; };
 		5B0E0B2829B87FCF0008D49F /* Target_QuestionKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B0E0B2729B87FCF0008D49F /* Target_QuestionKit.m */; };
@@ -81,7 +83,6 @@
 		5B8DFEC528C096C7004F983D /* LYPerformanceOptimizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEC428C096C7004F983D /* LYPerformanceOptimizationViewController.m */; };
 		5B8DFEC928C0991B004F983D /* LYThreadManagementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEC828C0991B004F983D /* LYThreadManagementViewController.m */; };
 		5B8DFECD28C09965004F983D /* LYCheckANRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFECC28C09965004F983D /* LYCheckANRViewController.m */; };
-		5B8DFED128C099BA004F983D /* LYCrashProtectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFED028C099BA004F983D /* LYCrashProtectorViewController.m */; };
 		5B8DFED928C09CF1004F983D /* LYMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFED828C09CF1004F983D /* LYMediaViewController.m */; };
 		5B8DFEDF28C09DD2004F983D /* LYAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEDE28C09DD2004F983D /* LYAudioViewController.m */; };
 		5B8DFEE228C09DDB004F983D /* LYVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B8DFEE128C09DDB004F983D /* LYVideoViewController.m */; };
@@ -291,6 +292,9 @@
 		5BE463AC29D997290054548A /* 题库图文混排的实现思路.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BE463AB29D997290054548A /* 题库图文混排的实现思路.md */; };
 		5BE463B029D9DEF40054548A /* NativeMixWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE463AF29D9DEF40054548A /* NativeMixWebViewController.m */; };
 		5BE463B529DAE9510054548A /* interview_20230403.md in Resources */ = {isa = PBXBuildFile; fileRef = 5BE463B429DAE9510054548A /* interview_20230403.md */; };
+		5BE463BE29DF28170054548A /* WPFMetricKitManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE463BD29DF28170054548A /* WPFMetricKitManager.m */; };
+		5BE463C029DF2C270054548A /* MetricKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE463BF29DF2C270054548A /* MetricKitTests.m */; };
+		5BE463C329DF2EC40054548A /* CrashTestingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BE463C229DF2EC40054548A /* CrashTestingViewController.m */; };
 		5BEC762E2918B4C500847F19 /* LYFlyHeartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC762D2918B4C500847F19 /* LYFlyHeartViewController.m */; };
 		5BEC76322918B5E900847F19 /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC76312918B5E900847F19 /* DMHeartFlyView.m */; };
 		5BEC76362919050400847F19 /* LYDanMuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEC76352919050400847F19 /* LYDanMuViewController.m */; };
@@ -337,6 +341,10 @@
 		5B00CDC828BCF3E80069F2CC /* LYKitHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYKitHomeViewController.m; sourceTree = "<group>"; };
 		5B00CDCA28BCF3E80069F2CC /* LYFunctionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYFunctionViewController.m; sourceTree = "<group>"; };
 		5B00CDCB28BCF3E80069F2CC /* LYFunctionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYFunctionViewController.h; sourceTree = "<group>"; };
+		5B026A9629DF407B000FA918 /* HadesAbortMetricRootFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HadesAbortMetricRootFrame.h; sourceTree = "<group>"; };
+		5B026A9729DF407B000FA918 /* HadesAbortMetricRootFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HadesAbortMetricRootFrame.m; sourceTree = "<group>"; };
+		5B026A9929DF468A000FA918 /* CrashReportManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrashReportManager.h; sourceTree = "<group>"; };
+		5B026A9A29DF468A000FA918 /* CrashReportManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashReportManager.m; sourceTree = "<group>"; };
 		5B0E0B1F29B82ECB0008D49F /* CTMediator的核心思想及用法.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "CTMediator的核心思想及用法.md"; sourceTree = "<group>"; };
 		5B0E0B2029B87E0D0008D49F /* LYQuestionKitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYQuestionKitViewController.h; sourceTree = "<group>"; };
 		5B0E0B2129B87E0D0008D49F /* LYQuestionKitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYQuestionKitViewController.m; sourceTree = "<group>"; };
@@ -459,8 +467,6 @@
 		5B8DFEC828C0991B004F983D /* LYThreadManagementViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYThreadManagementViewController.m; sourceTree = "<group>"; };
 		5B8DFECB28C09965004F983D /* LYCheckANRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCheckANRViewController.h; sourceTree = "<group>"; };
 		5B8DFECC28C09965004F983D /* LYCheckANRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCheckANRViewController.m; sourceTree = "<group>"; };
-		5B8DFECF28C099BA004F983D /* LYCrashProtectorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCrashProtectorViewController.h; sourceTree = "<group>"; };
-		5B8DFED028C099BA004F983D /* LYCrashProtectorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCrashProtectorViewController.m; sourceTree = "<group>"; };
 		5B8DFED728C09CF1004F983D /* LYMediaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYMediaViewController.h; sourceTree = "<group>"; };
 		5B8DFED828C09CF1004F983D /* LYMediaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYMediaViewController.m; sourceTree = "<group>"; };
 		5B8DFEDD28C09DD2004F983D /* LYAudioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYAudioViewController.h; sourceTree = "<group>"; };
@@ -691,6 +697,12 @@
 		5BE463AE29D9DEF40054548A /* NativeMixWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NativeMixWebViewController.h; sourceTree = "<group>"; };
 		5BE463AF29D9DEF40054548A /* NativeMixWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NativeMixWebViewController.m; sourceTree = "<group>"; };
 		5BE463B429DAE9510054548A /* interview_20230403.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = interview_20230403.md; sourceTree = "<group>"; };
+		5BE463BC29DF28170054548A /* WPFMetricKitManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WPFMetricKitManager.h; sourceTree = "<group>"; };
+		5BE463BD29DF28170054548A /* WPFMetricKitManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WPFMetricKitManager.m; sourceTree = "<group>"; };
+		5BE463BF29DF2C270054548A /* MetricKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetricKitTests.m; sourceTree = "<group>"; };
+		5BE463C129DF2EC40054548A /* CrashTestingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CrashTestingViewController.h; sourceTree = "<group>"; };
+		5BE463C229DF2EC40054548A /* CrashTestingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrashTestingViewController.m; sourceTree = "<group>"; };
+		5BE463C729DF37480054548A /* LYKit-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LYKit-Bridging-Header.h"; sourceTree = "<group>"; };
 		5BEC762C2918B4C500847F19 /* LYFlyHeartViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYFlyHeartViewController.h; sourceTree = "<group>"; };
 		5BEC762D2918B4C500847F19 /* LYFlyHeartViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYFlyHeartViewController.m; sourceTree = "<group>"; };
 		5BEC76302918B5E900847F19 /* DMHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
@@ -1117,7 +1129,7 @@
 				5B8489E329B4AC22005B33DC /* ImageDecodingAndResizing */,
 				5B8489E129B33F1C005B33DC /* OptimizingLaunch */,
 				5B8DFED228C099FF004F983D /* LoadLargeImage */,
-				5B8DFECE28C099AB004F983D /* CrashProtector */,
+				5B8DFECE28C099AB004F983D /* AbortExceptionMonitor */,
 				5B8DFECA28C09947004F983D /* CheckANR */,
 				5B8DFEC628C098C9004F983D /* ThreadManagement */,
 				5B8DFEC328C096C7004F983D /* LYPerformanceOptimizationViewController.h */,
@@ -1147,13 +1159,21 @@
 			path = CheckANR;
 			sourceTree = "<group>";
 		};
-		5B8DFECE28C099AB004F983D /* CrashProtector */ = {
+		5B8DFECE28C099AB004F983D /* AbortExceptionMonitor */ = {
 			isa = PBXGroup;
 			children = (
-				5B8DFECF28C099BA004F983D /* LYCrashProtectorViewController.h */,
-				5B8DFED028C099BA004F983D /* LYCrashProtectorViewController.m */,
+				5BE463BC29DF28170054548A /* WPFMetricKitManager.h */,
+				5BE463BD29DF28170054548A /* WPFMetricKitManager.m */,
+				5BE463BF29DF2C270054548A /* MetricKitTests.m */,
+				5BE463C129DF2EC40054548A /* CrashTestingViewController.h */,
+				5BE463C229DF2EC40054548A /* CrashTestingViewController.m */,
+				5BE463C729DF37480054548A /* LYKit-Bridging-Header.h */,
+				5B026A9629DF407B000FA918 /* HadesAbortMetricRootFrame.h */,
+				5B026A9729DF407B000FA918 /* HadesAbortMetricRootFrame.m */,
+				5B026A9929DF468A000FA918 /* CrashReportManager.h */,
+				5B026A9A29DF468A000FA918 /* CrashReportManager.m */,
 			);
-			path = CrashProtector;
+			path = AbortExceptionMonitor;
 			sourceTree = "<group>";
 		};
 		5B8DFED228C099FF004F983D /* LoadLargeImage */ = {
@@ -1991,6 +2011,7 @@
 				5B8DFEA128C0613C004F983D /* LYKeyValueStoreViewController.m in Sources */,
 				5B8DFEE928C09ED8004F983D /* LYAnimationViewController.m in Sources */,
 				5B8DFEC928C0991B004F983D /* LYThreadManagementViewController.m in Sources */,
+				5B026A9829DF407B000FA918 /* HadesAbortMetricRootFrame.m in Sources */,
 				5B116DD3295849FD0060AC38 /* UIColor+Hex.m in Sources */,
 				5B8205C228C72B78002680DF /* APESubject.m in Sources */,
 				5B7C5DD828DC85A700C17687 /* LYNetworkRequest.m in Sources */,
@@ -2015,11 +2036,13 @@
 				5B0E0B3129B8A59E0008D49F /* MGJViewController.m in Sources */,
 				5B8205C528C72D8E002680DF /* APEBaseDataController.m in Sources */,
 				5B8205D128C74205002680DF /* APEHomePracticeSubjectsCollectionCellViewModel.m in Sources */,
+				5BE463BE29DF28170054548A /* WPFMetricKitManager.m in Sources */,
 				5BEC76322918B5E900847F19 /* DMHeartFlyView.m in Sources */,
 				5B8205C828C72DA1002680DF /* APEHomePracticeDataController.m in Sources */,
 				5B0E0B2229B87E0D0008D49F /* LYQuestionKitViewController.m in Sources */,
 				5BEC7651291A02BF00847F19 /* LYFileManagerTool.m in Sources */,
 				5B0E0B2529B87E2F0008D49F /* CTMediator+QuestionKit.m in Sources */,
+				5BE463C329DF2EC40054548A /* CrashTestingViewController.m in Sources */,
 				5B00CDCD28BCF3E90069F2CC /* LYKitCellItem.m in Sources */,
 				5B369CAF295DD7A200EA70ED /* LYGrayStyleViewController.m in Sources */,
 				5B4DDBC729D58E54008A6B1C /* MVVMViewController.m in Sources */,
@@ -2030,7 +2053,6 @@
 				5B8DFEA928C08675004F983D /* LYLinkHomeViewController.m in Sources */,
 				5BEC762E2918B4C500847F19 /* LYFlyHeartViewController.m in Sources */,
 				5B0E0B2E29B8A3770008D49F /* MGJRouter.m in Sources */,
-				5B8DFED128C099BA004F983D /* LYCrashProtectorViewController.m in Sources */,
 				5B00CDCC28BCF3E90069F2CC /* LYKitBaseViewController.m in Sources */,
 				5B710A1D294B195F00BC67E7 /* LYBlockTimerViewController.m in Sources */,
 				5B8205B928C726E2002680DF /* APEHomePracticeBannerView.m in Sources */,
@@ -2050,6 +2072,7 @@
 				5B00CDB728BCF1AA0069F2CC /* main.m in Sources */,
 				5B8DFEAF28C0878B004F983D /* LYComponentManagerViewController.m in Sources */,
 				5BEC764B2919FA3600847F19 /* LYDownloadViewController.m in Sources */,
+				5B026A9B29DF468A000FA918 /* CrashReportManager.m in Sources */,
 				5B8DFEE528C09DE4004F983D /* LYOpenGLViewController.m in Sources */,
 				5B8DFEED28C09F79004F983D /* LYSocketViewController.m in Sources */,
 				5BE463B029D9DEF40054548A /* NativeMixWebViewController.m in Sources */,
@@ -2078,6 +2101,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BE463C029DF2C270054548A /* MetricKitTests.m in Sources */,
 				5B7C5DCD28DC52EB00C17687 /* LYKitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2248,7 +2272,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "LYKit/PerformanceOptimization/MonitoringHttpTraffic/LYKit-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "LYKit/PerformanceOptimization/AbortExceptionMonitor/LYKit-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
@@ -2287,7 +2311,7 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_OBJC_BRIDGING_HEADER = "LYKit/PerformanceOptimization/MonitoringHttpTraffic/LYKit-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "LYKit/PerformanceOptimization/AbortExceptionMonitor/LYKit-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -2300,11 +2324,12 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R26SLQA2L;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhouluyao.lykit.LYKitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouluyao.lykit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -2321,11 +2346,12 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9R26SLQA2L;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zhouluyao.lykit.LYKitTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.zhouluyao.lykit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";

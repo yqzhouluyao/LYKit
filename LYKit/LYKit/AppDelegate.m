@@ -7,7 +7,10 @@
 
 #import "AppDelegate.h"
 #import "LYKitHomeViewController.h"
+#import "CrashReportManager.h"
+
 @interface AppDelegate ()
+
 
 @end
 
@@ -28,10 +31,16 @@
         [self.window setRootViewController:[[UINavigationController alloc] initWithRootViewController:homeVC]];
         [self.window makeKeyAndVisible];
     }
+    //订阅异常终止数据
+    [[CrashReportManager sharedManager] subscribeToCrashReports];
+
     
     return YES;
 }
 
+- (void)applicationWillTerminate:(UIApplication *)application {
+    [[CrashReportManager sharedManager] unsubscribeFromCrashReports];
+}
 
 #pragma mark - UISceneSession lifecycle
 
@@ -42,12 +51,6 @@
     return [[UISceneConfiguration alloc] initWithName:@"Default Configuration" sessionRole:connectingSceneSession.role];
 }
 
-
-- (void)application:(UIApplication *)application didDiscardSceneSessions:(NSSet<UISceneSession *> *)sceneSessions  API_AVAILABLE(ios(13.0)){
-    // Called when the user discards a scene session.
-    // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-    // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-}
 
 
 @end
