@@ -57,6 +57,7 @@
 		5B67F40E29F2FE340089F9AD /* udp_server.py in Resources */ = {isa = PBXBuildFile; fileRef = 5B67F40D29F2FE340089F9AD /* udp_server.py */; };
 		5B67F41129F3860F0089F9AD /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B67F41029F3860F0089F9AD /* Device.m */; };
 		5B67F41329F4DDF90089F9AD /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B67F41229F4DDF90089F9AD /* readme.md */; };
+		5B67F41529F551F60089F9AD /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B67F41429F551F60089F9AD /* avatar.jpg */; };
 		5B710A1D294B195F00BC67E7 /* LYBlockTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B710A1C294B195F00BC67E7 /* LYBlockTimerViewController.m */; };
 		5B72D13E29C0C4D00083F13F /* MVVM_Diagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B72D13D29C0C4D00083F13F /* MVVM_Diagram.png */; };
 		5B7C5DBF28DB041D00C17687 /* LYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C5DBE28DB041D00C17687 /* LYWebViewController.m */; };
@@ -418,6 +419,7 @@
 		5B67F40F29F3860F0089F9AD /* Device.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
 		5B67F41029F3860F0089F9AD /* Device.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
 		5B67F41229F4DDF90089F9AD /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
+		5B67F41429F551F60089F9AD /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
 		5B710A1B294B195F00BC67E7 /* LYBlockTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBlockTimerViewController.h; sourceTree = "<group>"; };
 		5B710A1C294B195F00BC67E7 /* LYBlockTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBlockTimerViewController.m; sourceTree = "<group>"; };
 		5B72D13829C0BB7B0083F13F /* MVVM设计思路.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "MVVM设计思路.md"; sourceTree = "<group>"; };
@@ -962,6 +964,7 @@
 		5B67F40929F2F87B0089F9AD /* ScanNetwork */ = {
 			isa = PBXGroup;
 			children = (
+				5B67F41429F551F60089F9AD /* avatar.jpg */,
 				5B67F41229F4DDF90089F9AD /* readme.md */,
 				5B67F40D29F2FE340089F9AD /* udp_server.py */,
 				5B67F40A29F2FCAE0089F9AD /* ScanViewController.h */,
@@ -1926,6 +1929,7 @@
 				5BE4638529D6EB570054548A /* large_image_1_0.jpg in Resources */,
 				5BE462DE29D6EB570054548A /* large_image_7_7.jpg in Resources */,
 				5BE462F829D6EB570054548A /* large_image_5_12.jpg in Resources */,
+				5B67F41529F551F60089F9AD /* avatar.jpg in Resources */,
 				5B4DDBAE29D18FB7008A6B1C /* 简历要点回答.md in Resources */,
 				5B67F3FF29ED42B10089F9AD /* interview_other.md in Resources */,
 				5BE4636829D6EB570054548A /* large_image_10_3.jpg in Resources */,
