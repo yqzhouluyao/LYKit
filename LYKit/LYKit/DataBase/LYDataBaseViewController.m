@@ -9,6 +9,7 @@
 #import "LYDataBaseViewController.h"
 #import "LYKeyValueStoreViewController.h"
 #import "LYFMDBViewController.h"
+#import "LYCoreDataViewController.h"
 
 @interface LYDataBaseViewController ()
 
@@ -36,7 +37,7 @@
     
     [self.items addObject:[self itemWithTitle:@"FMDB操作模型数据" viewController:[[LYFMDBViewController alloc] init]]];
     [self.items addObject:[self itemWithTitle:@"猿题库数据存储方案" viewController:[[LYKeyValueStoreViewController alloc] init]]];
-    [self.items addObject:[self itemWithTitle:@"数据库迁移、更改字段" viewController:[UIViewController new]]];
+    [self.items addObject:[self itemWithTitle:@"CoreData实现级联查询" viewController:[LYCoreDataViewController new]]];
 }
 
 - (LYKitCellItem *)itemWithTitle:(NSString *)title viewController:(UIViewController *)viewController {

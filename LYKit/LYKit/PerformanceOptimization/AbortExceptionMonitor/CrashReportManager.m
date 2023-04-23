@@ -49,7 +49,7 @@
 //当触发崩溃时，App未捕获到异常而终止，为了获取崩溃数据，您需要等待崩溃后的下一次启动获取
 //该方法将在下一次应用程序启动时调用，MetricKit 框架会提供来自先前应用程序会话的崩溃数据。
 //MetricKit 每天提供一次诊断有效负载，因此您可能不会在重新启动应用程序后立即看到崩溃数据。
-//想要测试可以在底部菜单栏，Debug->Simulator MetricKit Payloads 触发
+//想要测试可以在顶部菜单栏，Debug->Simulator MetricKit Payloads 触发
 - (void)handleDiagnosticPayloads:(NSArray *)payloads API_AVAILABLE(ios(14.0)) {
     
     for (id payload in payloads) {

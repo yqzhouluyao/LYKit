@@ -14,6 +14,7 @@ PODS:
   - AFNetworking/Serialization (4.0.1)
   - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
+  - CocoaAsyncSocket (7.6.5)
   - CTMediator (46)
   - FMDB (2.7.5):
     - FMDB/standard (= 2.7.5)
@@ -33,6 +34,7 @@ PODS:
 
 DEPENDENCIES:
   - AFNetworking
+  - CocoaAsyncSocket
   - CTMediator
   - FMDB
   - GCDWebServer/WebUploader (~> 3.0)
@@ -47,6 +49,7 @@ DEPENDENCIES:
 SPEC REPOS:
   trunk:
     - AFNetworking
+    - CocoaAsyncSocket
     - CTMediator
     - FMDB
     - GCDWebServer
@@ -60,6 +63,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
   CTMediator: f1cf58d509fb3192086c367711f039efd769b907
   FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
   GCDWebServer: 2c156a56c8226e2d5c0c3f208a3621ccffbe3ce4
@@ -71,6 +75,6 @@ SPEC CHECKSUMS:
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
   YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: 3695c4a57c9c6e8f1d9675ea227196562693d084
+PODFILE CHECKSUM: 7bc41a783ef0b0bdd6071a08697a615630b0864e
 
 COCOAPODS: 1.11.3

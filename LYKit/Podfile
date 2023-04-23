@@ -16,6 +16,8 @@ target 'LYKit' do
  pod 'CTMediator'
  pod 'YYCache'
  pod 'OpenCV'
+ pod 'CocoaAsyncSocket'
+
 end
 
 #使用以下代码避免每次pod install,报错：Signing for "*.bundle" requires a development team.

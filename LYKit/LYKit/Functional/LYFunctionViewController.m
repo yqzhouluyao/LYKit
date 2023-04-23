@@ -17,6 +17,7 @@
 #import "LYGrayStyleViewController.h"
 #import "CADViewController.h"
 #import "NativeMixWebViewController.h"
+#import "ScanViewController.h"
 
 @interface LYFunctionViewController ()
 
@@ -56,6 +57,8 @@
     [self.items addObject:[self itemWithTitle:@"iOS16屏幕旋转，view的变化" viewController:[LYRotationViewController new]]];
     [self.items addObject:[self itemWithTitle:@"纪念日置灰" viewController:[LYGrayStyleViewController new]]];
     [self.items addObject:[self itemWithTitle:@"CAD" viewController:[CADViewController new]]];
+    [self.items addObject:[self itemWithTitle:@"扫描局域网的其他设备" viewController:[ScanViewController new]]];
+    
     
 }
 

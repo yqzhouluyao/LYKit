@@ -26,7 +26,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-
     SCNScene *scene = [SCNScene new];
     self.sceneView.scene = scene;
     self.sceneView.allowsCameraControl = YES;

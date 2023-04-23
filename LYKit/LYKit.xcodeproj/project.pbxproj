@@ -50,6 +50,13 @@
 		5B4DDBC329D58D15008A6B1C /* UserViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DDBC229D58D15008A6B1C /* UserViewModel.m */; };
 		5B4DDBC729D58E54008A6B1C /* MVVMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4DDBC529D58E54008A6B1C /* MVVMViewController.m */; };
 		5B4DDBC829D58E54008A6B1C /* MVVMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B4DDBC629D58E54008A6B1C /* MVVMViewController.xib */; };
+		5B67F3FF29ED42B10089F9AD /* interview_other.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B67F3FE29ED42B10089F9AD /* interview_other.md */; };
+		5B67F40729EE4A430089F9AD /* LYCoreDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B67F40529EE4A430089F9AD /* LYCoreDataViewController.m */; };
+		5B67F40829EE4A430089F9AD /* LYCoreDataViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B67F40629EE4A430089F9AD /* LYCoreDataViewController.xib */; };
+		5B67F40C29F2FCAE0089F9AD /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B67F40B29F2FCAE0089F9AD /* ScanViewController.m */; };
+		5B67F40E29F2FE340089F9AD /* udp_server.py in Resources */ = {isa = PBXBuildFile; fileRef = 5B67F40D29F2FE340089F9AD /* udp_server.py */; };
+		5B67F41129F3860F0089F9AD /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B67F41029F3860F0089F9AD /* Device.m */; };
+		5B67F41329F4DDF90089F9AD /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B67F41229F4DDF90089F9AD /* readme.md */; };
 		5B710A1D294B195F00BC67E7 /* LYBlockTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B710A1C294B195F00BC67E7 /* LYBlockTimerViewController.m */; };
 		5B72D13E29C0C4D00083F13F /* MVVM_Diagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B72D13D29C0C4D00083F13F /* MVVM_Diagram.png */; };
 		5B7C5DBF28DB041D00C17687 /* LYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C5DBE28DB041D00C17687 /* LYWebViewController.m */; };
@@ -401,6 +408,16 @@
 		5B4DDBC429D58E54008A6B1C /* MVVMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MVVMViewController.h; sourceTree = "<group>"; };
 		5B4DDBC529D58E54008A6B1C /* MVVMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MVVMViewController.m; sourceTree = "<group>"; };
 		5B4DDBC629D58E54008A6B1C /* MVVMViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MVVMViewController.xib; sourceTree = "<group>"; };
+		5B67F3FE29ED42B10089F9AD /* interview_other.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = interview_other.md; sourceTree = "<group>"; };
+		5B67F40429EE4A430089F9AD /* LYCoreDataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYCoreDataViewController.h; sourceTree = "<group>"; };
+		5B67F40529EE4A430089F9AD /* LYCoreDataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYCoreDataViewController.m; sourceTree = "<group>"; };
+		5B67F40629EE4A430089F9AD /* LYCoreDataViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LYCoreDataViewController.xib; sourceTree = "<group>"; };
+		5B67F40A29F2FCAE0089F9AD /* ScanViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		5B67F40B29F2FCAE0089F9AD /* ScanViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		5B67F40D29F2FE340089F9AD /* udp_server.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = udp_server.py; sourceTree = "<group>"; };
+		5B67F40F29F3860F0089F9AD /* Device.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		5B67F41029F3860F0089F9AD /* Device.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
+		5B67F41229F4DDF90089F9AD /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		5B710A1B294B195F00BC67E7 /* LYBlockTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBlockTimerViewController.h; sourceTree = "<group>"; };
 		5B710A1C294B195F00BC67E7 /* LYBlockTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBlockTimerViewController.m; sourceTree = "<group>"; };
 		5B72D13829C0BB7B0083F13F /* MVVM设计思路.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "MVVM设计思路.md"; sourceTree = "<group>"; };
@@ -826,6 +843,7 @@
 		5B00CDC928BCF3E80069F2CC /* Functional */ = {
 			isa = PBXGroup;
 			children = (
+				5B67F40929F2F87B0089F9AD /* ScanNetwork */,
 				5BE463AD29D9DEA00054548A /* NativeMixedWebview */,
 				5B4DDBC929D5CDD5008A6B1C /* CAD */,
 				5B369CA9295DD30E00EA70ED /* GrayStyle */,
@@ -929,6 +947,29 @@
 				5BE4621B29D5CE7D0054548A /* CADViewController.xib */,
 			);
 			path = CAD;
+			sourceTree = "<group>";
+		};
+		5B67F40329EE48D80089F9AD /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				5B67F40429EE4A430089F9AD /* LYCoreDataViewController.h */,
+				5B67F40529EE4A430089F9AD /* LYCoreDataViewController.m */,
+				5B67F40629EE4A430089F9AD /* LYCoreDataViewController.xib */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		5B67F40929F2F87B0089F9AD /* ScanNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				5B67F41229F4DDF90089F9AD /* readme.md */,
+				5B67F40D29F2FE340089F9AD /* udp_server.py */,
+				5B67F40A29F2FCAE0089F9AD /* ScanViewController.h */,
+				5B67F40B29F2FCAE0089F9AD /* ScanViewController.m */,
+				5B67F40F29F3860F0089F9AD /* Device.h */,
+				5B67F41029F3860F0089F9AD /* Device.m */,
+			);
+			path = ScanNetwork;
 			sourceTree = "<group>";
 		};
 		5B72D13C29C0BD8B0083F13F /* Document */ = {
@@ -1048,6 +1089,7 @@
 		5B8DFE9A28C05F43004F983D /* DataBase */ = {
 			isa = PBXGroup;
 			children = (
+				5B67F40329EE48D80089F9AD /* CoreData */,
 				5BC2580529150668000DDC73 /* FMDB */,
 				5B8DFE9E28C0610D004F983D /* YuanTiKu */,
 				5B8DFE9B28C05F5C004F983D /* LYDataBaseViewController.h */,
@@ -1571,6 +1613,7 @@
 		5BE463B129DAE7FC0054548A /* 遇到的面试题 */ = {
 			isa = PBXGroup;
 			children = (
+				5B67F3FE29ED42B10089F9AD /* interview_other.md */,
 				5BE463B329DAE8810054548A /* 20221024 */,
 				5BE463B229DAE84A0054548A /* 20230403 */,
 			);
@@ -1747,6 +1790,7 @@
 				5BE4638229D6EB570054548A /* large_image_5_11.jpg in Resources */,
 				5BE462E429D6EB570054548A /* large_image_4_4.jpg in Resources */,
 				5BE4630429D6EB570054548A /* large_image_6_12.jpg in Resources */,
+				5B67F41329F4DDF90089F9AD /* readme.md in Resources */,
 				5BE4631129D6EB570054548A /* large_image_10_11.jpg in Resources */,
 				5BE4632729D6EB570054548A /* large_image_5_10.jpg in Resources */,
 				5BE4636E29D6EB570054548A /* large_image_2_5.jpg in Resources */,
@@ -1859,6 +1903,7 @@
 				5BE4631D29D6EB570054548A /* large_image_7_5.jpg in Resources */,
 				5BE4631E29D6EB570054548A /* large_image_4_10.jpg in Resources */,
 				5BE4637629D6EB570054548A /* large_image_9_4.jpg in Resources */,
+				5B67F40829EE4A430089F9AD /* LYCoreDataViewController.xib in Resources */,
 				5BE463AA29D925700054548A /* 安装包大小优化压缩图片.md in Resources */,
 				5BE4637529D6EB570054548A /* large_image_4_3.jpg in Resources */,
 				5BE4632D29D6EB570054548A /* large_image_3_10.jpg in Resources */,
@@ -1882,6 +1927,7 @@
 				5BE462DE29D6EB570054548A /* large_image_7_7.jpg in Resources */,
 				5BE462F829D6EB570054548A /* large_image_5_12.jpg in Resources */,
 				5B4DDBAE29D18FB7008A6B1C /* 简历要点回答.md in Resources */,
+				5B67F3FF29ED42B10089F9AD /* interview_other.md in Resources */,
 				5BE4636829D6EB570054548A /* large_image_10_3.jpg in Resources */,
 				5B7C5DC128DB4B7F00C17687 /* NativeInvokeJS.html in Resources */,
 				5BE4634329D6EB570054548A /* large_image_10_8.jpg in Resources */,
@@ -1916,6 +1962,7 @@
 				5BE462E029D6EB570054548A /* large_image_7_14.jpg in Resources */,
 				5BE4635B29D6EB570054548A /* large_image_5_8.jpg in Resources */,
 				5BE462EB29D6EB570054548A /* large_image_4_6.jpg in Resources */,
+				5B67F40E29F2FE340089F9AD /* udp_server.py in Resources */,
 				5BE4635529D6EB570054548A /* large_image_1_4.jpg in Resources */,
 				5BE462F629D6EB570054548A /* large_image_8_8.jpg in Resources */,
 				5BE4636629D6EB570054548A /* large_image_6_13.jpg in Resources */,
@@ -2014,6 +2061,7 @@
 				5B026A9829DF407B000FA918 /* HadesAbortMetricRootFrame.m in Sources */,
 				5B116DD3295849FD0060AC38 /* UIColor+Hex.m in Sources */,
 				5B8205C228C72B78002680DF /* APESubject.m in Sources */,
+				5B67F40C29F2FCAE0089F9AD /* ScanViewController.m in Sources */,
 				5B7C5DD828DC85A700C17687 /* LYNetworkRequest.m in Sources */,
 				5B4DDBB729D57DFE008A6B1C /* MVPViewController.m in Sources */,
 				5B8DFECD28C09965004F983D /* LYCheckANRViewController.m in Sources */,
@@ -2059,6 +2107,7 @@
 				5BE4622429D694E30054548A /* LoadLargeImageViewController.m in Sources */,
 				5B845ED729497CEA00F959C4 /* LYWeakTimerViewController.m in Sources */,
 				5B7C5DD528DC79B200C17687 /* LYCalculatorTool.m in Sources */,
+				5B67F40729EE4A430089F9AD /* LYCoreDataViewController.m in Sources */,
 				5B8205B628C7262F002680DF /* APEHomePracticeViewController.m in Sources */,
 				5BE4622729D6952F0054548A /* TiledImageView.m in Sources */,
 				5B0E0B3429B8A5B20008D49F /* MGJDetailViewController.m in Sources */,
@@ -2086,6 +2135,7 @@
 				5B8DFEB828C09394004F983D /* LYThemeManagerViewController.m in Sources */,
 				5B8205CE28C73ADD002680DF /* APEHomePracticeSubjectsViewModel.m in Sources */,
 				5B116DCA295848F00060AC38 /* UIView+Frame.m in Sources */,
+				5B67F41129F3860F0089F9AD /* Device.m in Sources */,
 				5BEC7654291A077600847F19 /* LYDownloadManager.m in Sources */,
 				5B7C5DBF28DB041D00C17687 /* LYWebViewController.m in Sources */,
 				5BEC763F29190CED00847F19 /* LYDanMuModel.m in Sources */,
