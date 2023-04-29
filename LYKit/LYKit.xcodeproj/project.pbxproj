@@ -58,6 +58,7 @@
 		5B67F41129F3860F0089F9AD /* Device.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B67F41029F3860F0089F9AD /* Device.m */; };
 		5B67F41329F4DDF90089F9AD /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B67F41229F4DDF90089F9AD /* readme.md */; };
 		5B67F41529F551F60089F9AD /* avatar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B67F41429F551F60089F9AD /* avatar.jpg */; };
+		5B67F41C29F62D6F0089F9AD /* interview.md in Resources */ = {isa = PBXBuildFile; fileRef = 5B67F41B29F62D6F0089F9AD /* interview.md */; };
 		5B710A1D294B195F00BC67E7 /* LYBlockTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B710A1C294B195F00BC67E7 /* LYBlockTimerViewController.m */; };
 		5B72D13E29C0C4D00083F13F /* MVVM_Diagram.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B72D13D29C0C4D00083F13F /* MVVM_Diagram.png */; };
 		5B7C5DBF28DB041D00C17687 /* LYWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B7C5DBE28DB041D00C17687 /* LYWebViewController.m */; };
@@ -420,6 +421,7 @@
 		5B67F41029F3860F0089F9AD /* Device.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Device.m; sourceTree = "<group>"; };
 		5B67F41229F4DDF90089F9AD /* readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		5B67F41429F551F60089F9AD /* avatar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = avatar.jpg; sourceTree = "<group>"; };
+		5B67F41B29F62D6F0089F9AD /* interview.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = interview.md; sourceTree = "<group>"; };
 		5B710A1B294B195F00BC67E7 /* LYBlockTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LYBlockTimerViewController.h; sourceTree = "<group>"; };
 		5B710A1C294B195F00BC67E7 /* LYBlockTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LYBlockTimerViewController.m; sourceTree = "<group>"; };
 		5B72D13829C0BB7B0083F13F /* MVVM设计思路.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "MVVM设计思路.md"; sourceTree = "<group>"; };
@@ -973,6 +975,14 @@
 				5B67F41029F3860F0089F9AD /* Device.m */,
 			);
 			path = ScanNetwork;
+			sourceTree = "<group>";
+		};
+		5B67F41A29F62D470089F9AD /* 20230424 */ = {
+			isa = PBXGroup;
+			children = (
+				5B67F41B29F62D6F0089F9AD /* interview.md */,
+			);
+			path = 20230424;
 			sourceTree = "<group>";
 		};
 		5B72D13C29C0BD8B0083F13F /* Document */ = {
@@ -1616,6 +1626,7 @@
 		5BE463B129DAE7FC0054548A /* 遇到的面试题 */ = {
 			isa = PBXGroup;
 			children = (
+				5B67F41A29F62D470089F9AD /* 20230424 */,
 				5B67F3FE29ED42B10089F9AD /* interview_other.md */,
 				5BE463B329DAE8810054548A /* 20221024 */,
 				5BE463B229DAE84A0054548A /* 20230403 */,
@@ -1902,6 +1913,7 @@
 				5BE4634A29D6EB570054548A /* large_image_8_15.jpg in Resources */,
 				5BE4635129D6EB570054548A /* large_image_9_14.jpg in Resources */,
 				5BE4630C29D6EB570054548A /* large_image_3_7.jpg in Resources */,
+				5B67F41C29F62D6F0089F9AD /* interview.md in Resources */,
 				5BE462FC29D6EB570054548A /* large_image_5_1.jpg in Resources */,
 				5BE4631D29D6EB570054548A /* large_image_7_5.jpg in Resources */,
 				5BE4631E29D6EB570054548A /* large_image_4_10.jpg in Resources */,

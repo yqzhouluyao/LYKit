@@ -8,7 +8,7 @@
 1、启动python服务器
 python3 udp_server.py
 
-2、在iOS端进行搜索
+2、在iOS端进行搜索局域网的其他设备
 
 
 ### 存在的问题：
